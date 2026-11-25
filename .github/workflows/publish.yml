@@ -17,6 +17,12 @@ jobs:
         with:
           node-version: '22'
       - run: python3 scripts/build.py
+      - name: Check complete game and persistence
+        run: |
+          npm install --no-save --package-lock=false playwright@1.58.2
+          npx playwright install --with-deps chromium
+          python3 -m http.server 8765 --directory dist > /tmp/library-server.log 2>&1 &
+          node scripts/browser-check.cjs
       - uses: actions/upload-artifact@v4
         with:
           name: library-escape
@@ -43,7 +49,7 @@ jobs:
             echo "Release $tag already exists; leaving it unchanged."
           else
             cp dist/index.html "Literary_Escape_Room_$tag.html"
-            (cd dist && zip -q "../Library-Escape_$tag.zip" index.html catalogue.csv README.txt CHANGELOG.md VERSION SHA256SUMS)
+            (cd dist && zip -q "../Library-Escape_$tag.zip" index.html catalogue.csv README.txt CHANGELOG.md VERSION SHA256SUMS VALIDATION.txt)
             gh release create "$tag" "Literary_Escape_Room_$tag.html" "Library-Escape_$tag.zip" --target "$GITHUB_SHA" --title "Library Escape 3D $tag" --notes-file CHANGELOG.md --prerelease
           fi
   deploy:
