@@ -13,7 +13,7 @@ with tempfile.TemporaryDirectory() as td:
         path = Path(td) / f"script-{i}.js"
         path.write_text(script, encoding="utf-8")
         subprocess.run(["node", "--check", str(path)], check=True)
-bank, _ = json.JSONDecoder().raw_decode(scripts[0].split("const DEMO=", 1)[1].lstrip())
+bank, _ = json.JSONDecoder().raw_decode(scripts[0].split("const BASE_BANK=", 1)[1].lstrip())
 assert len(bank) == 10 and all(len(room) == 24 for room in bank)
 assert len({q["id"] for room in bank for q in room}) == 240
 for room in bank:
