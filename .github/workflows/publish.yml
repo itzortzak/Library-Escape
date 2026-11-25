@@ -1,0 +1,71 @@
+name: Validate, release and deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: library-escape-publication
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 scripts/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: library-escape
+          path: dist/
+          include-hidden-files: true
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: library-escape
+          path: dist
+      - name: Create versioned prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version="$(cat VERSION)"
+          tag="v$version"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; leaving it unchanged."
+          else
+            cp dist/index.html "Literary_Escape_Room_$tag.html"
+            (cd dist && zip -q "../Library-Escape_$tag.zip" index.html catalogue.csv README.txt CHANGELOG.md VERSION SHA256SUMS)
+            gh release create "$tag" "Literary_Escape_Room_$tag.html" "Library-Escape_$tag.zip" --target "$GITHUB_SHA" --title "Library Escape 3D $tag" --notes-file CHANGELOG.md --prerelease
+          fi
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: library-escape
+          path: dist
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
