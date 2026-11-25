@@ -46,6 +46,36 @@ replace_once("['collection','period','author'].forEach", "$('menuBib').onclick=(
 replace_once("function dict(){", "function bibliography(back=hide){show('Βιβλιογραφία και πηγές',$('bibContent').innerHTML+button('bibBack','Επιστροφή','primary'));$('bibBack').onclick=back}function dict(){")
 replace_once("$('dictBtn').onclick=dict;", "$('dictBtn').onclick=dict;$('bibBtn').onclick=()=>bibliography(modal?menu:hide);")
 replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.2", "Το μυστήριο του χαμένου χειρογράφου · v1.0.3")
+# Larger rooms, wider bookcases, full-height stair and persistent target marker.
+replace_once("const W=19,H=15;const startPos=[9.5,13.5],gatePos=[9.5,1.4];", "const W=23,H=19;const startPos=[11.5,17.5],gatePos=[11.5,1.4];")
+start = html.index("function makeLayout(")
+end = html.index("function isClear(", start)
+html = html[:start] + """function makeLayout(r,floor=0){let variant=r+floor*4;let map=Array.from({length:H},(_,z)=>Array.from({length:W},(_,x)=>x===0||z===0||x===W-1||z===H-1?1:0));for(let z of [4,5,6,10,11,12])for(let x of [2,3,7,8,14,15,19,20]){if((variant+z+Math.floor(x/2))%9!==0)map[z][x]=2}if(variant%3===1)for(let x of [4,5,6,16,17,18])map[8][x]=2;if(variant%3===2)for(let x of [4,5,6,16,17,18])map[14][x]=2;if(variant%2===1)for(let x of [4,5,17,18])map[2][x]=2;const spots=[];for(let z=2;z<H-2;z++)for(let x=2;x<W-2;x++)if(!map[z][x]&&Math.abs(x-11)>2&&(map[z][x-1]===2||map[z][x+1]===2))spots.push([x+.5,z+.5]);return {map,spots,r,floor};}
+""" + html[end:]
+start = html.index("function decor(")
+end = html.index("class Renderer", start)
+d = html[start:end]
+d = d.replace("9.5","11.5").replace("8.34,10.66","10.34,12.66").replace("17.65","21.65").replace("4.5,11.5,14.5","4.5,11.5,18.5").replace("4.5,14.5","4.5,18.5").replace("3.5,6.5,12.5,15.5","3.5,7.5,15.5,19.5")
+# Open a real ceiling aperture above the flight and its landing.
+d = d.replace("m.box(X,3.45,Z,.995,.05,.995,(x+z)%2?'#544d40':'#625b48');", "if(!([0,5,9].includes(l.r)&&x>=10&&x<=12&&z>=11&&z<=16))m.box(X,3.45,Z,.995,.05,.995,(x+z)%2?'#544d40':'#625b48');")
+a = d.index("// Illuminated stair portal")
+b = d.index("\n}", a)
+d = d[:a] + """// Full-height stair flight with landing, balustrade and upper doorway.
+if([0,5,9].includes(l.r)){let x=11.5,z=16.5;for(let j=0;j<18;j++){let h=(j+1)*.192,zz=z-j*.25;m.box(x,0,zz,1.85,h,.25,stone);m.box(x,h-.045,zz,1.95,.045,.27,'#b79a70');if(j%3===0)for(let sign of [-1,1])m.box(x+sign*.92,h,zz,.065,.95,.065,'#b99add',.35);}for(let sign of [-1,1]){for(let j=0;j<18;j++)m.box(x+sign*.92,1.0+(j+1)*.192,z-j*.25,.09,.12,.29,'#b99add',.55);m.box(x+sign*1.05,3.45,11.5,.15,2.25,.18,'#b99add',.7);}m.box(x,3.40,11.5,2.35,.15,1.1,stone);m.box(x,5.65,11.5,2.25,.18,.22,'#b99add',.8);m.box(x,3.55,11.08,1.65,2.05,.12,'#4d3c58',.25);m.box(x,.02,17.0,2.1,.04,.22,'#b99add',1);}
+""" + d[b:]
+html = html[:start] + d + html[end:]
+replace_once("const upperRooms=[0,5,9],stairs=[9.5,12.5];", "const upperRooms=[0,5,9],stairs=[11.5,16.5];")
+replace_once("wx>8.3&&wx<10.7?(Math.abs(wx-9.5)>1.12", "wx>10.3&&wx<12.7?(Math.abs(wx-11.5)>1.12")
+start = html.index("if(target&&s?.floor===s?.targetFloor&&hintUntil>performance.now())", html.index("function drawMap()"))
+end = html.index("\nfunction move(", start)
+html = html[:start] + """if(target&&s?.floor===s?.targetFloor&&!s?.done){let tx=ox+target[0]*sz,tz=oy+target[1]*sz;c.beginPath();c.arc(tx,tz,4.5,0,Math.PI*2);c.fillStyle='#ffd34f';c.fill();c.lineWidth=1.3;c.strokeStyle='#fff3b0';c.stroke();c.lineWidth=1}}""" + html[end:]
+replace_once('<canvas id="map" width="135" height="110" aria-label="Μικρός χάρτης"></canvas>', '<canvas id="map" width="190" height="150" aria-label="Χάρτης ορόφου: χρυσή κουκκίδα βιβλίο, λευκή παίκτης, μωβ κλίμακα"></canvas>')
+replace_once('width:135px;height:110px;', 'width:190px;height:150px;')
+replace_once('max-width:calc(100% - 165px)', 'max-width:calc(100% - 220px)')
+replace_once('width:95px;height:78px;', 'width:125px;height:100px;')
+replace_once('max-width:calc(100% - 110px)', 'max-width:calc(100% - 145px)')
+replace_once('κλικ στο φωτεινό αντικείμενο ή E.</small>', 'κλικ στο φωτεινό αντικείμενο ή E. Χάρτης: χρυσή κουκκίδα = βιβλίο ή θύρα στον ίδιο όροφο · λευκή = παίκτης · μωβ = κλίμακα.</small>')
+replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.3", "Το μυστήριο του χαμένου χειρογράφου · v1.0.4")
 data = html.encode("utf-8")
 scripts = re.findall(r"<script[^>]*>(.*?)</script>", html, re.S)
 assert len(scripts) == 3
