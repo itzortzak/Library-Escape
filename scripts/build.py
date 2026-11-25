@@ -104,6 +104,31 @@ replace_once("if(!modal||!frame.drawn){renderer.draw", "let stamp=[cam.x,cam.z,c
 replace_once("const objects=[[3.5,1.7],[15.5,1.7],[3.5,12.5],[15.5,12.5],[9.5,3],[9.5,7],[9.5,11]]", "const objects=[[3.5,1.7],[19.5,1.7],[3.5,15.5],[19.5,15.5],[11.5,3],[11.5,7],[11.5,11]]")
 replace_once("const STORE='literary-room-v10-progress'", "const STORE='literary-room-v105-progress'")
 replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.4", "Το μυστήριο του χαμένου χειρογράφου · v1.0.5")
+# Floor-specific stair geometry and automatic bidirectional transitions.
+start = html.index("// Full-height stair flight")
+end = html.index("\n}", start)
+html = html[:start] + """// Ascending flight at ground level; descending flight and open stairwell upstairs.
+if([0,5,9].includes(l.r)){let x=17.5,z=16.5;if(!l.floor){for(let j=0;j<18;j++){let h=(j+1)*.192,zz=z-j*.25;m.box(x,0,zz,1.85,h,.25,stone);m.box(x,h-.045,zz,1.95,.045,.27,'#b79a70');if(j%3===0)for(let sign of [-1,1])m.box(x+sign*.92,h,zz,.065,.95,.065,'#b99add',.35);}for(let sign of [-1,1]){for(let j=0;j<18;j++)m.box(x+sign*.92,1.0+(j+1)*.192,z-j*.25,.09,.12,.29,'#b99add',.55);}m.box(x,3.40,11.5,2.35,.15,1.1,stone);}else{for(let j=0;j<18;j++){let h=-(j+1)*.192,zz=z-4.25+j*.25;m.box(x,h-.12,zz,1.85,.12,.25,stone);m.box(x,h-.045,zz,1.95,.045,.27,'#b79a70');for(let sign of [-1,1]){if(j%3===0)m.box(x+sign*.92,h,zz,.065,.95,.065,'#b99add',.35);m.box(x+sign*.92,h+1.0,zz,.09,.12,.29,'#b99add',.55);}}for(let sign of [-1,1]){for(let j=0;j<9;j++)m.box(x+sign*1.08,0,12+j*.5,.075,.95,.075,'#b99add');m.box(x+sign*1.08,.95,14.25,.10,.10,4.8,'#b99add',.5);}m.box(x,-3.55,16.5,2.35,.15,1.1,stone);m.box(x,.0,11.5,2.35,.10,.9,stone);}m.box(x,.02,l.floor?11.1:17.0,2.1,.04,.22,'#b99add',1);}
+""" + html[end:]
+# The upper floor has a floor aperture, not another ceiling aperture.
+replace_once("m.box(X,-.055,Z,.995,.05,.995,(x+z)%2?'#82755a':'#625b4a');", "if(!([0,5,9].includes(l.r)&&l.floor&&x>=17&&x<=18&&z>=12&&z<=16))m.box(X,-.055,Z,.995,.05,.995,(x+z)%2?'#82755a':'#625b4a');")
+replace_once("if(!([0,5,9].includes(l.r)&&x>=16&&x<=18&&z>=11&&z<=16))", "if(!([0,5,9].includes(l.r)&&!l.floor&&x>=16&&x<=18&&z>=11&&z<=16))")
+# Safe landing cells and floor-dependent entry marker.
+replace_once("for(let z=12;z<=15;z++)for(let x=17;x<=18;x++)map[z][x]=3;", "for(let z=12;z<=16;z++)for(let x=17;x<=18;x++)map[z][x]=3;if(!floor){map[16][17]=0;map[16][18]=0;}else{map[11][17]=0;map[11][18]=0;}")
+replace_once("const upperRooms=[0,5,9],stairs=[17.5,16.5];", "const upperRooms=[0,5,9],stairs=[17.5,16.5];let stairLock=0;function stairEntry(){return s?.floor?[17.5,11.5]:stairs}function atStair(){let p=stairEntry();return Math.hypot(cam.x-p[0],cam.z-p[1])<.82}")
+replace_once("cam={x:stairs[0],z:17.5,a:-Math.PI/2}", "cam={x:17.5,z:s.floor?10.4:17.5,a:s.floor?-Math.PI/2:Math.PI/2};stairLock=performance.now()+1200;keys={}")
+replace_once("Math.hypot(cam.x-stairs[0],cam.z-stairs[1])<2.4", "Math.hypot(cam.x-stairEntry()[0],cam.z-stairEntry()[1])<2.4") if html.count("Math.hypot(cam.x-stairs[0],cam.z-stairs[1])<2.4")==1 else None
+html = html.replace("Math.hypot(cam.x-stairs[0],cam.z-stairs[1])<2.4", "Math.hypot(cam.x-stairEntry()[0],cam.z-stairEntry()[1])<2.4")
+html = html.replace("renderer.project(cam,stairs[0],1.8,stairs[1])", "renderer.project(cam,stairEntry()[0],1.8,stairEntry()[1])")
+# Automatic transition occurs only on entering the stair zone while walking.
+replace_once("if(performance.now()-lastStep>450)", "if(upperRooms.includes(room()?.r)&&performance.now()>stairLock&&atStair()){switchFloor();return}if(performance.now()-lastStep>450)")
+# The minimap marker follows the entrance on the current floor.
+start = html.index("function drawMap()")
+end = html.index("function move(",start)
+d = html[start:end].replace("stairs[0]","stairEntry()[0]").replace("stairs[1]","stairEntry()[1]")
+html = html[:start]+d+html[end:]
+replace_once("Πάτησε το κουμπί αλλαγής ορόφου ή πλησίασε τη φωτεινή μωβ κλίμακα και πάτησε E.", "Πλησίασε τη φωτεινή μωβ κλίμακα για αυτόματη μετάβαση ή πάτησε το κουμπί αλλαγής ορόφου.")
+replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.5", "Το μυστήριο του χαμένου χειρογράφου · v1.0.6")
 data = html.encode("utf-8")
 scripts = re.findall(r"<script[^>]*>(.*?)</script>", html, re.S)
 assert len(scripts) == 3
