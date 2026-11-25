@@ -22,6 +22,20 @@ start = html.index('<details class="panel"><summary>Πηγές και πληρο
 end = html.index('</details>', start) + len('</details>')
 html = html[:start] + """<details class="panel"><summary>Βιβλιογραφία και πηγές</summary><h3>Σχολικά εγχειρίδια</h3><p>Γρηγοριάδης, Ν., Καρβέλης, Δ., Μηλιώνης, Χ., Μπαλάσκας, Κ., Παγανός, Γ., &amp; Παπακώστας, Γ. (χ.χ.). <em>Κείμενα νεοελληνικής λογοτεχνίας: Α΄ τεύχος, Α΄ τάξη Γενικού Λυκείου.</em> ΙΤΥΕ «Διόφαντος». ISBN 978-960-06-2316-1. <a href="https://ebooks.edu.gr/" target="_blank" rel="noopener">Ψηφιακά σχολικά βιβλία</a>.</p><p>Παρίσης, Ι., &amp; Παρίσης, Ν. (χ.χ.). <em>Λεξικό λογοτεχνικών όρων.</em> ΙΤΥΕ «Διόφαντος». ISBN 978-960-06-2329-1.</p><h3>Θεσμικό και διδακτικό πλαίσιο</h3><p>Ινστιτούτο Εκπαιδευτικής Πολιτικής. (2015). <em>Πρόγραμμα σπουδών: Λογοτεχνία (τάξεις Α΄, Β΄, Γ΄), Γενικό Λύκειο</em> (σσ. 5–7).</p><p><em>Οδηγίες διδασκαλίας για τη Νεοελληνική Γλώσσα και Λογοτεχνία Α΄ και Β΄ τάξης Γενικού Λυκείου για το σχολικό έτος 2026–2027</em> (σσ. 4–5).</p><p>Οι παραπομπές των γρίφων ακολουθούν την έντυπη σελιδαρίθμηση του ανθολογίου. Οι ανοικτές απαντήσεις αξιολογούνται από τον εκπαιδευτικό. Οι αποθηκεύσεις γίνονται στη συσκευή. Τα δικαιώματα των κειμένων, μεταφράσεων και εικόνων υπόκεινται σε χωριστό έλεγχο.</p></details>""" + html[end:]
 replace_once('Το μυστήριο του χαμένου χειρογράφου · v1.0 · Νέα αυτοτελής έκδοση', 'Το μυστήριο του χαμένου χειρογράφου · v1.0.1')
+# Improve floor navigation without changing the question bank.
+replace_once("const upperRooms=[0,5,9],stairs=[2.5,12.5];", "const upperRooms=[0,5,9],stairs=[9.5,12.5];")
+start = html.index("// Upper decorative gallery")
+end = html.index("\n}", start)
+html = html[:start] + """// Illuminated stair portal on the central aisle, close to the entrance.
+if([0,5,9].includes(l.r)){let x=9.5,z=12.5;for(let j=0;j<5;j++)m.box(x,0,z+.45-j*.20,1.35,.12*(j+1),.20,stone);for(let sign of [-1,1]){m.box(x+sign*.78,0,z,.12,2.65,.18,'#b99add',.85);m.box(x+sign*.78,0,z-.52,.12,1.15,.12,'#b99add',.6)}m.box(x,2.65,z,1.7,.17,.22,'#b99add',1);m.box(x,2.35,z,1.15,.25,.12,'#e2c4ff',1);m.box(x,.015,z+.65,1.8,.025,.18,'#b99add',1);}
+""" + html[end:]
+replace_once("if(Math.hypot(cam.x-stairs[0],cam.z-stairs[1])>2){hintUntil=performance.now()+5000;$('tip').textContent='Η κλίμακα βρίσκεται στον δυτικό διάδρομο, κοντά στην είσοδο.';return}", "")
+replace_once("if(!force&&!near()){", "if(!force&&s.floor!==s.targetFloor&&Math.hypot(cam.x-stairs[0],cam.z-stairs[1])<2.4){switchFloor();return}if(!force&&!near()){")
+replace_once("if(drag&&!drag.m&&near()){", "if(drag&&!drag.m&&s&&!modal&&s.floor!==s.targetFloor&&Math.hypot(cam.x-stairs[0],cam.z-stairs[1])<2.4){let p=renderer.project(cam,stairs[0],1.8,stairs[1]),b=view.getBoundingClientRect(),x=(e.clientX-b.left)*view.width/b.width,y=(e.clientY-b.top)*view.height/b.height;if(p&&Math.abs(p.x-x)<Math.max(40,view.height*.65/p.d)&&Math.abs(p.y-y)<Math.max(40,view.height/p.d)){switchFloor();drag=null;return}}if(drag&&!drag.m&&near()){")
+replace_once("c.fillRect(ox+stairs[0]*sz-2,oy+stairs[1]*sz-2,4,4)", "c.fillRect(ox+stairs[0]*sz-4,oy+stairs[1]*sz-4,8,8);c.fillStyle='#fff';c.font='bold 9px sans-serif';c.fillText(s?.floor?'↓':'↑',ox+stairs[0]*sz+5,oy+stairs[1]*sz+3)")
+replace_once("hintUntil>performance.now()&&s.floor!==s.targetFloor?'Το στοιχείο βρίσκεται '+(s.targetFloor?'στον άνω όροφο':'στο ισόγειο')+'. Η κλίμακα σημειώνεται μωβ στον χάρτη.'", "s.floor!==s.targetFloor?'Ο επόμενος γρίφος βρίσκεται '+(s.targetFloor?'στον άνω όροφο':'στο ισόγειο')+'. Πάτησε το κουμπί αλλαγής ορόφου ή πλησίασε τη φωτεινή μωβ κλίμακα και πάτησε E.'")
+replace_once("$('floorBtn').textContent=s.floor?'Κλίμακα · ισόγειο':'Κλίμακα · άνω όροφος';", "$('floorBtn').textContent=s.floor?'↓ Μετάβαση στο ισόγειο':'↑ Μετάβαση στον άνω όροφο';$('floorBtn').classList.toggle('primary',s.floor!==s.targetFloor);")
+replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.1", "Το μυστήριο του χαμένου χειρογράφου · v1.0.2")
 data = html.encode("utf-8")
 scripts = re.findall(r"<script[^>]*>(.*?)</script>", html, re.S)
 assert len(scripts) == 3
