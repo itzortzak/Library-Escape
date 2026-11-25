@@ -76,6 +76,34 @@ replace_once('width:95px;height:78px;', 'width:125px;height:100px;')
 replace_once('max-width:calc(100% - 110px)', 'max-width:calc(100% - 145px)')
 replace_once('κλικ στο φωτεινό αντικείμενο ή E.</small>', 'κλικ στο φωτεινό αντικείμενο ή E. Χάρτης: χρυσή κουκκίδα = βιβλίο ή θύρα στον ίδιο όροφο · λευκή = παίκτης · μωβ = κλίμακα.</small>')
 replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.3", "Το μυστήριο του χαμένου χειρογράφου · v1.0.4")
+# Navigation and rendering improvements: retain room dimensions and double-width cases.
+start = html.index("function makeLayout(")
+end = html.index("function isClear(", start)
+html = html[:start] + """function makeLayout(r,floor=0){let variant=r+floor*4;let map=Array.from({length:H},(_,z)=>Array.from({length:W},(_,x)=>x===0||z===0||x===W-1||z===H-1?1:0));for(let z of [4,5,6,10,11,12])for(let x of [2,3,7,8,14,15,19,20]){if((variant+Math.floor(z/3)+Math.floor(x/2))%9!==0)map[z][x]=2}if(variant%3===1)for(let x of [4,5,17,18])map[8][x]=2;if(variant%3===2)for(let x of [4,5,17,18])map[14][x]=2;const spots=[];for(let z=2;z<H-2;z++)for(let x=2;x<W-2;x++)if(!map[z][x]&&Math.abs(x-11)>2&&(map[z][x-1]===2||map[z][x+1]===2))spots.push([x+.5,z+.5]);return {map,spots,r,floor};}
+""" + html[end:]
+# Keep the staircase to the east, clear of the central aisle and book locations.
+replace_once("stairs=[11.5,16.5]", "stairs=[17.5,16.5]")
+replace_once("let x=11.5,z=16.5;for(let j=0;j<18;j++)", "let x=17.5,z=16.5;for(let j=0;j<18;j++)")
+replace_once("x>=10&&x<=12&&z>=11&&z<=16", "x>=16&&x<=18&&z>=11&&z<=16")
+# Exclude the staircase footprint and preserve a reachable approach.
+replace_once("const spots=[];for(let z=2;z<H-2;z++)", "if([0,5,9].includes(r)){for(let z=11;z<=16;z++)for(let x=16;x<=18;x++)map[z][x]=0;for(let z=12;z<=15;z++)for(let x=17;x<=18;x++)map[z][x]=3;}const spots=[];for(let z=2;z<H-2;z++)")
+replace_once("cam={x:stairs[0],z:stairs[1],a:-Math.PI/2}", "cam={x:stairs[0],z:17.5,a:-Math.PI/2}")
+# Keep shelf appearance, omit hidden interior faces and tiny labels to lower triangle count.
+replace_once("for(let k=0;k<7;k++)", "for(let k=0;k<6;k++)")
+replace_once("x-.34+k*.112", "x-.33+k*.132")
+replace_once(".092,bh,.25", ".114,bh,.25")
+replace_once("m.box(bx,y+.13,bz+sign*.128,.073,.025,.009,'#c6a26a');", "")
+# Frame-rate independent movement with swept substeps and wall sliding.
+start = html.index("function move(")
+end = html.index("function frame(", start)
+html = html[:start] + """function move(d,dt){if(!s||s.done||modal||opening)return;if(d==='left')cam.a-=dt*2.15;else if(d==='right')cam.a+=dt*2.15;else{let k=dt*3.72*(d==='back'||d==='strafeL'?-1:1),angle=cam.a+(d.startsWith('strafe')?Math.PI/2:0),steps=Math.max(1,Math.ceil(Math.abs(k)/.10));for(let i=0;i<steps;i++){let x=cam.x+Math.cos(angle)*k/steps,z=cam.z+Math.sin(angle)*k/steps;if(isClear(layout,x,cam.z,.18))cam.x=x;if(isClear(layout,cam.x,z,.18))cam.z=z}if(performance.now()-lastStep>450){tone(82,.08,'triangle',.027);lastStep=performance.now()}}}
+""" + html[end:]
+replace_once("Math.min(.05,(t-last)/1000||0)", "Math.min(.12,(t-last)/1000||0)")
+# Avoid rendering static geometry repeatedly while the player is idle.
+replace_once("if(!modal||!frame.drawn){renderer.draw", "let stamp=[cam.x,cam.z,cam.a,s?.floor,s?.targetFloor,target?.join(','),s?.lantern,isGate(),layout.r].join('|');if((!modal&&(stamp!==frame.stamp||opening||t-(frame.paint||0)>100))||!frame.drawn){frame.stamp=stamp;frame.paint=t;renderer.draw")
+replace_once("const objects=[[3.5,1.7],[15.5,1.7],[3.5,12.5],[15.5,12.5],[9.5,3],[9.5,7],[9.5,11]]", "const objects=[[3.5,1.7],[19.5,1.7],[3.5,15.5],[19.5,15.5],[11.5,3],[11.5,7],[11.5,11]]")
+replace_once("const STORE='literary-room-v10-progress'", "const STORE='literary-room-v105-progress'")
+replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.4", "Το μυστήριο του χαμένου χειρογράφου · v1.0.5")
 data = html.encode("utf-8")
 scripts = re.findall(r"<script[^>]*>(.*?)</script>", html, re.S)
 assert len(scripts) == 3
