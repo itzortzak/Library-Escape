@@ -36,6 +36,16 @@ replace_once("c.fillRect(ox+stairs[0]*sz-2,oy+stairs[1]*sz-2,4,4)", "c.fillRect(
 replace_once("hintUntil>performance.now()&&s.floor!==s.targetFloor?'Το στοιχείο βρίσκεται '+(s.targetFloor?'στον άνω όροφο':'στο ισόγειο')+'. Η κλίμακα σημειώνεται μωβ στον χάρτη.'", "s.floor!==s.targetFloor?'Ο επόμενος γρίφος βρίσκεται '+(s.targetFloor?'στον άνω όροφο':'στο ισόγειο')+'. Πάτησε το κουμπί αλλαγής ορόφου ή πλησίασε τη φωτεινή μωβ κλίμακα και πάτησε E.'")
 replace_once("$('floorBtn').textContent=s.floor?'Κλίμακα · ισόγειο':'Κλίμακα · άνω όροφος';", "$('floorBtn').textContent=s.floor?'↓ Μετάβαση στο ισόγειο':'↑ Μετάβαση στον άνω όροφο';$('floorBtn').classList.toggle('primary',s.floor!==s.targetFloor);")
 replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.1", "Το μυστήριο του χαμένου χειρογράφου · v1.0.2")
+# Make bibliography accessible both in the menu and during play.
+replace_once('<button id="dictBtn">Λεξικό</button>', '<button id="dictBtn">Λεξικό</button><button id="bibBtn">Βιβλιογραφία</button>')
+replace_once('<summary>Βιβλιογραφία και πηγές</summary>', '<summary>Βιβλιογραφία και πηγές</summary><div id="bibContent">')
+start = html.index('</details>', html.index('id="bibContent"'))
+html = html[:start] + '</div>' + html[start:]
+replace_once("<label>Συλλογή κειμένων</label><select id=", "${button('menuBib','Βιβλιογραφία και πηγές')}<label>Συλλογή κειμένων</label><select id=")
+replace_once("['collection','period','author'].forEach", "$('menuBib').onclick=()=>bibliography(menu);['collection','period','author'].forEach")
+replace_once("function dict(){", "function bibliography(back=hide){show('Βιβλιογραφία και πηγές',$('bibContent').innerHTML+button('bibBack','Επιστροφή','primary'));$('bibBack').onclick=back}function dict(){")
+replace_once("$('dictBtn').onclick=dict;", "$('dictBtn').onclick=dict;$('bibBtn').onclick=()=>bibliography(modal?menu:hide);")
+replace_once("Το μυστήριο του χαμένου χειρογράφου · v1.0.2", "Το μυστήριο του χαμένου χειρογράφου · v1.0.3")
 data = html.encode("utf-8")
 scripts = re.findall(r"<script[^>]*>(.*?)</script>", html, re.S)
 assert len(scripts) == 3
