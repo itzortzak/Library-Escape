@@ -16,7 +16,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: python3 scripts/build.py
+      - name: Validate build and room navigation
+        run: |
+          python3 scripts/build.py
+          node scripts/navigation-check.cjs
       - name: Check complete game and persistence
         run: |
           npm install --no-save --package-lock=false playwright@1.58.2
