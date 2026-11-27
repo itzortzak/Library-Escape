@@ -1107,9 +1107,10 @@
       "work": "Ελεύθεροι Πολιορκημένοι",
       "legacyBankTitle": "Ελεύθεροι Πολιορκημένοι (Σχεδίασμα Β΄, 1)",
       "legacyQuestions": 2,
-      "draftQuestions": 9,
+      "draftQuestions": 13,
       "draftTopics": [
         0,
+        1,
         2,
         3,
         4,
@@ -1192,7 +1193,7 @@
       "author": "Ιάκωβος Πολυλάς",
       "work": "Ερασιτέχνης",
       "legacyQuestions": 0,
-      "draftQuestions": 7,
+      "draftQuestions": 10,
       "draftTopics": [
         0,
         2,
@@ -1251,7 +1252,7 @@
       "author": "Ανδρέας Λασκαράτος",
       "work": "Τα μυστήρια της Κεφαλονιάς – Η προίκα",
       "legacyQuestions": 10,
-      "draftQuestions": 8,
+      "draftQuestions": 12,
       "draftTopics": [
         0,
         2,
@@ -1271,7 +1272,7 @@
       "author": "Λορέντζος Μαβίλης",
       "work": "Λήθη",
       "legacyQuestions": 0,
-      "draftQuestions": 8,
+      "draftQuestions": 11,
       "draftTopics": [
         0,
         2,
@@ -1291,7 +1292,7 @@
       "author": "Λορέντζος Μαβίλης",
       "work": "Μούχρωμα",
       "legacyQuestions": 1,
-      "draftQuestions": 7,
+      "draftQuestions": 10,
       "draftTopics": [
         0,
         2,
@@ -1394,7 +1395,7 @@
       "author": "Δημήτριος Παπαρρηγόπουλος",
       "work": "Ασμάτιον",
       "legacyQuestions": 0,
-      "draftQuestions": 7,
+      "draftQuestions": 10,
       "draftTopics": [
         0,
         2,
@@ -2032,9 +2033,10 @@
       "author": "Κωνσταντίνος Χατζόπουλος",
       "work": "Δε γυρεύω ξένο",
       "legacyQuestions": 0,
-      "draftQuestions": 7,
+      "draftQuestions": 10,
       "draftTopics": [
         0,
+        1,
         2,
         3,
         5,
@@ -2051,9 +2053,10 @@
       "author": "Κωνσταντίνος Χατζόπουλος",
       "work": "Ήρθες",
       "legacyQuestions": 0,
-      "draftQuestions": 7,
+      "draftQuestions": 10,
       "draftTopics": [
         0,
+        1,
         2,
         3,
         5,
@@ -2111,9 +2114,10 @@
       "author": "Λάμπρος Πορφύρας",
       "work": "Το θέατρο",
       "legacyQuestions": 0,
-      "draftQuestions": 7,
+      "draftQuestions": 10,
       "draftTopics": [
         0,
+        1,
         2,
         3,
         5,
