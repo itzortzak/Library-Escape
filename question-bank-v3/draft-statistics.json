@@ -1,70 +1,70 @@
 {
-  "draftQuestions": 1294,
+  "draftQuestions": 1316,
   "draftWorks": 115,
-  "uniqueOptions": 3882,
-  "uniquePrompts": 1294,
+  "uniqueOptions": 3948,
+  "uniquePrompts": 1316,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 1294,
+  "projectedCountIfMerged": 1316,
   "rooms": [
     {
       "room": 0,
-      "questions": 135,
+      "questions": 138,
       "anthology": 122,
-      "comparative": 3,
+      "comparative": 6,
       "theory": 10
     },
     {
       "room": 1,
-      "questions": 77,
+      "questions": 79,
       "anthology": 65,
-      "comparative": 2,
+      "comparative": 4,
       "theory": 10
     },
     {
       "room": 2,
-      "questions": 157,
+      "questions": 158,
       "anthology": 142,
-      "comparative": 5,
+      "comparative": 6,
       "theory": 10
     },
     {
       "room": 3,
-      "questions": 180,
+      "questions": 182,
       "anthology": 162,
-      "comparative": 8,
+      "comparative": 10,
       "theory": 10
     },
     {
       "room": 4,
-      "questions": 99,
+      "questions": 103,
       "anthology": 89,
-      "comparative": 0,
+      "comparative": 4,
       "theory": 10
     },
     {
       "room": 5,
-      "questions": 112,
+      "questions": 116,
       "anthology": 100,
-      "comparative": 2,
+      "comparative": 6,
       "theory": 10
     },
     {
       "room": 6,
-      "questions": 126,
+      "questions": 128,
       "anthology": 112,
-      "comparative": 4,
+      "comparative": 6,
       "theory": 10
     },
     {
       "room": 7,
-      "questions": 109,
+      "questions": 111,
       "anthology": 95,
-      "comparative": 4,
+      "comparative": 6,
       "theory": 10
     },
     {
@@ -76,9 +76,9 @@
     },
     {
       "room": 9,
-      "questions": 169,
+      "questions": 171,
       "anthology": 149,
-      "comparative": 10,
+      "comparative": 12,
       "theory": 10
     }
   ],
@@ -1930,6 +1930,6 @@
   ],
   "enrichmentQuestions": 160,
   "anthologyQuestions": 1150,
-  "comparativeQuestions": 44,
+  "comparativeQuestions": 66,
   "theoryQuestions": 100
 }
