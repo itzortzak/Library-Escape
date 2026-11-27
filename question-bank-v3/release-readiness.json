@@ -10,8 +10,8 @@
   "current": {
     "anthology": 1150,
     "theory": 100,
-    "comparative": 44,
-    "total": 1294
+    "comparative": 66,
+    "total": 1316
   },
   "checks": {
     "anthologyEntries": "115/115 in draft catalogue",
@@ -46,7 +46,7 @@
         ],
         "repeatBeforeExhaustion": false
       },
-      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results. The first 50 theory questions are also not included in historical simulations. The second 50 theory items are not included in historical simulations. Historical results exclude the 24 new anthology items. Historical results exclude the 24 questions in bank-draft-22. Historical results exclude the 28 questions in bank-draft-23. Historical results exclude the 28 questions in bank-draft-24. Historical results exclude the 16 questions in comparative-draft-03."
+      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results. The first 50 theory questions are also not included in historical simulations. The second 50 theory items are not included in historical simulations. Historical results exclude the 24 new anthology items. Historical results exclude the 24 questions in bank-draft-22. Historical results exclude the 28 questions in bank-draft-23. Historical results exclude the 28 questions in bank-draft-24. Historical results exclude the 16 questions in comparative-draft-03. Historical results exclude the 22 questions in comparative-draft-04."
     },
     "incrementalComparative02": {
       "newQuestions": 12,
@@ -183,10 +183,27 @@
       "duplicateOptions": 0,
       "invalidChoices": 0,
       "method": "Compared actual new items with all prior items in four batches using normalized Greek strings. Dual source references matched anthology catalogue; no semantic uniqueness certification."
+    },
+    "incrementalComparative04": {
+      "newQuestions": 22,
+      "newChoices": 66,
+      "priorQuestionsChecked": 1294,
+      "groups": [
+        427,
+        388,
+        255,
+        174,
+        50
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "invalidChoices": 0,
+      "method": "Compared actual new items with all prior items in five batches using normalized Greek strings. Dual source references matched anthology catalogue; no semantic uniqueness certification."
     }
   },
   "manualReview": {
-    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages; first 50 theory questions use original examples and verified official HTML reference sections; six official school HTML theory pages opened, relevant headwords confirmed and theory locators normalized; general references are explicitly identified as such; six additional school anthology entries directly consulted for bank-draft-21; six additional school anthology entries directly consulted for bank-draft-22; seven additional school anthology entries directly consulted for bank-draft-23; seven additional school anthology entries directly consulted for bank-draft-24; seven official anthology pages consulted for eight new comparative pairs in comparative-draft-03",
+    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages; first 50 theory questions use original examples and verified official HTML reference sections; six official school HTML theory pages opened, relevant headwords confirmed and theory locators normalized; general references are explicitly identified as such; six additional school anthology entries directly consulted for bank-draft-21; six additional school anthology entries directly consulted for bank-draft-22; seven additional school anthology entries directly consulted for bank-draft-23; seven additional school anthology entries directly consulted for bank-draft-24; seven official anthology pages consulted for eight new comparative pairs in comparative-draft-03; 12 official anthology pages consulted for ten new comparative pairs in comparative-draft-04",
     "printPages": "pending",
     "individualPhilologicalReview": "pending; theory terminology reviewed in part and prooikonomia/proideasm distinction clarified",
     "distractorPlausibility": "pending",
@@ -197,7 +214,7 @@
     "integration": "pending; dual-source comparative schema and validation added; theory category schema and validation added",
     "productionBuild": "legacy 240-question validation; requires revision",
     "releaseAndDeployment": "not performed",
-    "fullCombinedNodeValidation": "pending; 1294 actual items not yet tested together"
+    "fullCombinedNodeValidation": "pending; 1316 actual items not yet tested together"
   },
   "verifiedSourceUrls": [
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
@@ -240,7 +257,11 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC5_2.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexC6_2.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_3.html",
-    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html"
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_5.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_6.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG3_3.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_4.html"
   ],
   "curriculumLanding": "https://www.iep.edu.gr/yli-kai-odigies-didaskalias-genikou-lykeiou-gia-to-scholiko-etos-2026-2027/",
   "scope": "School anthology, comparative reading of anthology texts, and literary theory only; unseen texts excluded by user request. Existing targets for retained categories unchanged."
