@@ -1,55 +1,55 @@
 {
-  "draftQuestions": 577,
-  "draftWorks": 63,
-  "uniqueOptions": 1731,
-  "uniquePrompts": 577,
+  "draftQuestions": 717,
+  "draftWorks": 80,
+  "uniqueOptions": 2151,
+  "uniquePrompts": 717,
   "replacementQuestions": 251,
-  "newQuestions": 326,
+  "newQuestions": 466,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
-  "coverageIfMerged": 63,
-  "projectedCountIfMerged": 577,
+  "coverageIfMerged": 80,
+  "projectedCountIfMerged": 717,
   "rooms": [
     {
       "room": 0,
-      "questions": 63
+      "questions": 80
     },
     {
       "room": 1,
-      "questions": 36
+      "questions": 45
     },
     {
       "room": 2,
-      "questions": 63
+      "questions": 80
     },
     {
       "room": 3,
-      "questions": 63
+      "questions": 80
     },
     {
       "room": 4,
-      "questions": 57
+      "questions": 69
     },
     {
       "room": 5,
-      "questions": 56
+      "questions": 67
     },
     {
       "room": 6,
-      "questions": 62
+      "questions": 79
     },
     {
       "room": 7,
-      "questions": 53
+      "questions": 63
     },
     {
       "room": 8,
-      "questions": 61
+      "questions": 74
     },
     {
       "room": 9,
-      "questions": 63
+      "questions": 80
     }
   ],
   "perWork": [
@@ -670,6 +670,52 @@
       ]
     },
     {
+      "entryId": "3-09",
+      "work": "Αδελφική διδασκαλία – Όσοι προΐστασθε των Γραικών",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-10",
+      "work": "Επιστολή στον Αθανάσιο Ψαλίδα",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-11",
+      "work": "Έρωτος αποτελέσματα – Η Ελενίτσα",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "3-12",
       "work": "Σαν πεταλούδα στη φωτιά",
       "count": 8,
@@ -701,6 +747,144 @@
       ]
     },
     {
+      "entryId": "3-14",
+      "work": "Φαγοπότι",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-15",
+      "work": "Οι φυλακές",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-16",
+      "work": "Στη Χαλκίδα πρόσφυγες",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-17",
+      "work": "Σκηνές από την έξοδο",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-18",
+      "work": "Η μάχη στο Βαλτέτσι",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-19",
+      "work": "Τέτοι’ αρετή έχουν, τέτοια φώτα μάς δίνουν",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-01",
+      "work": "Ο φιλόπατρις",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "4-02",
+      "work": "Εις Αγαρηνούς",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-03",
+      "work": "Τα ηφαίστεια",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
       "entryId": "4-04",
       "work": "Ελεύθεροι Πολιορκημένοι",
       "count": 9,
@@ -717,6 +901,37 @@
       ]
     },
     {
+      "entryId": "4-05",
+      "work": "Στοχασμοί του ποιητή",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-06",
+      "work": "Ο Πόρφυρας",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
       "entryId": "4-07",
       "work": "Η γυναίκα της Ζάκυθος",
       "count": 10,
@@ -727,6 +942,50 @@
         3,
         4,
         5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-08",
+      "work": "Ερασιτέχνης",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "4-09",
+      "work": "Πατρική ευτυχία",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-10",
+      "work": "Προβόδισμα",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
         6,
         7,
         8,
@@ -1073,9 +1332,9 @@
     }
   ],
   "coverage": {
-    "draft-authored": 63,
+    "draft-authored": 80,
     "legacy-only-needs-rewrite": 0,
-    "not-yet-covered": 52
+    "not-yet-covered": 35
   },
   "periodCoverage": [
     {
@@ -1091,12 +1350,12 @@
     {
       "period": "Τρίτη περίοδος (1669–1830)",
       "total": 19,
-      "covered": 10
+      "covered": 19
     },
     {
       "period": "Επτανησιακή Σχολή",
       "total": 14,
-      "covered": 6
+      "covered": 14
     },
     {
       "period": "Φαναριώτες και Ρομαντική Σχολή των Αθηνών",
