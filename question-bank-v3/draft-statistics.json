@@ -1,21 +1,21 @@
 {
-  "draftQuestions": 1278,
+  "draftQuestions": 1294,
   "draftWorks": 115,
-  "uniqueOptions": 3834,
-  "uniquePrompts": 1278,
+  "uniqueOptions": 3882,
+  "uniquePrompts": 1294,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 1278,
+  "projectedCountIfMerged": 1294,
   "rooms": [
     {
       "room": 0,
-      "questions": 134,
+      "questions": 135,
       "anthology": 122,
-      "comparative": 2,
+      "comparative": 3,
       "theory": 10
     },
     {
@@ -27,16 +27,16 @@
     },
     {
       "room": 2,
-      "questions": 154,
+      "questions": 157,
       "anthology": 142,
-      "comparative": 2,
+      "comparative": 5,
       "theory": 10
     },
     {
       "room": 3,
-      "questions": 176,
+      "questions": 180,
       "anthology": 162,
-      "comparative": 4,
+      "comparative": 8,
       "theory": 10
     },
     {
@@ -69,16 +69,16 @@
     },
     {
       "room": 8,
-      "questions": 126,
+      "questions": 130,
       "anthology": 114,
-      "comparative": 2,
+      "comparative": 6,
       "theory": 10
     },
     {
       "room": 9,
-      "questions": 165,
+      "questions": 169,
       "anthology": 149,
-      "comparative": 6,
+      "comparative": 10,
       "theory": 10
     }
   ],
@@ -1930,6 +1930,6 @@
   ],
   "enrichmentQuestions": 160,
   "anthologyQuestions": 1150,
-  "comparativeQuestions": 28,
+  "comparativeQuestions": 44,
   "theoryQuestions": 100
 }
