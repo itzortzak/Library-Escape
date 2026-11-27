@@ -1931,5 +1931,103 @@
   "enrichmentQuestions": 160,
   "anthologyQuestions": 1150,
   "comparativeQuestions": 100,
-  "theoryQuestions": 100
+  "theoryQuestions": 100,
+  "levels": {
+    "1": 233,
+    "2": 518,
+    "3": 599
+  },
+  "roomLevelCoverage": [
+    {
+      "room": 0,
+      "levels": {
+        "1": 110,
+        "2": 17,
+        "3": 14
+      },
+      "easyAnthology": 109
+    },
+    {
+      "room": 1,
+      "levels": {
+        "1": 6,
+        "2": 12,
+        "3": 64
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 2,
+      "levels": {
+        "1": 6,
+        "2": 117,
+        "3": 40
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 3,
+      "levels": {
+        "1": 6,
+        "2": 122,
+        "3": 57
+      },
+      "easyAnthology": 3
+    },
+    {
+      "room": 4,
+      "levels": {
+        "1": 6,
+        "2": 85,
+        "3": 20
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 5,
+      "levels": {
+        "1": 75,
+        "2": 28,
+        "3": 14
+      },
+      "easyAnthology": 73
+    },
+    {
+      "room": 6,
+      "levels": {
+        "1": 6,
+        "2": 111,
+        "3": 14
+      },
+      "easyAnthology": 3
+    },
+    {
+      "room": 7,
+      "levels": {
+        "1": 6,
+        "2": 6,
+        "3": 100
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 8,
+      "levels": {
+        "1": 6,
+        "2": 14,
+        "3": 115
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 9,
+      "levels": {
+        "1": 6,
+        "2": 6,
+        "3": 161
+      },
+      "easyAnthology": 2
+    }
+  ],
+  "difficultyCalibrationChanges": 29
 }
