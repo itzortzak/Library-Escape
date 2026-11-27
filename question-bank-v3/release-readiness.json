@@ -311,13 +311,37 @@
         }
       ],
       "method": "Mirrored selector logic; fingerprints of actual normalized choices and author/work pairs, actual question IDs and post-calibration levels; original full bank audit snapshot retained. Actual Node validator and browser tests pending."
+    },
+    "editorialPass01": {
+      "report": "editorial-validation-01.json",
+      "editedQuestions": 50,
+      "reviewedOptions": 150,
+      "otherQuestionsChecked": 1300,
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "structuralErrors": 0,
+      "sourceBlob": "0c01e369d5e72b3cba72b536a1e03eb891cafe08",
+      "choiceLength": {
+        "before": {
+          "strictlyLongest": 27,
+          "strictlyShortest": 8,
+          "neitherOrTied": 15
+        },
+        "after": {
+          "strictlyLongest": 8,
+          "strictlyShortest": 28,
+          "neitherOrTied": 14
+        },
+        "note": "Character count only; remaining shorter-correct tendency warrants additional review, not automatic padding."
+      }
     }
   },
   "manualReview": {
     "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages; first 50 theory questions use original examples and verified official HTML reference sections; six official school HTML theory pages opened, relevant headwords confirmed and theory locators normalized; general references are explicitly identified as such; six additional school anthology entries directly consulted for bank-draft-21; six additional school anthology entries directly consulted for bank-draft-22; seven additional school anthology entries directly consulted for bank-draft-23; seven additional school anthology entries directly consulted for bank-draft-24; seven official anthology pages consulted for eight new comparative pairs in comparative-draft-03; 12 official anthology pages consulted for ten new comparative pairs in comparative-draft-04; 13 official anthology pages consulted for 17 new comparative pairs in comparative-draft-05",
     "printPages": "pending",
-    "individualPhilologicalReview": "pending; theory terminology reviewed in part and prooikonomia/proideasm distinction clarified",
-    "distractorPlausibility": "pending",
+    "individualPhilologicalReview": "partial; first editorial pass on all 50 items of theory-draft-01; remaining 1300 items and independent verification pending",
+    "distractorPlausibility": "partial; 150 options reviewed in theory-draft-01, remaining length cues and other collections require review",
     "curriculum2026_27": "official IEP landing page verified; linked ZIP could not be opened by available web tool",
     "categoryAndThemeReview": "partial; 29 difficulty changes documented; minimum six per room and level achieved, but distribution still uneven and five easy rooms contain only two anthology questions; complete difficulty, distractor and theme review pending",
     "copyrightReview": "pending",
@@ -325,7 +349,7 @@
     "integration": "pending; dual-source comparative schema and validation added; theory category schema and validation added",
     "productionBuild": "legacy 240-question validation; requires revision",
     "releaseAndDeployment": "not performed",
-    "fullCombinedNodeValidation": "pending; full structural cross-batch audit completed with all actual items and full selection simulation using their fingerprints and metadata; direct GitHub clone blocked by DNS, Node script not executed"
+    "fullCombinedNodeValidation": "pending; structural snapshot and post-calibration simulations supplemented by editorial overlay of 50 revised items, no collisions and selection metadata unchanged; actual Node validator not run"
   },
   "verifiedSourceUrls": [
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
