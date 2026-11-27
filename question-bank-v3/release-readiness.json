@@ -9,11 +9,11 @@
     "total": 1500
   },
   "current": {
-    "anthology": 1017,
+    "anthology": 1046,
     "theory": 0,
-    "comparative": 0,
+    "comparative": 16,
     "unseen": 0,
-    "total": 1017
+    "total": 1062
   },
   "checks": {
     "anthologyEntries": "115/115 in draft catalogue",
@@ -22,21 +22,37 @@
     "exactDuplicateIds": 0,
     "structuralErrors": 0,
     "selectorTests": {
-      "questions": 1017,
-      "rooms": 10,
-      "sessions": 100,
-      "checkedSelections": 3000,
-      "distinctQuestionSets": 100,
-      "correctOptionPositions": [
-        992,
-        1023,
-        985
-      ],
-      "repeatBeforeExhaustion": false
+      "anthology": {
+        "questions": 1046,
+        "rooms": 10,
+        "sessions": 100,
+        "checkedSelections": 3000,
+        "distinctQuestionSets": 100,
+        "correctOptionPositions": [
+          1045,
+          974,
+          981
+        ],
+        "repeatBeforeExhaustion": false
+      },
+      "combinedMetadataFixture": {
+        "questions": 1062,
+        "rooms": 10,
+        "sessions": 100,
+        "checkedSelections": 3000,
+        "distinctQuestionSets": 100,
+        "correctOptionPositions": [
+          984,
+          987,
+          1029
+        ],
+        "repeatBeforeExhaustion": false
+      },
+      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending."
     }
   },
   "manualReview": {
-    "sourceAndLocatorVerification": "partial; seven official pages directly verified in enrichment cycle, not all 115 entries",
+    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries",
     "printPages": "pending",
     "individualPhilologicalReview": "pending",
     "distractorPlausibility": "pending",
@@ -44,9 +60,10 @@
     "categoryAndThemeReview": "pending",
     "copyrightReview": "pending",
     "browserPlaytest": "pending",
-    "integration": "pending",
+    "integration": "pending; dual-source comparative schema and validation added",
     "productionBuild": "legacy 240-question validation; requires revision",
-    "releaseAndDeployment": "not performed"
+    "releaseAndDeployment": "not performed",
+    "fullCombinedNodeValidation": "pending; selector tested with exact selection metadata for comparative items"
   },
   "verifiedSourceUrls": [
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
@@ -55,7 +72,15 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_2.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE7.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
-    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_4.html"
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_4.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_4.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
   ],
   "curriculumLanding": "https://www.iep.edu.gr/yli-kai-odigies-didaskalias-genikou-lykeiou-gia-to-scholiko-etos-2026-2027/"
 }
