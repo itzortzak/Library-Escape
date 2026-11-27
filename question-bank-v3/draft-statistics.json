@@ -1,55 +1,75 @@
 {
-  "draftQuestions": 1017,
+  "draftQuestions": 1062,
   "draftWorks": 115,
-  "uniqueOptions": 3051,
-  "uniquePrompts": 1017,
+  "uniqueOptions": 3186,
+  "uniquePrompts": 1062,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 1017,
+  "projectedCountIfMerged": 1062,
   "rooms": [
     {
       "room": 0,
-      "questions": 118
+      "questions": 120,
+      "anthology": 119,
+      "comparative": 1
     },
     {
       "room": 1,
-      "questions": 58
+      "questions": 64,
+      "anthology": 62,
+      "comparative": 2
     },
     {
       "room": 2,
-      "questions": 118
+      "questions": 125,
+      "anthology": 124,
+      "comparative": 1
     },
     {
       "room": 3,
-      "questions": 121
+      "questions": 130,
+      "anthology": 128,
+      "comparative": 2
     },
     {
       "room": 4,
-      "questions": 87
+      "questions": 87,
+      "anthology": 87,
+      "comparative": 0
     },
     {
       "room": 5,
-      "questions": 94
+      "questions": 95,
+      "anthology": 94,
+      "comparative": 1
     },
     {
       "room": 6,
-      "questions": 110
+      "questions": 112,
+      "anthology": 110,
+      "comparative": 2
     },
     {
       "room": 7,
-      "questions": 92
+      "questions": 95,
+      "anthology": 92,
+      "comparative": 3
     },
     {
       "room": 8,
-      "questions": 102
+      "questions": 106,
+      "anthology": 105,
+      "comparative": 1
     },
     {
       "room": 9,
-      "questions": 117
+      "questions": 128,
+      "anthology": 125,
+      "comparative": 3
     }
   ],
   "perWork": [
@@ -887,9 +907,10 @@
     {
       "entryId": "4-04",
       "work": "Ελεύθεροι Πολιορκημένοι",
-      "count": 9,
+      "count": 13,
       "roomCoverage": [
         0,
+        1,
         2,
         3,
         4,
@@ -951,7 +972,7 @@
     {
       "entryId": "4-08",
       "work": "Ερασιτέχνης",
-      "count": 7,
+      "count": 10,
       "roomCoverage": [
         0,
         2,
@@ -995,7 +1016,7 @@
     {
       "entryId": "4-11",
       "work": "Τα μυστήρια της Κεφαλονιάς – Η προίκα",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -1010,7 +1031,7 @@
     {
       "entryId": "4-12",
       "work": "Λήθη",
-      "count": 8,
+      "count": 11,
       "roomCoverage": [
         0,
         2,
@@ -1025,7 +1046,7 @@
     {
       "entryId": "4-13",
       "work": "Μούχρωμα",
-      "count": 7,
+      "count": 10,
       "roomCoverage": [
         0,
         2,
@@ -1103,7 +1124,7 @@
     {
       "entryId": "5-04",
       "work": "Ασμάτιον",
-      "count": 7,
+      "count": 10,
       "roomCoverage": [
         0,
         2,
@@ -1586,9 +1607,10 @@
     {
       "entryId": "7-16",
       "work": "Δε γυρεύω ξένο",
-      "count": 7,
+      "count": 10,
       "roomCoverage": [
         0,
+        1,
         2,
         3,
         5,
@@ -1600,9 +1622,10 @@
     {
       "entryId": "7-17",
       "work": "Ήρθες",
-      "count": 7,
+      "count": 10,
       "roomCoverage": [
         0,
+        1,
         2,
         3,
         5,
@@ -1645,9 +1668,10 @@
     {
       "entryId": "7-20",
       "work": "Το θέατρο",
-      "count": 7,
+      "count": 10,
       "roomCoverage": [
         0,
+        1,
         2,
         3,
         5,
@@ -1893,5 +1917,9 @@
       "covered": 33
     }
   ],
-  "enrichmentQuestions": 27
+  "enrichmentQuestions": 56,
+  "anthologyQuestions": 1046,
+  "comparativeQuestions": 16,
+  "theoryQuestions": 0,
+  "unseenQuestions": 0
 }
