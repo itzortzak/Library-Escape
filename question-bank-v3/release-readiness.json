@@ -46,7 +46,7 @@
         ],
         "repeatBeforeExhaustion": false
       },
-      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results. The first 50 theory questions are also not included in historical simulations. The second 50 theory items are not included in historical simulations. Historical results exclude the 24 new anthology items. Historical results exclude the 24 questions in bank-draft-22. Historical results exclude the 28 questions in bank-draft-23. Historical results exclude the 28 questions in bank-draft-24. Historical results exclude the 16 questions in comparative-draft-03. Historical results exclude the 22 questions in comparative-draft-04. Historical results exclude the 34 questions in comparative-draft-05."
+      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results. The first 50 theory questions are also not included in historical simulations. The second 50 theory items are not included in historical simulations. Historical results exclude the 24 new anthology items. Historical results exclude the 24 questions in bank-draft-22. Historical results exclude the 28 questions in bank-draft-23. Historical results exclude the 28 questions in bank-draft-24. Historical results exclude the 16 questions in comparative-draft-03. Historical results exclude the 22 questions in comparative-draft-04. Historical results exclude the 34 questions in comparative-draft-05. Superseding metadata simulation: see post-calibration-tests.json (100 trials each across unrestricted and levels 1–3; complete exhaustion tests; not a production browser test)."
     },
     "incrementalComparative02": {
       "newQuestions": 12,
@@ -217,6 +217,100 @@
       "duplicateOptions": 0,
       "invalidChoices": 0,
       "method": "Compared actual new items with all prior items in five batches using normalized Greek strings after wording refinements. Dual source references matched anthology catalogue; no semantic uniqueness certification."
+    },
+    "fullBankAudit": {
+      "report": "full-bank-audit.json",
+      "draftCollections": 31,
+      "questions": 1350,
+      "choices": 4050,
+      "entries": 115,
+      "exactDuplicateIds": 0,
+      "exactDuplicatePrompts": 0,
+      "exactDuplicateChoices": 0,
+      "structuralErrors": 0,
+      "catalogueMismatches": 0,
+      "method": "All actual questions retrieved in six batches; full cross-batch normalized text fingerprint check and catalogue/metadata validation. Pre-calibration snapshot retained; revised three files verified against original fingerprints and level change manifest."
+    },
+    "postCalibration": {
+      "report": "post-calibration-tests.json",
+      "changes": 29,
+      "recheckedQuestionsInRevisedFiles": 184,
+      "levels": {
+        "1": 233,
+        "2": 518,
+        "3": 599
+      },
+      "results": [
+        {
+          "level": "all",
+          "eligible": 1350,
+          "minimumRoomPool": 82,
+          "sessions": 100,
+          "distinctQuestionSets": 100,
+          "checkedSelections": 3000,
+          "correctPositions": [
+            998,
+            995,
+            1007
+          ],
+          "secondSessionRepeat": false,
+          "exhaustionSessions": 62,
+          "distinctSeen": 1350,
+          "repeatBeforeRoomExhaustion": false
+        },
+        {
+          "level": 1,
+          "eligible": 233,
+          "minimumRoomPool": 6,
+          "sessions": 100,
+          "distinctQuestionSets": 100,
+          "checkedSelections": 3000,
+          "correctPositions": [
+            975,
+            1024,
+            1001
+          ],
+          "secondSessionRepeat": false,
+          "exhaustionSessions": 37,
+          "distinctSeen": 233,
+          "repeatBeforeRoomExhaustion": false
+        },
+        {
+          "level": 2,
+          "eligible": 518,
+          "minimumRoomPool": 6,
+          "sessions": 100,
+          "distinctQuestionSets": 100,
+          "checkedSelections": 3000,
+          "correctPositions": [
+            977,
+            1025,
+            998
+          ],
+          "secondSessionRepeat": false,
+          "exhaustionSessions": 41,
+          "distinctSeen": 518,
+          "repeatBeforeRoomExhaustion": false
+        },
+        {
+          "level": 3,
+          "eligible": 599,
+          "minimumRoomPool": 14,
+          "sessions": 100,
+          "distinctQuestionSets": 100,
+          "checkedSelections": 3000,
+          "correctPositions": [
+            996,
+            988,
+            1016
+          ],
+          "secondSessionRepeat": false,
+          "exhaustionSessions": 54,
+          "distinctSeen": 599,
+          "repeatBeforeRoomExhaustion": false
+        }
+      ],
+      "method": "Mirrored selector logic; fingerprints of actual normalized choices and author/work pairs, actual question IDs and post-calibration levels; original full bank audit snapshot retained. Actual Node validator and browser tests pending."
     }
   },
   "manualReview": {
@@ -225,13 +319,13 @@
     "individualPhilologicalReview": "pending; theory terminology reviewed in part and prooikonomia/proideasm distinction clarified",
     "distractorPlausibility": "pending",
     "curriculum2026_27": "official IEP landing page verified; linked ZIP could not be opened by available web tool",
-    "categoryAndThemeReview": "pending; 34 final comparative items provisionally assigned level 3 and general theme, requiring calibration and theme review",
+    "categoryAndThemeReview": "partial; 29 difficulty changes documented; minimum six per room and level achieved, but distribution still uneven and five easy rooms contain only two anthology questions; complete difficulty, distractor and theme review pending",
     "copyrightReview": "pending",
     "browserPlaytest": "pending",
     "integration": "pending; dual-source comparative schema and validation added; theory category schema and validation added",
     "productionBuild": "legacy 240-question validation; requires revision",
     "releaseAndDeployment": "not performed",
-    "fullCombinedNodeValidation": "pending; 1350 actual items not yet tested together"
+    "fullCombinedNodeValidation": "pending; full structural cross-batch audit completed with all actual items and full selection simulation using their fingerprints and metadata; direct GitHub clone blocked by DNS, Node script not executed"
   },
   "verifiedSourceUrls": [
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
