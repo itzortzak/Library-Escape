@@ -2,9 +2,9 @@
   "source": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/",
   "countingConvention": "One table-of-contents entry per work/excerpt, not every internal subsection. Two separately listed excerpts of Erotokritos count separately; multiple excerpts grouped under a single entry count once. No general introductions or biographies.",
   "summary": {
-    "draft-authored": 50,
+    "draft-authored": 63,
     "legacy-only-needs-rewrite": 0,
-    "not-yet-covered": 65
+    "not-yet-covered": 52
   },
   "entries": [
     {
@@ -231,10 +231,19 @@
       "author": "Δημοτικό τραγούδι",
       "work": "Οι σκλάβοι των Μπαρμπαρέσων",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexA4_3.html"
     },
     {
       "id": "1-12",
@@ -411,10 +420,22 @@
       "author": "Γεώργιος Φραντζής",
       "work": "Χρονικό",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA8_2.html",
+      "attributionNote": "Σχολική απόδοση: Γεώργιος Φραντζής. Τα αποσπάσματα προέρχονται από το Chronicon Maius, σύνθεση του 16ου αιώνα που αποδίδεται στον Μακάριο Μελισσηνό (Ψευδο-Σφραντζή).",
+      "scholarlyReference": "Neville, L. (2018). George Sphrantzes. In Guide to Byzantine Historical Writing (pp. 302–307). Cambridge University Press. https://doi.org/10.1017/9781139626880.051"
     },
     {
       "id": "1-21",
@@ -443,10 +464,20 @@
       "author": "Ανώνυμος",
       "work": "Καταλόγια – Αν ήξευρα, κυράτσα μου",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB1.html"
     },
     {
       "id": "2-02",
@@ -475,10 +506,21 @@
       "author": "Μπεργαδής",
       "work": "Απόκοπος – Ειπέ μας αν κρατεί ουρανός",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html"
     },
     {
       "id": "2-04",
@@ -486,10 +528,19 @@
       "author": "Ιωάννης Ανδρέας Τρώιλος",
       "work": "Ροδολίνος – Χορικό της Γ΄ πράξης",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB4.html"
     },
     {
       "id": "2-05",
@@ -497,10 +548,20 @@
       "author": "Γεώργιος Χορτάτσης",
       "work": "Κατζούρμπος",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html"
     },
     {
       "id": "2-06",
@@ -612,13 +673,24 @@
     {
       "id": "3-02",
       "period": "Τρίτη περίοδος (1669–1830)",
-      "author": "",
+      "author": "Ευθύμιος (ιερομόναχος)",
       "work": "Χρονικό του Γαλαξιδιού",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC1_2.html"
     },
     {
       "id": "3-03",
@@ -626,10 +698,19 @@
       "author": "Ηλίας Μηνιάτης",
       "work": "Περί φθόνου",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC3_1.html"
     },
     {
       "id": "3-04",
@@ -637,10 +718,19 @@
       "author": "Κοσμάς Αιτωλός",
       "work": "Από τις Διδαχές",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC3_2.html"
     },
     {
       "id": "3-05",
@@ -648,10 +738,19 @@
       "author": "Δημήτριος Καταρτζής",
       "work": "Από τη χρεία να οδηγούμαστε εις τα αναγκαία",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_1.html"
     },
     {
       "id": "3-06",
@@ -659,10 +758,19 @@
       "author": "Ρήγας Βελεστινλής",
       "work": "Η επαναστατική προκήρυξη",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_2.html"
     },
     {
       "id": "3-07",
@@ -670,10 +778,20 @@
       "author": "Ανώνυμος",
       "work": "Ελληνική Νομαρχία – Η εφεύρεσις των χρημάτων",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_3.html"
     },
     {
       "id": "3-08",
@@ -681,10 +799,21 @@
       "author": "Αδαμάντιος Κοραής",
       "work": "Η κηδεία του Βολταίρου",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_4.html"
     },
     {
       "id": "3-09",
