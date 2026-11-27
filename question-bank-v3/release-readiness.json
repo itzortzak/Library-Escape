@@ -8,10 +8,10 @@
     "total": 1350
   },
   "current": {
-    "anthology": 1070,
+    "anthology": 1094,
     "theory": 100,
     "comparative": 28,
-    "total": 1198
+    "total": 1222
   },
   "checks": {
     "anthologyEntries": "115/115 in draft catalogue",
@@ -46,7 +46,7 @@
         ],
         "repeatBeforeExhaustion": false
       },
-      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results. The first 50 theory questions are also not included in historical simulations. The second 50 theory items are not included in historical simulations. Historical results exclude the 24 new anthology items."
+      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results. The first 50 theory questions are also not included in historical simulations. The second 50 theory items are not included in historical simulations. Historical results exclude the 24 new anthology items. Historical results exclude the 24 questions in bank-draft-22."
     },
     "incrementalComparative02": {
       "newQuestions": 12,
@@ -119,10 +119,26 @@
       "duplicateOptions": 0,
       "invalidChoices": 0,
       "method": "Compared new collection with all prior items in four batches using normalized Greek strings; no semantic uniqueness certification."
+    },
+    "incrementalAnthology22": {
+      "newQuestions": 24,
+      "newChoices": 72,
+      "priorQuestionsChecked": 1198,
+      "groups": [
+        427,
+        388,
+        247,
+        136
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "invalidChoices": 0,
+      "method": "Compared new collection with all prior items in four batches using normalized Greek strings; no semantic uniqueness certification."
     }
   },
   "manualReview": {
-    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages; first 50 theory questions use original examples and verified official HTML reference sections; six official school HTML theory pages opened, relevant headwords confirmed and theory locators normalized; general references are explicitly identified as such; six additional school anthology entries directly consulted for bank-draft-21",
+    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages; first 50 theory questions use original examples and verified official HTML reference sections; six official school HTML theory pages opened, relevant headwords confirmed and theory locators normalized; general references are explicitly identified as such; six additional school anthology entries directly consulted for bank-draft-21; six additional school anthology entries directly consulted for bank-draft-22",
     "printPages": "pending",
     "individualPhilologicalReview": "pending; theory terminology reviewed in part and prooikonomia/proideasm distinction clarified",
     "distractorPlausibility": "pending",
@@ -133,7 +149,7 @@
     "integration": "pending; dual-source comparative schema and validation added; theory category schema and validation added",
     "productionBuild": "legacy 240-question validation; requires revision",
     "releaseAndDeployment": "not performed",
-    "fullCombinedNodeValidation": "pending; 1198 actual items not yet tested together"
+    "fullCombinedNodeValidation": "pending; 1222 actual items not yet tested together"
   },
   "verifiedSourceUrls": [
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
@@ -156,7 +172,13 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG2.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_3.html",
-    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG10_3.html"
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG10_3.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG1_5.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html"
   ],
   "curriculumLanding": "https://www.iep.edu.gr/yli-kai-odigies-didaskalias-genikou-lykeiou-gia-to-scholiko-etos-2026-2027/",
   "scope": "School anthology, comparative reading of anthology texts, and literary theory only; unseen texts excluded by user request. Existing targets for retained categories unchanged."
