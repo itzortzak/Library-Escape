@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-27",
+  "status": "not-ready-for-production",
+  "target": {
+    "anthology": 1150,
+    "theory": 100,
+    "comparative": 100,
+    "unseen": 150,
+    "total": 1500
+  },
+  "current": {
+    "anthology": 1017,
+    "theory": 0,
+    "comparative": 0,
+    "unseen": 0,
+    "total": 1017
+  },
+  "checks": {
+    "anthologyEntries": "115/115 in draft catalogue",
+    "exactDuplicatePrompts": 0,
+    "exactDuplicateChoices": 0,
+    "exactDuplicateIds": 0,
+    "structuralErrors": 0,
+    "selectorTests": {
+      "questions": 1017,
+      "rooms": 10,
+      "sessions": 100,
+      "checkedSelections": 3000,
+      "distinctQuestionSets": 100,
+      "correctOptionPositions": [
+        992,
+        1023,
+        985
+      ],
+      "repeatBeforeExhaustion": false
+    }
+  },
+  "manualReview": {
+    "sourceAndLocatorVerification": "partial; seven official pages directly verified in enrichment cycle, not all 115 entries",
+    "printPages": "pending",
+    "individualPhilologicalReview": "pending",
+    "distractorPlausibility": "pending",
+    "curriculum2026_27": "official IEP landing page verified; linked ZIP could not be opened by available web tool",
+    "categoryAndThemeReview": "pending",
+    "copyrightReview": "pending",
+    "browserPlaytest": "pending",
+    "integration": "pending",
+    "productionBuild": "legacy 240-question validation; requires revision",
+    "releaseAndDeployment": "not performed"
+  },
+  "verifiedSourceUrls": [
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_7.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_3.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_2.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE7.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_4.html"
+  ],
+  "curriculumLanding": "https://www.iep.edu.gr/yli-kai-odigies-didaskalias-genikou-lykeiou-gia-to-scholiko-etos-2026-2027/"
+}
