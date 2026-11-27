@@ -569,7 +569,7 @@
       "author": "Γεώργιος Χορτάτσης",
       "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄",
       "legacyQuestions": 0,
-      "draftQuestions": 8,
+      "draftQuestions": 12,
       "draftTopics": [
         0,
         2,
@@ -861,7 +861,7 @@
       "author": "Ανώνυμος",
       "work": "Έρωτος αποτελέσματα – Η Ελενίτσα",
       "legacyQuestions": 0,
-      "draftQuestions": 9,
+      "draftQuestions": 13,
       "draftTopics": [
         0,
         1,
@@ -1148,7 +1148,7 @@
       "author": "Διονύσιος Σολωμός",
       "work": "Ο Πόρφυρας",
       "legacyQuestions": 0,
-      "draftQuestions": 9,
+      "draftQuestions": 13,
       "draftTopics": [
         0,
         1,
@@ -1352,15 +1352,17 @@
       "author": "Γεώργιος Ζαλοκώστας",
       "work": "Η αναχώρησίς της",
       "legacyQuestions": 0,
-      "draftQuestions": 8,
+      "draftQuestions": 11,
       "draftTopics": [
         0,
         1,
         2,
         3,
+        4,
         5,
         6,
         7,
+        8,
         9
       ],
       "status": "draft-authored",
@@ -1431,7 +1433,7 @@
       "author": "Γρηγόριος Παλαιολόγος",
       "work": "Ο Πολυπαθής",
       "legacyQuestions": 0,
-      "draftQuestions": 8,
+      "draftQuestions": 12,
       "draftTopics": [
         0,
         1,
@@ -1703,7 +1705,7 @@
       "author": "Ουίλλιαμ Σαίξπηρ",
       "work": "Βασιλιάς Ληρ",
       "legacyQuestions": 0,
-      "draftQuestions": 10,
+      "draftQuestions": 14,
       "draftTopics": [
         0,
         1,
@@ -2187,7 +2189,7 @@
       "author": "Άγγελος Σικελιανός",
       "work": "Ιερά Οδός",
       "legacyQuestions": 0,
-      "draftQuestions": 9,
+      "draftQuestions": 13,
       "draftTopics": [
         0,
         1,
