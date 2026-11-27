@@ -1,35 +1,35 @@
 {
-  "draftQuestions": 990,
+  "draftQuestions": 1017,
   "draftWorks": 115,
-  "uniqueOptions": 2970,
-  "uniquePrompts": 990,
+  "uniqueOptions": 3051,
+  "uniquePrompts": 1017,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 990,
+  "projectedCountIfMerged": 1017,
   "rooms": [
     {
       "room": 0,
-      "questions": 115
+      "questions": 118
     },
     {
       "room": 1,
-      "questions": 54
+      "questions": 58
     },
     {
       "room": 2,
-      "questions": 115
+      "questions": 118
     },
     {
       "room": 3,
-      "questions": 115
+      "questions": 121
     },
     {
       "room": 4,
-      "questions": 85
+      "questions": 87
     },
     {
       "room": 5,
@@ -41,15 +41,15 @@
     },
     {
       "room": 7,
-      "questions": 91
+      "questions": 92
     },
     {
       "room": 8,
-      "questions": 96
+      "questions": 102
     },
     {
       "room": 9,
-      "questions": 115
+      "questions": 117
     }
   ],
   "perWork": [
@@ -480,7 +480,7 @@
     {
       "entryId": "2-06",
       "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -702,7 +702,7 @@
     {
       "entryId": "3-11",
       "work": "Έρωτος αποτελέσματα – Η Ελενίτσα",
-      "count": 9,
+      "count": 13,
       "roomCoverage": [
         0,
         1,
@@ -918,7 +918,7 @@
     {
       "entryId": "4-06",
       "work": "Ο Πόρφυρας",
-      "count": 9,
+      "count": 13,
       "roomCoverage": [
         0,
         1,
@@ -1071,15 +1071,17 @@
     {
       "entryId": "5-02",
       "work": "Η αναχώρησίς της",
-      "count": 8,
+      "count": 11,
       "roomCoverage": [
         0,
         1,
         2,
         3,
+        4,
         5,
         6,
         7,
+        8,
         9
       ]
     },
@@ -1130,7 +1132,7 @@
     {
       "entryId": "5-06",
       "work": "Ο Πολυπαθής",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         1,
@@ -1337,7 +1339,7 @@
     {
       "entryId": "6-07",
       "work": "Βασιλιάς Ληρ",
-      "count": 10,
+      "count": 14,
       "roomCoverage": [
         0,
         1,
@@ -1701,7 +1703,7 @@
     {
       "entryId": "7-24",
       "work": "Ιερά Οδός",
-      "count": 9,
+      "count": 13,
       "roomCoverage": [
         0,
         1,
@@ -1890,5 +1892,6 @@
       "total": 33,
       "covered": 33
     }
-  ]
+  ],
+  "enrichmentQuestions": 27
 }
