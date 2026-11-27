@@ -1,15 +1,15 @@
 {
-  "draftQuestions": 1174,
+  "draftQuestions": 1198,
   "draftWorks": 115,
-  "uniqueOptions": 3522,
-  "uniquePrompts": 1174,
+  "uniqueOptions": 3594,
+  "uniquePrompts": 1198,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 1174,
+  "projectedCountIfMerged": 1198,
   "rooms": [
     {
       "room": 0,
@@ -27,29 +27,29 @@
     },
     {
       "room": 2,
-      "questions": 136,
-      "anthology": 124,
+      "questions": 141,
+      "anthology": 129,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 3,
-      "questions": 142,
-      "anthology": 128,
+      "questions": 151,
+      "anthology": 137,
       "comparative": 4,
       "theory": 10
     },
     {
       "room": 4,
-      "questions": 97,
-      "anthology": 87,
+      "questions": 99,
+      "anthology": 89,
       "comparative": 0,
       "theory": 10
     },
     {
       "room": 5,
-      "questions": 106,
-      "anthology": 94,
+      "questions": 107,
+      "anthology": 95,
       "comparative": 2,
       "theory": 10
     },
@@ -62,22 +62,22 @@
     },
     {
       "room": 7,
-      "questions": 106,
-      "anthology": 92,
+      "questions": 107,
+      "anthology": 93,
       "comparative": 4,
       "theory": 10
     },
     {
       "room": 8,
-      "questions": 117,
-      "anthology": 105,
+      "questions": 118,
+      "anthology": 106,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 9,
-      "questions": 141,
-      "anthology": 125,
+      "questions": 146,
+      "anthology": 130,
       "comparative": 6,
       "theory": 10
     }
@@ -1228,7 +1228,7 @@
     {
       "entryId": "5-10",
       "work": "Αθηναϊκοί περίπατοι",
-      "count": 7,
+      "count": 11,
       "roomCoverage": [
         0,
         2,
@@ -1339,7 +1339,7 @@
     {
       "entryId": "6-05",
       "work": "Περί φιλίας",
-      "count": 7,
+      "count": 11,
       "roomCoverage": [
         0,
         2,
@@ -1475,7 +1475,7 @@
     {
       "entryId": "7-07",
       "work": "Τα πρωτοβρόχια",
-      "count": 7,
+      "count": 11,
       "roomCoverage": [
         0,
         2,
@@ -1603,7 +1603,7 @@
     {
       "entryId": "7-15",
       "work": "Στο Σταυραΐτό",
-      "count": 7,
+      "count": 11,
       "roomCoverage": [
         0,
         2,
@@ -1723,11 +1723,12 @@
     {
       "entryId": "7-23",
       "work": "Δείπνος",
-      "count": 7,
+      "count": 11,
       "roomCoverage": [
         0,
         2,
         3,
+        4,
         5,
         6,
         7,
@@ -1801,7 +1802,7 @@
     {
       "entryId": "7-28",
       "work": "Το πέρασμά σου",
-      "count": 7,
+      "count": 11,
       "roomCoverage": [
         0,
         2,
@@ -1927,9 +1928,8 @@
       "covered": 33
     }
   ],
-  "enrichmentQuestions": 56,
-  "anthologyQuestions": 1046,
+  "enrichmentQuestions": 80,
+  "anthologyQuestions": 1070,
   "comparativeQuestions": 28,
-  "theoryQuestions": 100,
-  "unseenQuestions": 0
+  "theoryQuestions": 100
 }
