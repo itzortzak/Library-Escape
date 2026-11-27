@@ -11,9 +11,9 @@
   "current": {
     "anthology": 1046,
     "theory": 0,
-    "comparative": 16,
+    "comparative": 28,
     "unseen": 0,
-    "total": 1062
+    "total": 1074
   },
   "checks": {
     "anthologyEntries": "115/115 in draft catalogue",
@@ -48,11 +48,35 @@
         ],
         "repeatBeforeExhaustion": false
       },
-      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending."
+      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results."
+    },
+    "incrementalComparative02": {
+      "newQuestions": 12,
+      "newChoices": 36,
+      "priorQuestionsChecked": 1062,
+      "groups": [
+        {
+          "priorQuestions": 427,
+          "newQuestions": 12
+        },
+        {
+          "priorQuestions": 388,
+          "newQuestions": 12
+        },
+        {
+          "priorQuestions": 247,
+          "newQuestions": 12
+        }
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "invalidChoices": 0,
+      "method": "Compared new collection against every prior item in three retrieval batches, with normalized Greek text. This does not establish semantic uniqueness or constitute a fresh all-pairs audit among prior collections."
     }
   },
   "manualReview": {
-    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries",
+    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages",
     "printPages": "pending",
     "individualPhilologicalReview": "pending",
     "distractorPlausibility": "pending",
@@ -63,7 +87,7 @@
     "integration": "pending; dual-source comparative schema and validation added",
     "productionBuild": "legacy 240-question validation; requires revision",
     "releaseAndDeployment": "not performed",
-    "fullCombinedNodeValidation": "pending; selector tested with exact selection metadata for comparative items"
+    "fullCombinedNodeValidation": "pending; historical selector runs cover 1062 items, not current 1074"
   },
   "verifiedSourceUrls": [
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
