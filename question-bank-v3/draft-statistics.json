@@ -1,55 +1,55 @@
 {
-  "draftQuestions": 321,
-  "draftWorks": 35,
-  "uniqueOptions": 963,
-  "uniquePrompts": 321,
-  "replacementQuestions": 145,
-  "newQuestions": 176,
-  "legacyQuestionsCoveredByReplacementSets": 145,
-  "legacyWorksCovered": 15,
-  "legacyQuestionsStillNotIndividuallyRewritten": 95,
-  "coverageIfMerged": 46,
-  "projectedCountIfMerged": 416,
+  "draftQuestions": 463,
+  "draftWorks": 50,
+  "uniqueOptions": 1389,
+  "uniquePrompts": 463,
+  "replacementQuestions": 251,
+  "newQuestions": 212,
+  "legacyQuestionsCoveredByReplacementSets": 240,
+  "legacyWorksCovered": 26,
+  "legacyQuestionsStillNotIndividuallyRewritten": 0,
+  "coverageIfMerged": 50,
+  "projectedCountIfMerged": 463,
   "rooms": [
     {
       "room": 0,
-      "questions": 35
+      "questions": 50
     },
     {
       "room": 1,
-      "questions": 20
-    },
-    {
-      "room": 2,
-      "questions": 35
-    },
-    {
-      "room": 3,
-      "questions": 35
-    },
-    {
-      "room": 4,
-      "questions": 33
-    },
-    {
-      "room": 5,
       "questions": 31
     },
     {
+      "room": 2,
+      "questions": 50
+    },
+    {
+      "room": 3,
+      "questions": 50
+    },
+    {
+      "room": 4,
+      "questions": 46
+    },
+    {
+      "room": 5,
+      "questions": 46
+    },
+    {
       "room": 6,
-      "questions": 35
+      "questions": 50
     },
     {
       "room": 7,
-      "questions": 28
+      "questions": 42
     },
     {
       "room": 8,
-      "questions": 34
+      "questions": 48
     },
     {
       "room": 9,
-      "questions": 35
+      "questions": 50
     }
   ],
   "perWork": [
@@ -270,6 +270,54 @@
       ]
     },
     {
+      "entryId": "1-15",
+      "work": "Των Κολοκοτρωναίων",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-16",
+      "work": "Των Κοντογιανναίων",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-17",
+      "work": "Το έπος του Διγενή Ακρίτα – Ο θάνατος τον πολεμά",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "1-18",
       "work": "Πτωχοπροδρομικά – μάθε το τσαγκάρην το παιδίν σου",
       "count": 9,
@@ -295,6 +343,22 @@
         2,
         3,
         4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-21",
+      "work": "Το ανακάλημα της Κωνσταντινόπολης",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
         5,
         6,
         7,
@@ -350,8 +414,42 @@
       ]
     },
     {
+      "entryId": "2-08",
+      "work": "Ερωτόκριτος – Μονομαχία Κρητικού και Καραμανίτη",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "2-09",
       "work": "Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-01",
+      "work": "Φυλλάδα του Μεγαλέξανδρου – Περί των τόπων του σκότους",
       "count": 10,
       "roomCoverage": [
         0,
@@ -398,6 +496,39 @@
       ]
     },
     {
+      "entryId": "4-04",
+      "work": "Ελεύθεροι Πολιορκημένοι",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-07",
+      "work": "Η γυναίκα της Ζάκυθος",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "4-11",
       "work": "Τα μυστήρια της Κεφαλονιάς – Η προίκα",
       "count": 8,
@@ -428,8 +559,107 @@
       ]
     },
     {
+      "entryId": "4-13",
+      "work": "Μούχρωμα",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "4-14",
+      "work": "Φωτεινός",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "5-08",
+      "work": "Λουκής Λάρας",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "5-09",
+      "work": "Ο παπα-Νάρκισσος",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "5-11",
       "work": "Μονόλογος ευαισθήτου",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "6-02",
+      "work": "Θεία Κωμωδία – Το τέλος του Οδυσσέα",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "6-04",
+      "work": "Ο Δον Κιχώτης – κεφάλαιο 21",
       "count": 10,
       "roomCoverage": [
         0,
@@ -454,6 +684,23 @@
         3,
         4,
         6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "6-06",
+      "work": "Ο Αρχοντοχωριάτης",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
         8,
         9
       ]
@@ -621,8 +868,8 @@
     }
   ],
   "coverage": {
-    "draft-authored": 35,
-    "legacy-only-needs-rewrite": 11,
-    "not-yet-covered": 69
+    "draft-authored": 50,
+    "legacy-only-needs-rewrite": 0,
+    "not-yet-covered": 65
   }
 }
