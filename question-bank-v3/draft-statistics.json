@@ -1,55 +1,55 @@
 {
-  "draftQuestions": 868,
-  "draftWorks": 99,
-  "uniqueOptions": 2604,
-  "uniquePrompts": 868,
+  "draftQuestions": 990,
+  "draftWorks": 115,
+  "uniqueOptions": 2970,
+  "uniquePrompts": 990,
   "replacementQuestions": 251,
-  "newQuestions": 617,
+  "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
-  "coverageIfMerged": 99,
-  "projectedCountIfMerged": 868,
+  "coverageIfMerged": 115,
+  "projectedCountIfMerged": 990,
   "rooms": [
     {
       "room": 0,
-      "questions": 99
+      "questions": 115
     },
     {
       "room": 1,
-      "questions": 51
+      "questions": 54
     },
     {
       "room": 2,
-      "questions": 99
+      "questions": 115
     },
     {
       "room": 3,
-      "questions": 99
+      "questions": 115
     },
     {
       "room": 4,
-      "questions": 79
+      "questions": 85
     },
     {
       "room": 5,
-      "questions": 81
+      "questions": 94
     },
     {
       "room": 6,
-      "questions": 95
+      "questions": 110
     },
     {
       "room": 7,
-      "questions": 79
+      "questions": 91
     },
     {
       "room": 8,
-      "questions": 87
+      "questions": 96
     },
     {
       "room": 9,
-      "questions": 99
+      "questions": 115
     }
   ],
   "perWork": [
@@ -1568,6 +1568,170 @@
       ]
     },
     {
+      "entryId": "7-15",
+      "work": "Στο Σταυραΐτό",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-16",
+      "work": "Δε γυρεύω ξένο",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-17",
+      "work": "Ήρθες",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-18",
+      "work": "Ο Μπαταριάς",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-19",
+      "work": "Εστιάδες",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-20",
+      "work": "Το θέατρο",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-21",
+      "work": "Άγραφον",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-22",
+      "work": "Πνευματικό εμβατήριο",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-23",
+      "work": "Δείπνος",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-24",
+      "work": "Ιερά Οδός",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-25",
+      "work": "Στ’ όσιου Λουκά το μοναστήρι",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "7-26",
       "work": "Οι μοιραίοι",
       "count": 9,
@@ -1599,6 +1763,20 @@
       ]
     },
     {
+      "entryId": "7-28",
+      "work": "Το πέρασμά σου",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
       "entryId": "7-29",
       "work": "Οι πόνοι της Παναγιάς",
       "count": 9,
@@ -1613,12 +1791,68 @@
         8,
         9
       ]
+    },
+    {
+      "entryId": "7-30",
+      "work": "Δυο λόγια",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-31",
+      "work": "Το γλωσσικό ζήτημα κι η εκπαιδευτική μας αναγέννησις",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-32",
+      "work": "Το Ανθρωπιστικό Ιδανικό",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-33",
+      "work": "Δημιουργικός Ιστορισμός",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ]
     }
   ],
   "coverage": {
-    "draft-authored": 99,
+    "draft-authored": 115,
     "legacy-only-needs-rewrite": 0,
-    "not-yet-covered": 16
+    "not-yet-covered": 0
   },
   "periodCoverage": [
     {
@@ -1654,7 +1888,7 @@
     {
       "period": "Νέα Αθηναϊκή Σχολή",
       "total": 33,
-      "covered": 17
+      "covered": 33
     }
   ]
 }
