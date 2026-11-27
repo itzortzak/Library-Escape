@@ -2,9 +2,9 @@
   "source": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/",
   "countingConvention": "One table-of-contents entry per work/excerpt, not every internal subsection. Two separately listed excerpts of Erotokritos count separately; multiple excerpts grouped under a single entry count once. No general introductions or biographies.",
   "summary": {
-    "draft-authored": 63,
+    "draft-authored": 80,
     "legacy-only-needs-rewrite": 0,
-    "not-yet-covered": 52
+    "not-yet-covered": 35
   },
   "entries": [
     {
@@ -818,13 +818,22 @@
     {
       "id": "3-09",
       "period": "Τρίτη περίοδος (1669–1830)",
-      "author": "",
+      "author": "Αδαμάντιος Κοραής",
       "work": "Αδελφική διδασκαλία – Όσοι προΐστασθε των Γραικών",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_5.html"
     },
     {
       "id": "3-10",
@@ -832,10 +841,19 @@
       "author": "Ιωάννης Βηλαράς",
       "work": "Επιστολή στον Αθανάσιο Ψαλίδα",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html"
     },
     {
       "id": "3-11",
@@ -843,10 +861,20 @@
       "author": "Ανώνυμος",
       "work": "Έρωτος αποτελέσματα – Η Ελενίτσα",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_7.html"
     },
     {
       "id": "3-12",
@@ -895,10 +923,19 @@
       "author": "Αθανάσιος Χριστόπουλος",
       "work": "Φαγοπότι",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC5_2.html"
     },
     {
       "id": "3-15",
@@ -906,10 +943,20 @@
       "author": "Παναγής Σκουζές",
       "work": "Οι φυλακές",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_1.html"
     },
     {
       "id": "3-16",
@@ -917,10 +964,20 @@
       "author": "Παναγής Σκουζές",
       "work": "Στη Χαλκίδα πρόσφυγες",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_1.html"
     },
     {
       "id": "3-17",
@@ -928,10 +985,19 @@
       "author": "Νικόλαος Κασομούλης",
       "work": "Σκηνές από την έξοδο",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexC6_2.html"
     },
     {
       "id": "3-18",
@@ -939,10 +1005,19 @@
       "author": "Θεόδωρος Κολοκοτρώνης",
       "work": "Η μάχη στο Βαλτέτσι",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_3.html"
     },
     {
       "id": "3-19",
@@ -950,10 +1025,20 @@
       "author": "Μακρυγιάννης",
       "work": "Τέτοι’ αρετή έχουν, τέτοια φώτα μάς δίνουν",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_4.html"
     },
     {
       "id": "4-01",
@@ -961,10 +1046,19 @@
       "author": "Ανδρέας Κάλβος",
       "work": "Ο φιλόπατρις",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html"
     },
     {
       "id": "4-02",
@@ -972,10 +1066,19 @@
       "author": "Ανδρέας Κάλβος",
       "work": "Εις Αγαρηνούς",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_2.html"
     },
     {
       "id": "4-03",
@@ -983,10 +1086,19 @@
       "author": "Ανδρέας Κάλβος",
       "work": "Τα ηφαίστεια",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_3.html"
     },
     {
       "id": "4-04",
@@ -1016,10 +1128,19 @@
       "author": "Διονύσιος Σολωμός",
       "work": "Στοχασμοί του ποιητή",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexD2_1.html"
     },
     {
       "id": "4-06",
@@ -1027,10 +1148,20 @@
       "author": "Διονύσιος Σολωμός",
       "work": "Ο Πόρφυρας",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_3.html"
     },
     {
       "id": "4-07",
@@ -1061,10 +1192,18 @@
       "author": "Ιάκωβος Πολυλάς",
       "work": "Ερασιτέχνης",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 7,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html"
     },
     {
       "id": "4-09",
@@ -1072,10 +1211,19 @@
       "author": "Γεράσιμος Μαρκοράς",
       "work": "Πατρική ευτυχία",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexD4.html"
     },
     {
       "id": "4-10",
@@ -1083,10 +1231,19 @@
       "author": "Ανδρέας Λασκαράτος",
       "work": "Προβόδισμα",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 8,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_1.html"
     },
     {
       "id": "4-11",
