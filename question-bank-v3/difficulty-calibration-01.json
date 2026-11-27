@@ -1,0 +1,219 @@
+{
+  "status": "provisional editorial calibration",
+  "criteria": "Level 1: direct identification of a named or clearly indicated element, single-step comparison or selection of explicit evidence. Changes are based on the prompts, alternatives and locators; not empirical student calibration.",
+  "changes": [
+    {
+      "id": "v3-dead-brother-02",
+      "file": "bank-draft-01.json",
+      "room": 1,
+      "from": 3,
+      "to": 1,
+      "reason": "Άμεση αναγνώριση πληροφορίας γνωστής στον αναγνώστη."
+    },
+    {
+      "id": "v3-dead-brother-09",
+      "file": "bank-draft-01.json",
+      "room": 8,
+      "from": 3,
+      "to": 1,
+      "reason": "Εντοπισμός ρητής οικογενειακής συμμετοχής στην απόφαση."
+    },
+    {
+      "id": "v3-dead-brother-10",
+      "file": "bank-draft-01.json",
+      "room": 9,
+      "from": 3,
+      "to": 1,
+      "reason": "Επιλογή δύο σαφώς εντοπίσιμων δικαιολογιών."
+    },
+    {
+      "id": "v3-adrianople-02",
+      "file": "bank-draft-01.json",
+      "room": 2,
+      "from": 2,
+      "to": 1,
+      "reason": "Αναγνώριση της διάρθρωσης ενός εξάστιχου κειμένου."
+    },
+    {
+      "id": "v3-erofili-02",
+      "file": "bank-draft-01.json",
+      "room": 2,
+      "from": 2,
+      "to": 1,
+      "reason": "Εντοπισμός της βασικής σειράς του χορικού επιχειρήματος."
+    },
+    {
+      "id": "v3-erofili-06",
+      "file": "bank-draft-01.json",
+      "room": 7,
+      "from": 2,
+      "to": 1,
+      "reason": "Άμεση σύνδεση της εικόνας με την απληστία του χορικού."
+    },
+    {
+      "id": "v3-erofili-07",
+      "file": "bank-draft-01.json",
+      "room": 8,
+      "from": 2,
+      "to": 1,
+      "reason": "Αναγνώριση των ρητά παρουσιαζόμενων συνεπειών στους δεσμούς."
+    },
+    {
+      "id": "v3-abraham-02",
+      "file": "bank-draft-01.json",
+      "room": 1,
+      "from": 3,
+      "to": 1,
+      "reason": "Εντοπισμός ρητής διαφοράς γνώσης μεταξύ προσώπων."
+    },
+    {
+      "id": "v3-vilaras-doctor-09",
+      "file": "bank-draft-01.json",
+      "room": 9,
+      "from": 3,
+      "to": 1,
+      "reason": "Εντοπισμός επαναλαμβανόμενης ένδειξης που προετοιμάζει το τέλος."
+    },
+    {
+      "id": "v3-lethe-06",
+      "file": "bank-draft-01.json",
+      "room": 7,
+      "from": 3,
+      "to": 1,
+      "reason": "Αναγνώριση του συμβόλου της λησμονιάς από τα άμεσα συμφραζόμενα."
+    },
+    {
+      "id": "v3-theory-r1-03",
+      "file": "theory-draft-01.json",
+      "room": 1,
+      "from": 2,
+      "to": 1,
+      "reason": "Αναγνώριση βασικής κατηγορίας εστίασης με ρητή γνώση περισσότερων συνειδήσεων."
+    },
+    {
+      "id": "v3-theory-r2-03",
+      "file": "theory-draft-01.json",
+      "room": 2,
+      "from": 2,
+      "to": 1,
+      "reason": "Άμεση αναγνώριση αναδρομής."
+    },
+    {
+      "id": "v3-theory-r3-04",
+      "file": "theory-draft-01.json",
+      "room": 3,
+      "from": 2,
+      "to": 1,
+      "reason": "Άμεση αναγνώριση προσωποποίησης."
+    },
+    {
+      "id": "v3-theory-r4-04",
+      "file": "theory-draft-01.json",
+      "room": 4,
+      "from": 2,
+      "to": 1,
+      "reason": "Ρητή μεταβολή της στάσης του προσώπου."
+    },
+    {
+      "id": "v3-theory-r6-03",
+      "file": "theory-draft-01.json",
+      "room": 6,
+      "from": 2,
+      "to": 1,
+      "reason": "Ρητή διατύπωση των δύο αντικρουόμενων κινήτρων."
+    },
+    {
+      "id": "v3-theory-r8-03",
+      "file": "theory-draft-01.json",
+      "room": 8,
+      "from": 2,
+      "to": 1,
+      "reason": "Ρητή διατύπωση του έμφυλου περιορισμού."
+    },
+    {
+      "id": "v3-theory-r9-03",
+      "file": "theory-draft-01.json",
+      "room": 9,
+      "from": 2,
+      "to": 1,
+      "reason": "Επιλογή άμεσα διατυπωμένων σχετικών τεκμηρίων."
+    },
+    {
+      "id": "v3-theory-r1-06",
+      "file": "theory-draft-02.json",
+      "room": 1,
+      "from": 2,
+      "to": 1,
+      "reason": "Διάκριση ρητής πεποίθησης από άγνωστο γεγονός."
+    },
+    {
+      "id": "v3-theory-r2-07",
+      "file": "theory-draft-02.json",
+      "room": 2,
+      "from": 2,
+      "to": 1,
+      "reason": "Αναγνώριση της βασικής διάκρισης ευθέος και πλαγίου λόγου."
+    },
+    {
+      "id": "v3-theory-r4-08",
+      "file": "theory-draft-02.json",
+      "room": 4,
+      "from": 3,
+      "to": 1,
+      "reason": "Άμεση αντιπαραβολή δήλωσης και ενέργειας."
+    },
+    {
+      "id": "v3-theory-r7-06",
+      "file": "theory-draft-02.json",
+      "room": 7,
+      "from": 2,
+      "to": 1,
+      "reason": "Άμεση συσχέτιση αντικειμένου και ανάμνησης."
+    },
+    {
+      "id": "v3-theory-r7-10",
+      "file": "theory-draft-02.json",
+      "room": 7,
+      "from": 3,
+      "to": 1,
+      "reason": "Σαφής συσχέτιση της συμβολικής εικόνας με την καταληκτική πράξη."
+    },
+    {
+      "id": "v3-theory-r8-06",
+      "file": "theory-draft-02.json",
+      "room": 8,
+      "from": 2,
+      "to": 1,
+      "reason": "Ρητή διάκριση των δικαιωμάτων ανάλογα με την περιουσία."
+    },
+    {
+      "id": "v3-theory-r9-06",
+      "file": "theory-draft-02.json",
+      "room": 9,
+      "from": 2,
+      "to": 1,
+      "reason": "Άμεση αντιπαραβολή δύο σαφών ενεργειών."
+    }
+  ],
+  "fileRevisions": [
+    {
+      "file": "bank-draft-01.json",
+      "before": "a5871fb28ae6b800d888edbefbd4ebf1fb568c28",
+      "after": "2837fcdeff68164895a087ae76f304691d4d46c6",
+      "commit": "165836363e7afe24c3d0ae68c3a8244ad35b1c30"
+    },
+    {
+      "file": "theory-draft-01.json",
+      "before": "08fb56179f08eb797e98ac64eaab7a8107764249",
+      "after": "9fc8471347b6fb13c5b2799291a3b2f395321bef",
+      "commit": "97cc41c553effc322af2f747996505ebbbd99712"
+    },
+    {
+      "file": "theory-draft-02.json",
+      "before": "d084b9608611ea185f3700f9174e2d066c20ee6e",
+      "after": "89b7a487ce809d3b7bf98cb506fde509d9d0e09e",
+      "commit": "da4129dceb02888008d645fded8ebc50b14d2152"
+    }
+  ],
+  "limitations": "This is an initial corrective pass, not a complete item-level difficulty assessment; no changes to question/choice/answer text."
+}
