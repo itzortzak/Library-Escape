@@ -1,21 +1,21 @@
 {
-  "draftQuestions": 1062,
+  "draftQuestions": 1074,
   "draftWorks": 115,
-  "uniqueOptions": 3186,
-  "uniquePrompts": 1062,
+  "uniqueOptions": 3222,
+  "uniquePrompts": 1074,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 1062,
+  "projectedCountIfMerged": 1074,
   "rooms": [
     {
       "room": 0,
-      "questions": 120,
+      "questions": 121,
       "anthology": 119,
-      "comparative": 1
+      "comparative": 2
     },
     {
       "room": 1,
@@ -25,15 +25,15 @@
     },
     {
       "room": 2,
-      "questions": 125,
+      "questions": 126,
       "anthology": 124,
-      "comparative": 1
+      "comparative": 2
     },
     {
       "room": 3,
-      "questions": 130,
+      "questions": 132,
       "anthology": 128,
-      "comparative": 2
+      "comparative": 4
     },
     {
       "room": 4,
@@ -43,33 +43,33 @@
     },
     {
       "room": 5,
-      "questions": 95,
+      "questions": 96,
       "anthology": 94,
-      "comparative": 1
-    },
-    {
-      "room": 6,
-      "questions": 112,
-      "anthology": 110,
       "comparative": 2
     },
     {
+      "room": 6,
+      "questions": 114,
+      "anthology": 110,
+      "comparative": 4
+    },
+    {
       "room": 7,
-      "questions": 95,
+      "questions": 96,
       "anthology": 92,
-      "comparative": 3
+      "comparative": 4
     },
     {
       "room": 8,
-      "questions": 106,
+      "questions": 107,
       "anthology": 105,
-      "comparative": 1
+      "comparative": 2
     },
     {
       "room": 9,
-      "questions": 128,
+      "questions": 131,
       "anthology": 125,
-      "comparative": 3
+      "comparative": 6
     }
   ],
   "perWork": [
@@ -1919,7 +1919,7 @@
   ],
   "enrichmentQuestions": 56,
   "anthologyQuestions": 1046,
-  "comparativeQuestions": 16,
+  "comparativeQuestions": 28,
   "theoryQuestions": 0,
   "unseenQuestions": 0
 }
