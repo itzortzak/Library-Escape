@@ -29,11 +29,22 @@ for(const q of questions){
  }else{
  const entries=coverage.entries.filter(e=>q.entryId?e.id===q.entryId:(e.legacyBankTitle||e.work)===q.work);
  check(entries.length===1,q.id+' invalid anthology entry');
+ check(q.sourceUrl===entries[0].sourceUrl,q.id+' source URL differs from catalogue');
  }
 }
 for(const entry of coverage.entries){
  const qs=questions.filter(q=>q.category!=='comparative'&&q.category!=='theory'&&(q.entryId?q.entryId===entry.id:q.work===(entry.legacyBankTitle||entry.work)));
  check(entry.draftQuestions===qs.length,entry.id+' stale coverage');
+}
+check(files.length===31,'Expected 31 draft collections');
+check(questions.length===1350,'Expected 1350 questions');
+check(coverage.entries.length===115,'Expected 115 catalogue entries');
+check(questions.filter(q=>q.category==='theory').length===100,'Expected 100 theory questions');
+check(questions.filter(q=>q.category==='comparative').length===100,'Expected 100 comparative questions');
+check(questions.filter(q=>q.category!=='comparative'&&q.category!=='theory').length===1150,'Expected 1150 anthology questions');
+for(const room of Array.from({length:10},(_,i)=>i))for(const level of [1,2,3]){
+ const pool=questions.filter(q=>q.room===room&&q.level===level);
+ check(pool.length>=6,'Room '+room+' level '+level+' needs at least 6 questions for two complete sessions');
 }
 const result=runSelectionTests(questions);
 console.log(JSON.stringify({files,questions:questions.length,works:coverage.entries.filter(e=>e.draftQuestions>0).length,anthology:questions.filter(q=>q.category!=='comparative'&&q.category!=='theory').length,comparative:questions.filter(q=>q.category==='comparative').length,theory:questions.filter(q=>q.category==='theory').length,choices:questions.length*3,coverage:coverage.summary,selection:result},null,2));
