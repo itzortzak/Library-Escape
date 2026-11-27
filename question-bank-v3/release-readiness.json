@@ -10,10 +10,10 @@
   },
   "current": {
     "anthology": 1046,
-    "theory": 0,
+    "theory": 50,
     "comparative": 28,
     "unseen": 0,
-    "total": 1074
+    "total": 1124
   },
   "checks": {
     "anthologyEntries": "115/115 in draft catalogue",
@@ -48,7 +48,7 @@
         ],
         "repeatBeforeExhaustion": false
       },
-      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results."
+      "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending. These are historical results for 1062 items; 12 later comparative questions are not included in these simulation results. The first 50 theory questions are also not included in historical simulations."
     },
     "incrementalComparative02": {
       "newQuestions": 12,
@@ -73,10 +73,26 @@
       "duplicateOptions": 0,
       "invalidChoices": 0,
       "method": "Compared new collection against every prior item in three retrieval batches, with normalized Greek text. This does not establish semantic uniqueness or constitute a fresh all-pairs audit among prior collections."
+    },
+    "incrementalTheory01": {
+      "newQuestions": 50,
+      "newChoices": 150,
+      "priorQuestionsChecked": 1074,
+      "groups": [
+        427,
+        388,
+        247,
+        12
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "invalidChoices": 0,
+      "method": "Normalized Greek strings; new collection compared with all prior items in four groups. Semantic overlap and difficulty remain subject to review."
     }
   },
   "manualReview": {
-    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages",
+    "sourceAndLocatorVerification": "partial; nine additional electronic anthology entries and eight comparative pairs consulted in this cycle; not all 115 entries; six comparative pairings checked in comparative-draft-02 against six official anthology pages; first 50 theory questions use original examples and verified official HTML reference sections",
     "printPages": "pending",
     "individualPhilologicalReview": "pending",
     "distractorPlausibility": "pending",
@@ -84,10 +100,10 @@
     "categoryAndThemeReview": "pending",
     "copyrightReview": "pending",
     "browserPlaytest": "pending",
-    "integration": "pending; dual-source comparative schema and validation added",
+    "integration": "pending; dual-source comparative schema and validation added; theory category schema and validation added",
     "productionBuild": "legacy 240-question validation; requires revision",
     "releaseAndDeployment": "not performed",
-    "fullCombinedNodeValidation": "pending; historical selector runs cover 1062 items, not current 1074"
+    "fullCombinedNodeValidation": "pending; updated validator covers theory files; current 1124 items not yet tested together"
   },
   "verifiedSourceUrls": [
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
