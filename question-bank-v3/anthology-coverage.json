@@ -2,9 +2,9 @@
   "source": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/",
   "countingConvention": "One table-of-contents entry per work/excerpt, not every internal subsection. Two separately listed excerpts of Erotokritos count separately; multiple excerpts grouped under a single entry count once. No general introductions or biographies.",
   "summary": {
-    "draft-authored": 35,
-    "legacy-only-needs-rewrite": 11,
-    "not-yet-covered": 69
+    "draft-authored": 50,
+    "legacy-only-needs-rewrite": 0,
+    "not-yet-covered": 65
   },
   "entries": [
     {
@@ -305,10 +305,20 @@
       "author": "Δημοτικό τραγούδι",
       "work": "Των Κολοκοτρωναίων",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexA5_2.html"
     },
     {
       "id": "1-16",
@@ -316,10 +326,20 @@
       "author": "Δημοτικό τραγούδι",
       "work": "Των Κοντογιανναίων",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexA5_3.html"
     },
     {
       "id": "1-17",
@@ -327,10 +347,20 @@
       "author": "Ανώνυμος",
       "work": "Το έπος του Διγενή Ακρίτα – Ο θάνατος τον πολεμά",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA6_1.html"
     },
     {
       "id": "1-18",
@@ -392,10 +422,20 @@
       "author": "Ανώνυμος",
       "work": "Το ανακάλημα της Κωνσταντινόπολης",
       "legacyQuestions": 0,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "not-yet-covered",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexA9.html"
     },
     {
       "id": "2-01",
@@ -509,10 +549,21 @@
       "author": "Βιτσέντζος Κορνάρος",
       "work": "Ερωτόκριτος – Μονομαχία Κρητικού και Καραμανίτη",
       "legacyQuestions": 10,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB6_2.html"
     },
     {
       "id": "2-09",
@@ -542,10 +593,21 @@
       "author": "Ανώνυμος",
       "work": "Φυλλάδα του Μεγαλέξανδρου – Περί των τόπων του σκότους",
       "legacyQuestions": 10,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC1_1.html"
     },
     {
       "id": "3-02",
@@ -804,10 +866,20 @@
       "work": "Ελεύθεροι Πολιορκημένοι",
       "legacyBankTitle": "Ελεύθεροι Πολιορκημένοι (Σχεδίασμα Β΄, 1)",
       "legacyQuestions": 2,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 9,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html"
     },
     {
       "id": "4-05",
@@ -838,10 +910,21 @@
       "work": "Η γυναίκα της Ζάκυθος",
       "legacyBankTitle": "Η Γυναίκα της Ζάκυθος – κεφάλαιο 3",
       "legacyQuestions": 10,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_2.html"
     },
     {
       "id": "4-08",
@@ -922,10 +1005,18 @@
       "author": "Λορέντζος Μαβίλης",
       "work": "Μούχρωμα",
       "legacyQuestions": 1,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 7,
+      "draftTopics": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html"
     },
     {
       "id": "4-14",
@@ -933,10 +1024,21 @@
       "author": "Αριστοτέλης Βαλαωρίτης",
       "work": "Φωτεινός",
       "legacyQuestions": 10,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD7.html"
     },
     {
       "id": "5-01",
@@ -1021,10 +1123,21 @@
       "author": "Δημήτριος Βικέλας",
       "work": "Λουκής Λάρας",
       "legacyQuestions": 14,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html"
     },
     {
       "id": "5-09",
@@ -1032,10 +1145,21 @@
       "author": "Δημήτριος Βικέλας",
       "work": "Ο παπα-Νάρκισσος",
       "legacyQuestions": 8,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_2.html"
     },
     {
       "id": "5-10",
@@ -1098,10 +1222,21 @@
       "author": "Δάντης Αλιγκέρι",
       "work": "Θεία Κωμωδία – Το τέλος του Οδυσσέα",
       "legacyQuestions": 10,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF1.html"
     },
     {
       "id": "6-03",
@@ -1120,10 +1255,21 @@
       "author": "Μιχαήλ Θερβάντες",
       "work": "Ο Δον Κιχώτης – κεφάλαιο 21",
       "legacyQuestions": 10,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html"
     },
     {
       "id": "6-05",
@@ -1150,10 +1296,21 @@
       "author": "Μολιέρος",
       "work": "Ο Αρχοντοχωριάτης",
       "legacyQuestions": 10,
-      "draftQuestions": 0,
-      "draftTopics": [],
-      "status": "legacy-only-needs-rewrite",
-      "sourceUrl": null
+      "draftQuestions": 10,
+      "draftTopics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft-authored",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
     },
     {
       "id": "6-07",
