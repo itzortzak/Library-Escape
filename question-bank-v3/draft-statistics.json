@@ -1,20 +1,20 @@
 {
-  "draftQuestions": 1222,
+  "draftQuestions": 1250,
   "draftWorks": 115,
-  "uniqueOptions": 3666,
-  "uniquePrompts": 1222,
+  "uniqueOptions": 3750,
+  "uniquePrompts": 1250,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 1222,
+  "projectedCountIfMerged": 1250,
   "rooms": [
     {
       "room": 0,
-      "questions": 132,
-      "anthology": 120,
+      "questions": 133,
+      "anthology": 121,
       "comparative": 2,
       "theory": 10
     },
@@ -27,15 +27,15 @@
     },
     {
       "room": 2,
-      "questions": 145,
-      "anthology": 133,
+      "questions": 151,
+      "anthology": 139,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 3,
-      "questions": 158,
-      "anthology": 144,
+      "questions": 166,
+      "anthology": 152,
       "comparative": 4,
       "theory": 10
     },
@@ -48,15 +48,15 @@
     },
     {
       "room": 5,
-      "questions": 109,
-      "anthology": 97,
+      "questions": 111,
+      "anthology": 99,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 6,
-      "questions": 124,
-      "anthology": 110,
+      "questions": 125,
+      "anthology": 111,
       "comparative": 4,
       "theory": 10
     },
@@ -69,15 +69,15 @@
     },
     {
       "room": 8,
-      "questions": 122,
-      "anthology": 110,
+      "questions": 125,
+      "anthology": 113,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 9,
-      "questions": 152,
-      "anthology": 136,
+      "questions": 159,
+      "anthology": 143,
       "comparative": 6,
       "theory": 10
     }
@@ -222,7 +222,7 @@
     {
       "entryId": "1-09",
       "work": "Το κρούσος της Αντριανούπολης",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -254,7 +254,7 @@
     {
       "entryId": "1-11",
       "work": "Οι σκλάβοι των Μπαρμπαρέσων",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -479,7 +479,7 @@
     {
       "entryId": "2-04",
       "work": "Ροδολίνος – Χορικό της Γ΄ πράξης",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -609,7 +609,7 @@
     {
       "entryId": "3-03",
       "work": "Περί φθόνου",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -624,7 +624,7 @@
     {
       "entryId": "3-04",
       "work": "Από τις Διδαχές",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -639,7 +639,7 @@
     {
       "entryId": "3-05",
       "work": "Από τη χρεία να οδηγούμαστε εις τα αναγκαία",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -654,7 +654,7 @@
     {
       "entryId": "3-06",
       "work": "Η επαναστατική προκήρυξη",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -1928,8 +1928,8 @@
       "covered": 33
     }
   ],
-  "enrichmentQuestions": 104,
-  "anthologyQuestions": 1094,
+  "enrichmentQuestions": 132,
+  "anthologyQuestions": 1122,
   "comparativeQuestions": 28,
   "theoryQuestions": 100
 }
