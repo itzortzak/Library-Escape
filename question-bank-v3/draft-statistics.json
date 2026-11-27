@@ -1,55 +1,55 @@
 {
-  "draftQuestions": 463,
-  "draftWorks": 50,
-  "uniqueOptions": 1389,
-  "uniquePrompts": 463,
+  "draftQuestions": 577,
+  "draftWorks": 63,
+  "uniqueOptions": 1731,
+  "uniquePrompts": 577,
   "replacementQuestions": 251,
-  "newQuestions": 212,
+  "newQuestions": 326,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
-  "coverageIfMerged": 50,
-  "projectedCountIfMerged": 463,
+  "coverageIfMerged": 63,
+  "projectedCountIfMerged": 577,
   "rooms": [
     {
       "room": 0,
-      "questions": 50
+      "questions": 63
     },
     {
       "room": 1,
-      "questions": 31
+      "questions": 36
     },
     {
       "room": 2,
-      "questions": 50
+      "questions": 63
     },
     {
       "room": 3,
-      "questions": 50
+      "questions": 63
     },
     {
       "room": 4,
-      "questions": 46
+      "questions": 57
     },
     {
       "room": 5,
-      "questions": 46
+      "questions": 56
     },
     {
       "room": 6,
-      "questions": 50
+      "questions": 62
     },
     {
       "room": 7,
-      "questions": 42
+      "questions": 53
     },
     {
       "room": 8,
-      "questions": 48
+      "questions": 61
     },
     {
       "room": 9,
-      "questions": 50
+      "questions": 63
     }
   ],
   "perWork": [
@@ -222,6 +222,21 @@
       ]
     },
     {
+      "entryId": "1-11",
+      "work": "Οι σκλάβοι των Μπαρμπαρέσων",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "1-12",
       "work": "Της Δέσπως",
       "count": 9,
@@ -351,6 +366,22 @@
       ]
     },
     {
+      "entryId": "1-20",
+      "work": "Χρονικό",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "1-21",
       "work": "Το ανακάλημα της Κωνσταντινόπολης",
       "count": 9,
@@ -359,6 +390,22 @@
         1,
         2,
         3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-01",
+      "work": "Καταλόγια – Αν ήξευρα, κυράτσα μου",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
         5,
         6,
         7,
@@ -378,6 +425,54 @@
         5,
         6,
         7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-03",
+      "work": "Απόκοπος – Ειπέ μας αν κρατεί ουρανός",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-04",
+      "work": "Ροδολίνος – Χορικό της Γ΄ πράξης",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-05",
+      "work": "Κατζούρμπος",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
         8,
         9
       ]
@@ -450,6 +545,116 @@
     {
       "entryId": "3-01",
       "work": "Φυλλάδα του Μεγαλέξανδρου – Περί των τόπων του σκότους",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-02",
+      "work": "Χρονικό του Γαλαξιδιού",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-03",
+      "work": "Περί φθόνου",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-04",
+      "work": "Από τις Διδαχές",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-05",
+      "work": "Από τη χρεία να οδηγούμαστε εις τα αναγκαία",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-06",
+      "work": "Η επαναστατική προκήρυξη",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-07",
+      "work": "Ελληνική Νομαρχία – Η εφεύρεσις των χρημάτων",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-08",
+      "work": "Η κηδεία του Βολταίρου",
       "count": 10,
       "roomCoverage": [
         0,
@@ -868,8 +1073,45 @@
     }
   ],
   "coverage": {
-    "draft-authored": 50,
+    "draft-authored": 63,
     "legacy-only-needs-rewrite": 0,
-    "not-yet-covered": 65
-  }
+    "not-yet-covered": 52
+  },
+  "periodCoverage": [
+    {
+      "period": "Πρώτη περίοδος (10ος αι.–1453)",
+      "total": 21,
+      "covered": 21
+    },
+    {
+      "period": "Δεύτερη περίοδος (1453–1669)",
+      "total": 9,
+      "covered": 9
+    },
+    {
+      "period": "Τρίτη περίοδος (1669–1830)",
+      "total": 19,
+      "covered": 10
+    },
+    {
+      "period": "Επτανησιακή Σχολή",
+      "total": 14,
+      "covered": 6
+    },
+    {
+      "period": "Φαναριώτες και Ρομαντική Σχολή των Αθηνών",
+      "total": 12,
+      "covered": 3
+    },
+    {
+      "period": "Ξένη λογοτεχνία",
+      "total": 7,
+      "covered": 4
+    },
+    {
+      "period": "Νέα Αθηναϊκή Σχολή",
+      "total": 33,
+      "covered": 10
+    }
+  ]
 }
