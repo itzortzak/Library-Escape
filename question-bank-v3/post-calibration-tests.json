@@ -1,0 +1,195 @@
+{
+  "status": "metadata-selection-tests-passed-after-calibration",
+  "calibrationChanges": 29,
+  "files": [
+    {
+      "file": "bank-draft-01.json",
+      "before": "a5871fb28ae6b800d888edbefbd4ebf1fb568c28",
+      "after": "bb19bf373e0e417b84a2bf4120ed02e4e8b919b9",
+      "commit": "e68b2162b8dddc12c5096f6746e6d857019737f1",
+      "intermediate": "2837fcdeff68164895a087ae76f304691d4d46c6",
+      "intermediateCommit": "165836363e7afe24c3d0ae68c3a8244ad35b1c30"
+    },
+    {
+      "file": "theory-draft-01.json",
+      "before": "08fb56179f08eb797e98ac64eaab7a8107764249",
+      "after": "9fc8471347b6fb13c5b2799291a3b2f395321bef",
+      "commit": "97cc41c553effc322af2f747996505ebbbd99712"
+    },
+    {
+      "file": "theory-draft-02.json",
+      "before": "d084b9608611ea185f3700f9174e2d066c20ee6e",
+      "after": "89b7a487ce809d3b7bf98cb506fde509d9d0e09e",
+      "commit": "da4129dceb02888008d645fded8ebc50b14d2152"
+    }
+  ],
+  "verifiedChangedFileQuestionCount": 184,
+  "levels": {
+    "1": 233,
+    "2": 518,
+    "3": 599
+  },
+  "roomLevels": [
+    {
+      "room": 0,
+      "levels": {
+        "1": 110,
+        "2": 17,
+        "3": 14
+      },
+      "easyAnthology": 109
+    },
+    {
+      "room": 1,
+      "levels": {
+        "1": 6,
+        "2": 12,
+        "3": 64
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 2,
+      "levels": {
+        "1": 6,
+        "2": 117,
+        "3": 40
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 3,
+      "levels": {
+        "1": 6,
+        "2": 122,
+        "3": 57
+      },
+      "easyAnthology": 3
+    },
+    {
+      "room": 4,
+      "levels": {
+        "1": 6,
+        "2": 85,
+        "3": 20
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 5,
+      "levels": {
+        "1": 75,
+        "2": 28,
+        "3": 14
+      },
+      "easyAnthology": 73
+    },
+    {
+      "room": 6,
+      "levels": {
+        "1": 6,
+        "2": 111,
+        "3": 14
+      },
+      "easyAnthology": 3
+    },
+    {
+      "room": 7,
+      "levels": {
+        "1": 6,
+        "2": 6,
+        "3": 100
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 8,
+      "levels": {
+        "1": 6,
+        "2": 14,
+        "3": 115
+      },
+      "easyAnthology": 2
+    },
+    {
+      "room": 9,
+      "levels": {
+        "1": 6,
+        "2": 6,
+        "3": 161
+      },
+      "easyAnthology": 2
+    }
+  ],
+  "results": [
+    {
+      "level": "all",
+      "eligible": 1350,
+      "minimumRoomPool": 82,
+      "sessions": 100,
+      "distinctQuestionSets": 100,
+      "checkedSelections": 3000,
+      "correctPositions": [
+        998,
+        995,
+        1007
+      ],
+      "secondSessionRepeat": false,
+      "exhaustionSessions": 62,
+      "distinctSeen": 1350,
+      "repeatBeforeRoomExhaustion": false
+    },
+    {
+      "level": 1,
+      "eligible": 233,
+      "minimumRoomPool": 6,
+      "sessions": 100,
+      "distinctQuestionSets": 100,
+      "checkedSelections": 3000,
+      "correctPositions": [
+        975,
+        1024,
+        1001
+      ],
+      "secondSessionRepeat": false,
+      "exhaustionSessions": 37,
+      "distinctSeen": 233,
+      "repeatBeforeRoomExhaustion": false
+    },
+    {
+      "level": 2,
+      "eligible": 518,
+      "minimumRoomPool": 6,
+      "sessions": 100,
+      "distinctQuestionSets": 100,
+      "checkedSelections": 3000,
+      "correctPositions": [
+        977,
+        1025,
+        998
+      ],
+      "secondSessionRepeat": false,
+      "exhaustionSessions": 41,
+      "distinctSeen": 518,
+      "repeatBeforeRoomExhaustion": false
+    },
+    {
+      "level": 3,
+      "eligible": 599,
+      "minimumRoomPool": 14,
+      "sessions": 100,
+      "distinctQuestionSets": 100,
+      "checkedSelections": 3000,
+      "correctPositions": [
+        996,
+        988,
+        1016
+      ],
+      "secondSessionRepeat": false,
+      "exhaustionSessions": 54,
+      "distinctSeen": 599,
+      "repeatBeforeRoomExhaustion": false
+    }
+  ],
+  "method": "Mirrored selector logic; fingerprints of actual normalized choices and author/work pairs, actual question IDs and post-calibration levels; original full bank audit snapshot retained. Actual Node validator and browser tests pending."
+}
