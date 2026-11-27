@@ -1,41 +1,41 @@
 {
-  "draftQuestions": 1250,
+  "draftQuestions": 1278,
   "draftWorks": 115,
-  "uniqueOptions": 3750,
-  "uniquePrompts": 1250,
+  "uniqueOptions": 3834,
+  "uniquePrompts": 1278,
   "replacementQuestions": 251,
   "newQuestions": 739,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
   "coverageIfMerged": 115,
-  "projectedCountIfMerged": 1250,
+  "projectedCountIfMerged": 1278,
   "rooms": [
     {
       "room": 0,
-      "questions": 133,
-      "anthology": 121,
+      "questions": 134,
+      "anthology": 122,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 1,
-      "questions": 74,
-      "anthology": 62,
+      "questions": 77,
+      "anthology": 65,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 2,
-      "questions": 151,
-      "anthology": 139,
+      "questions": 154,
+      "anthology": 142,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 3,
-      "questions": 166,
-      "anthology": 152,
+      "questions": 176,
+      "anthology": 162,
       "comparative": 4,
       "theory": 10
     },
@@ -48,36 +48,36 @@
     },
     {
       "room": 5,
-      "questions": 111,
-      "anthology": 99,
+      "questions": 112,
+      "anthology": 100,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 6,
-      "questions": 125,
-      "anthology": 111,
+      "questions": 126,
+      "anthology": 112,
       "comparative": 4,
       "theory": 10
     },
     {
       "room": 7,
-      "questions": 107,
-      "anthology": 93,
+      "questions": 109,
+      "anthology": 95,
       "comparative": 4,
       "theory": 10
     },
     {
       "room": 8,
-      "questions": 125,
-      "anthology": 113,
+      "questions": 126,
+      "anthology": 114,
       "comparative": 2,
       "theory": 10
     },
     {
       "room": 9,
-      "questions": 159,
-      "anthology": 143,
+      "questions": 165,
+      "anthology": 149,
       "comparative": 6,
       "theory": 10
     }
@@ -702,7 +702,7 @@
     {
       "entryId": "3-09",
       "work": "Αδελφική διδασκαλία – Όσοι προΐστασθε των Γραικών",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         1,
@@ -717,7 +717,7 @@
     {
       "entryId": "3-10",
       "work": "Επιστολή στον Αθανάσιο Ψαλίδα",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -748,7 +748,7 @@
     {
       "entryId": "3-12",
       "work": "Σαν πεταλούδα στη φωτιά",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -779,7 +779,7 @@
     {
       "entryId": "3-14",
       "work": "Φαγοπότι",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -826,7 +826,7 @@
     {
       "entryId": "3-17",
       "work": "Σκηνές από την έξοδο",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         1,
@@ -841,7 +841,7 @@
     {
       "entryId": "3-18",
       "work": "Η μάχη στο Βαλτέτσι",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         1,
@@ -872,7 +872,7 @@
     {
       "entryId": "4-01",
       "work": "Ο φιλόπατρις",
-      "count": 8,
+      "count": 12,
       "roomCoverage": [
         0,
         2,
@@ -1928,8 +1928,8 @@
       "covered": 33
     }
   ],
-  "enrichmentQuestions": 132,
-  "anthologyQuestions": 1122,
+  "enrichmentQuestions": 160,
+  "anthologyQuestions": 1150,
   "comparativeQuestions": 28,
   "theoryQuestions": 100
 }
