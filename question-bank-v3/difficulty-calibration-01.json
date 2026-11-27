@@ -1,6 +1,6 @@
 {
   "status": "provisional editorial calibration",
-  "criteria": "Level 1: direct identification of a named or clearly indicated element, single-step comparison or selection of explicit evidence. Changes are based on the prompts, alternatives and locators; not empirical student calibration.",
+  "criteria": "Level 1: direct identification of a named or clearly indicated element, single-step comparison or selection of explicit evidence. Changes are based on the prompts, alternatives and locators; not empirical student calibration. Level 2: interpretation using an identified textual feature or combination of two explicit cues; level 3 remains reserved for more demanding inference and comparison.",
   "changes": [
     {
       "id": "v3-dead-brother-02",
@@ -193,14 +193,56 @@
       "from": 2,
       "to": 1,
       "reason": "Άμεση αντιπαραβολή δύο σαφών ενεργειών."
+    },
+    {
+      "id": "v3-adrianople-06",
+      "file": "bank-draft-01.json",
+      "room": 7,
+      "from": 3,
+      "to": 2,
+      "reason": "Ερμηνεία της προσωποποίησης της φύσης με βάση το ιστορικό πένθος."
+    },
+    {
+      "id": "v3-adrianople-08",
+      "file": "bank-draft-01.json",
+      "room": 9,
+      "from": 3,
+      "to": 2,
+      "reason": "Συσχέτιση αναγνωρίσιμων στιχουργικών γνωρισμάτων με τη δημοτική παράδοση."
+    },
+    {
+      "id": "v3-erofili-08",
+      "file": "bank-draft-01.json",
+      "room": 9,
+      "from": 3,
+      "to": 2,
+      "reason": "Αναγνώριση της μορφής της τερτσίνας μέσω της ομοιοκαταληξίας."
+    },
+    {
+      "id": "v3-abraham-09",
+      "file": "bank-draft-01.json",
+      "room": 9,
+      "from": 3,
+      "to": 2,
+      "reason": "Συσχέτιση της εναλλαγής του λόγου με τη δραματικότητα."
+    },
+    {
+      "id": "v3-vilaras-love-08",
+      "file": "bank-draft-01.json",
+      "room": 9,
+      "from": 3,
+      "to": 2,
+      "reason": "Συνδυασμός δύο εμφανών μορφολογικών γνωρισμάτων για ειδολογική σύνδεση."
     }
   ],
   "fileRevisions": [
     {
       "file": "bank-draft-01.json",
       "before": "a5871fb28ae6b800d888edbefbd4ebf1fb568c28",
-      "after": "2837fcdeff68164895a087ae76f304691d4d46c6",
-      "commit": "165836363e7afe24c3d0ae68c3a8244ad35b1c30"
+      "after": "bb19bf373e0e417b84a2bf4120ed02e4e8b919b9",
+      "commit": "e68b2162b8dddc12c5096f6746e6d857019737f1",
+      "intermediate": "2837fcdeff68164895a087ae76f304691d4d46c6",
+      "intermediateCommit": "165836363e7afe24c3d0ae68c3a8244ad35b1c30"
     },
     {
       "file": "theory-draft-01.json",
