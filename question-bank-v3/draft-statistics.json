@@ -1,0 +1,296 @@
+{
+  "draftQuestions": 143,
+  "draftWorks": 16,
+  "uniqueOptions": 429,
+  "uniquePrompts": 143,
+  "replacementQuestions": 69,
+  "newQuestions": 74,
+  "legacyQuestionsCoveredByReplacementSets": 66,
+  "legacyWorksCovered": 7,
+  "legacyQuestionsStillNotIndividuallyRewritten": 174,
+  "coverageIfMerged": 35,
+  "projectedCountIfMerged": 317,
+  "rooms": [
+    {
+      "room": 0,
+      "questions": 16
+    },
+    {
+      "room": 1,
+      "questions": 9
+    },
+    {
+      "room": 2,
+      "questions": 16
+    },
+    {
+      "room": 3,
+      "questions": 16
+    },
+    {
+      "room": 4,
+      "questions": 14
+    },
+    {
+      "room": 5,
+      "questions": 13
+    },
+    {
+      "room": 6,
+      "questions": 16
+    },
+    {
+      "room": 7,
+      "questions": 12
+    },
+    {
+      "room": 8,
+      "questions": 15
+    },
+    {
+      "room": 9,
+      "questions": 16
+    }
+  ],
+  "perWork": [
+    {
+      "work": "Του νεκρού αδελφού",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Το κρούσος της Αντριανούπολης",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Η θυσία του Αβραάμ",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Σαν πεταλούδα στη φωτιά",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Γιατρική παρηγορία",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Λήθη",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Η σατραπεία",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Απολείπειν ο Θεός Αντώνιον",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "work": "Περί φιλίας",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Της νύφης που κακοπάθησε",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Γιατί είναι μαύρα τα βουνά",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Πάρθεν η Ρωμανία",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Της Δέσπως",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Η αρπαγή της γυναίκας του Διγενή",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "work": "Ο γιος της χήρας",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}
