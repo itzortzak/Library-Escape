@@ -1,13 +1,13 @@
 {
-  "questions": 577,
+  "questions": 717,
   "rooms": 10,
   "sessions": 100,
   "checkedSelections": 3000,
   "distinctQuestionSets": 100,
   "correctOptionPositions": [
-    1001,
-    1021,
-    978
+    953,
+    1000,
+    1047
   ],
   "repeatBeforeExhaustion": false
 }
