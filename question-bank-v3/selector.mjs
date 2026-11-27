@@ -16,7 +16,31 @@ export function selectQuestions(bank,{rooms=[...new Set(bank.map(q=>q.room))],pe
 export function runSelectionTests(bank){
  const assert=(x,msg)=>{if(!x)throw Error(msg);};
  const rngFor=s=>()=>{s=(Math.imul(s,1664525)+1013904223)>>>0;return s/4294967296;};
- const rooms=[...new Set(bank.map(q=>q.room))];const signatures=new Set(),positions=[0,0,0];let checked=0;
- for(let s=1;s<=100;s++){const a=selectQuestions(bank,{rng:rngFor(s)});assert(a.length===30,"count");assert(new Set(a.map(q=>q.id)).size===a.length,"duplicate");for(const room of rooms)assert(a.filter(q=>q.room===room).length===3,"room");for(const q of a){assert(q.options.length===3&&q.options.includes(q.correct),"answer integrity");positions[q.options.indexOf(q.correct)]++;}signatures.add(a.map(q=>q.id).sort().join("|"));const b=selectQuestions(bank,{seenIds:a.map(q=>q.id),rng:rngFor(s+100)});assert(b.every(q=>!a.some(p=>p.id===q.id)),"repeat before exhaustion");checked+=a.length;}
- assert(signatures.size>90,"session variety");assert(positions.every(n=>n>0),"correct option positions");return{questions:bank.length,rooms:rooms.length,sessions:100,checkedSelections:checked,distinctQuestionSets:signatures.size,correctOptionPositions:positions,repeatBeforeExhaustion:false};
+ const rooms=[0,1,2,3,4,5,6,7,8,9], results=[];
+ for(const level of [null,1,2,3]){
+  const eligible=bank.filter(q=>level===null||q.level===level);
+  const pools=new Map(rooms.map(room=>[room,eligible.filter(q=>q.room===room)]));
+  const minPool=Math.min(...[...pools.values()].map(p=>p.length));
+  assert(minPool>=6,"insufficient level/room pool: "+level);
+  const signatures=new Set(),positions=[0,0,0];let checked=0;
+  for(let s=1;s<=100;s++){
+   const a=selectQuestions(bank,{rooms,level,rng:rngFor(s+(level||0)*100)});
+   assert(a.length===30,"count");assert(new Set(a.map(q=>q.id)).size===a.length,"duplicate");
+   for(const room of rooms)assert(a.filter(q=>q.room===room).length===3,"room");
+   for(const q of a){assert(q.options.length===3&&q.options.includes(q.correct),"answer integrity");assert(level===null||q.level===level,"wrong level");positions[q.options.indexOf(q.correct)]++;}
+   signatures.add(a.map(q=>q.id).sort().join("|"));
+   const b=selectQuestions(bank,{rooms,level,seenIds:a.map(q=>q.id),rng:rngFor(s+200+(level||0)*100)});
+   assert(b.length===30,"second count");assert(b.every(q=>!a.some(p=>p.id===q.id)),"repeat before two full sessions");checked+=a.length;
+  }
+  assert(signatures.size>90,"session variety");assert(positions.every(n=>n>0),"correct option positions");
+  const seen=new Set(),exhaustionSessions=Math.max(...[...pools.values()].map(p=>Math.ceil(p.length/3)));
+  for(let s=0;s<exhaustionSessions;s++){
+   const a=selectQuestions(bank,{rooms,level,seenIds:[...seen],rng:rngFor(s+800+(level||0)*100)});
+   for(const room of rooms){const p=pools.get(room),selected=a.filter(q=>q.room===room),remaining=p.filter(q=>!seen.has(q.id)).length;assert(selected.length===3,"cycle room count");assert(selected.filter(q=>!seen.has(q.id)).length===Math.min(remaining,selected.length),"repeat before room exhaustion");}
+   a.forEach(q=>seen.add(q.id));
+  }
+  assert(seen.size===eligible.length,"exhaustion coverage");
+  results.push({level:level??"all",questions:eligible.length,minimumRoomPool:minPool,sessions:100,checkedSelections:checked,distinctQuestionSets:signatures.size,correctOptionPositions:positions,exhaustionSessions,distinctSeen:seen.size,repeatBeforeExhaustion:false});
+ }
+ return {questions:bank.length,rooms:rooms.length,results};
 }
