@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "status": "draft—not production",
+  "category": "comparative",
+  "source": "Official electronic anthology, pairs directly consulted 2026-11-27",
+  "questions": [
+    {
+      "id": "v3-compare-solomos-nature-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-04",
+        "4-06"
+      ],
+      "author": "Διονύσιος Σολωμός / Διονύσιος Σολωμός",
+      "work": "Ελεύθεροι Πολιορκημένοι / Ο Πόρφυρας",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 7,
+      "level": 3,
+      "locator": "Ελεύθεροι Πολιορκημένοι: Β΄ Σχεδίασμα, απόσπ. 2 · Ο Πόρφυρας: Ο Πόρφυρας, αποσπ. 5 και 7",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ελεύθεροι Πολιορκημένοι — Β΄ Σχεδίασμα, απόσπ. 2· Ο Πόρφυρας — Ο Πόρφυρας, αποσπ. 5 και 7.",
+      "source": "Διονύσιος Σολωμός, «Ελεύθεροι Πολιορκημένοι»· Διονύσιος Σολωμός, «Ο Πόρφυρας», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_3.html"
+      ],
+      "sourceLocator": "Β΄ Σχεδίασμα, απόσπ. 2 / Ο Πόρφυρας, αποσπ. 5 και 7",
+      "sourceRefs": [
+        {
+          "entryId": "4-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+          "locator": "Β΄ Σχεδίασμα, απόσπ. 2"
+        },
+        {
+          "entryId": "4-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_3.html",
+          "locator": "Ο Πόρφυρας, αποσπ. 5 και 7"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφοροποίηση της σχέσης ανθρώπου και φύσης διακρίνεται ανάμεσα στους Ελεύθερους Πολιορκημένους και στον Πόρφυρα;",
+      "options": [
+        "Στους Πολιορκημένους η γοητεία της άνοιξης δοκιμάζει την απόφαση των ανθρώπων· στον Πόρφυρα η ευδαιμονία της φύσης διακόπτεται από τη βία που εκδηλώνεται μέσα της.",
+        "Και στα δύο ποιήματα η φύση παρουσιάζεται αποκλειστικά ως ενιαία εξωτερική δύναμη που επιδιώκει τη φυσική καταστροφή των ανθρώπων.",
+        "Στους Πολιορκημένους η φύση εγγυάται την ελευθερία τους, ενώ στον Πόρφυρα αποκλείεται εξαρχής κάθε εμπειρία της ομορφιάς της."
+      ],
+      "correct": "Στους Πολιορκημένους η γοητεία της άνοιξης δοκιμάζει την απόφαση των ανθρώπων· στον Πόρφυρα η ευδαιμονία της φύσης διακόπτεται από τη βία που εκδηλώνεται μέσα της.",
+      "why": "Οι ανοιξιάτικες εικόνες και η αντίθεση του φυσικού κάλλους με την απειλή στον κολυμβητή δείχνουν συγγενείς αλλά διακριτές μορφές δοκιμασίας.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-solomos-nature-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-04",
+        "4-06"
+      ],
+      "author": "Διονύσιος Σολωμός / Διονύσιος Σολωμός",
+      "work": "Ελεύθεροι Πολιορκημένοι / Ο Πόρφυρας",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 9,
+      "level": 3,
+      "locator": "Ελεύθεροι Πολιορκημένοι: Β΄ Σχεδίασμα, απόσπ. 7, σκηνή του παραθύρου · Ο Πόρφυρας: Ο Πόρφυρας, απόσπ. 8",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ελεύθεροι Πολιορκημένοι — Β΄ Σχεδίασμα, απόσπ. 7, σκηνή του παραθύρου· Ο Πόρφυρας — Ο Πόρφυρας, απόσπ. 8.",
+      "source": "Διονύσιος Σολωμός, «Ελεύθεροι Πολιορκημένοι»· Διονύσιος Σολωμός, «Ο Πόρφυρας», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_3.html"
+      ],
+      "sourceLocator": "Β΄ Σχεδίασμα, απόσπ. 7, σκηνή του παραθύρου / Ο Πόρφυρας, απόσπ. 8",
+      "sourceRefs": [
+        {
+          "entryId": "4-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+          "locator": "Β΄ Σχεδίασμα, απόσπ. 7, σκηνή του παραθύρου"
+        },
+        {
+          "entryId": "4-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_3.html",
+          "locator": "Ο Πόρφυρας, απόσπ. 8"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διατύπωση συνδέει τεκμηριωμένα την ηθική αντοχή στους Ελεύθερους Πολιορκημένους με την αυτογνωσία στον Πόρφυρα;",
+      "options": [
+        "Η συνειδητή έκθεση των γυναικών στη δοκιμασία και η έσχατη αυτογνωσία του νέου αναδεικνύουν εσωτερικές δυνατότητες που δεν ταυτίζονται με τη σωματική επιβίωση.",
+        "Η υπομονή των γυναικών και η αυτογνωσία του νέου αποτελούν αποδείξεις ότι οι αντίστοιχες εξωτερικές απειλές εξαλείφονται.",
+        "Οι δύο συνθέσεις στηρίζουν την ανθρώπινη αξιοπρέπεια μόνο στην υπεροχή της σωματικής δύναμης."
+      ],
+      "correct": "Η συνειδητή έκθεση των γυναικών στη δοκιμασία και η έσχατη αυτογνωσία του νέου αναδεικνύουν εσωτερικές δυνατότητες που δεν ταυτίζονται με τη σωματική επιβίωση.",
+      "why": "Η ενεργητική υπομονή και η φωτεινή εικόνα της αναγνώρισης του εαυτού επιτρέπουν τη συγκριτική ερμηνεία.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-gender-voice-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-11",
+        "5-04"
+      ],
+      "author": "Ανδρέας Λασκαράτος / Δημήτριος Παπαρρηγόπουλος",
+      "work": "Τα μυστήρια της Κεφαλονιάς – Η προίκα / Ασμάτιον",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Τα φύλα στη λογοτεχνία",
+      "room": 0,
+      "level": 3,
+      "locator": "Τα μυστήρια της Κεφαλονιάς – Η προίκα: Η υποθετική αντίρρηση των γονέων και η ανασκευή της · Ασμάτιον: Στίχοι 9–12",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Τα μυστήρια της Κεφαλονιάς – Η προίκα — Η υποθετική αντίρρηση των γονέων και η ανασκευή της· Ασμάτιον — Στίχοι 9–12.",
+      "source": "Ανδρέας Λασκαράτος, «Τα μυστήρια της Κεφαλονιάς – Η προίκα»· Δημήτριος Παπαρρηγόπουλος, «Ασμάτιον», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_4.html"
+      ],
+      "sourceLocator": "Η υποθετική αντίρρηση των γονέων και η ανασκευή της / Στίχοι 9–12",
+      "sourceRefs": [
+        {
+          "entryId": "4-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+          "locator": "Η υποθετική αντίρρηση των γονέων και η ανασκευή της"
+        },
+        {
+          "entryId": "5-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_4.html",
+          "locator": "Στίχοι 9–12"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η στάση του εκφέροντος τον λόγο απέναντι στις έμφυλες αντιλήψεις στην Προίκα και στο Ασμάτιον;",
+      "options": [
+        "Ο Λασκαράτος παρουσιάζει μια κοινωνική δικαιολογία για να την αντικρούσει, ενώ η ποιητική φωνή του Ασματίου διατυπώνει η ίδια μια αρνητική γενίκευση για τις γυναίκες.",
+        "Και στα δύο έργα οι έμφυλες γενικεύσεις παρατίθενται από τρίτα πρόσωπα και ανασκευάζονται ρητά.",
+        "Ο Λασκαράτος και ο Παπαρρηγόπουλος θεμελιώνουν την επιχειρηματολογία τους στην άμεση μαρτυρία μιας γυναίκας για τον γάμο της."
+      ],
+      "correct": "Ο Λασκαράτος παρουσιάζει μια κοινωνική δικαιολογία για να την αντικρούσει, ενώ η ποιητική φωνή του Ασματίου διατυπώνει η ίδια μια αρνητική γενίκευση για τις γυναίκες.",
+      "why": "Η διάκριση του υποθετικού αντίλογου από τη γνωμική ποιητική κατακλείδα είναι αναγκαία για την κριτική σύγκριση.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-gender-voice-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-11",
+        "5-04"
+      ],
+      "author": "Ανδρέας Λασκαράτος / Δημήτριος Παπαρρηγόπουλος",
+      "work": "Τα μυστήρια της Κεφαλονιάς – Η προίκα / Ασμάτιον",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Τα φύλα στη λογοτεχνία",
+      "room": 8,
+      "level": 3,
+      "locator": "Τα μυστήρια της Κεφαλονιάς – Η προίκα: Καταληκτική πρόταση για την αγωγή των κοριτσιών · Ασμάτιον: Η αναλογία της λίμνης και της γυναικείας καρδιάς",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Τα μυστήρια της Κεφαλονιάς – Η προίκα — Καταληκτική πρόταση για την αγωγή των κοριτσιών· Ασμάτιον — Η αναλογία της λίμνης και της γυναικείας καρδιάς.",
+      "source": "Ανδρέας Λασκαράτος, «Τα μυστήρια της Κεφαλονιάς – Η προίκα»· Δημήτριος Παπαρρηγόπουλος, «Ασμάτιον», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_4.html"
+      ],
+      "sourceLocator": "Καταληκτική πρόταση για την αγωγή των κοριτσιών / Η αναλογία της λίμνης και της γυναικείας καρδιάς",
+      "sourceRefs": [
+        {
+          "entryId": "4-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+          "locator": "Καταληκτική πρόταση για την αγωγή των κοριτσιών"
+        },
+        {
+          "entryId": "5-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_4.html",
+          "locator": "Η αναλογία της λίμνης και της γυναικείας καρδιάς"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική αναπαράσταση της γυναικείας βούλησης προκύπτει από τα δύο έργα;",
+      "options": [
+        "Η Προίκα υποστηρίζει την καλλιέργεια της ικανότητας επιλογής συντρόφου, ενώ το Ασμάτιον αποδίδει στις γυναίκες γενικευμένη ερωτική αστάθεια.",
+        "Και τα δύο αποδίδουν τη δυνατότητα επιλογής αποκλειστικά στον άνδρα ως επιθυμητό πρότυπο.",
+        "Και τα δύο εξηγούν την ερωτική συμπεριφορά των γυναικών αποκλειστικά με βάση τις οικονομικές επιταγές της προίκας."
+      ],
+      "correct": "Η Προίκα υποστηρίζει την καλλιέργεια της ικανότητας επιλογής συντρόφου, ενώ το Ασμάτιον αποδίδει στις γυναίκες γενικευμένη ερωτική αστάθεια.",
+      "why": "Η ρητή εκπαιδευτική πρόταση του Λασκαράτου αντιπαραβάλλεται στην ποιητική γενίκευση του Παπαρρηγόπουλου.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-mavilis-memory-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-12",
+        "4-13"
+      ],
+      "author": "Λορέντζος Μαβίλης / Λορέντζος Μαβίλης",
+      "work": "Λήθη / Μούχρωμα",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 6,
+      "level": 3,
+      "locator": "Λήθη: Λήθη, στ. 9–14 · Μούχρωμα: Μούχρωμα, στ. 6–14",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Λήθη — Λήθη, στ. 9–14· Μούχρωμα — Μούχρωμα, στ. 6–14.",
+      "source": "Λορέντζος Μαβίλης, «Λήθη»· Λορέντζος Μαβίλης, «Μούχρωμα», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html"
+      ],
+      "sourceLocator": "Λήθη, στ. 9–14 / Μούχρωμα, στ. 6–14",
+      "sourceRefs": [
+        {
+          "entryId": "4-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+          "locator": "Λήθη, στ. 9–14"
+        },
+        {
+          "entryId": "4-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+          "locator": "Μούχρωμα, στ. 6–14"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η λειτουργία της μνήμης στα δύο σονέτα του Μαβίλη;",
+      "options": [
+        "Στη Λήθη η ανάκληση των παλαιών πόνων απειλεί τη γαλήνη των νεκρών, ενώ στο Μούχρωμα η ψυχή αναπολεί πολύτιμες αλλά φθαρτές εμπειρίες.",
+        "Στα δύο σονέτα η μνήμη είναι αποκλειστικά ευχάριστη και δεν συνοδεύεται από καμία αναφορά στη φθορά.",
+        "Στη Λήθη οι αναμνήσεις συνδέονται με την προσδοκία νέου έρωτα, ενώ στο Μούχρωμα με την τιμωρία των νεκρών."
+      ],
+      "correct": "Στη Λήθη η ανάκληση των παλαιών πόνων απειλεί τη γαλήνη των νεκρών, ενώ στο Μούχρωμα η ψυχή αναπολεί πολύτιμες αλλά φθαρτές εμπειρίες.",
+      "why": "Τα διαφορετικά συμφραζόμενα της ανάκλησης του παρελθόντος δεν επιτρέπουν να αποδοθεί μία ταυτόσημη λειτουργία στη μνήμη.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-mavilis-memory-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-12",
+        "4-13"
+      ],
+      "author": "Λορέντζος Μαβίλης / Λορέντζος Μαβίλης",
+      "work": "Λήθη / Μούχρωμα",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 5,
+      "level": 3,
+      "locator": "Λήθη: Λήθη, στ. 2–6 και 12–14 · Μούχρωμα: Μούχρωμα, στ. 3–8 και 13–14",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Λήθη — Λήθη, στ. 2–6 και 12–14· Μούχρωμα — Μούχρωμα, στ. 3–8 και 13–14.",
+      "source": "Λορέντζος Μαβίλης, «Λήθη»· Λορέντζος Μαβίλης, «Μούχρωμα», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html"
+      ],
+      "sourceLocator": "Λήθη, στ. 2–6 και 12–14 / Μούχρωμα, στ. 3–8 και 13–14",
+      "sourceRefs": [
+        {
+          "entryId": "4-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+          "locator": "Λήθη, στ. 2–6 και 12–14"
+        },
+        {
+          "entryId": "4-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+          "locator": "Μούχρωμα, στ. 3–8 και 13–14"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορά εμφανίζει το σούρουπο ως ποιητικός χρόνος στα δύο σονέτα του Μαβίλη;",
+      "options": [
+        "Στη Λήθη σηματοδοτεί την ώρα μιας μυθικής διαδικασίας λησμονιάς, ενώ στο Μούχρωμα αντιστοιχεί μεταφορικά στην πορεία της ζωής προς το τέλος της.",
+        "Στη Λήθη η δύση λειτουργεί αποκλειστικά ως μεταφορά της γήρανσης, ενώ στο Μούχρωμα προσδιορίζει τη στιγμή που οι νεκροί πίνουν νερό.",
+        "Και στα δύο ποιήματα αποτελεί μόνο ουδέτερο φυσικό χρονικό δείκτη χωρίς ψυχική ή φιλοσοφική διάσταση."
+      ],
+      "correct": "Στη Λήθη σηματοδοτεί την ώρα μιας μυθικής διαδικασίας λησμονιάς, ενώ στο Μούχρωμα αντιστοιχεί μεταφορικά στην πορεία της ζωής προς το τέλος της.",
+      "why": "Ο κοινός χρονικός δείκτης εντάσσεται σε διαφορετικές ποιητικές κατασκευές.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-polylas-solomos-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-08",
+        "4-04"
+      ],
+      "author": "Ιάκωβος Πολυλάς / Διονύσιος Σολωμός",
+      "work": "Ερασιτέχνης / Ελεύθεροι Πολιορκημένοι",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 3,
+      "level": 3,
+      "locator": "Ερασιτέχνης: Ερασιτέχνης, στ. 1–4 · Ελεύθεροι Πολιορκημένοι: Ελεύθεροι Πολιορκημένοι, Β΄ Σχεδίασμα, απόσπ. 1, στ. 1–2",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερασιτέχνης — Ερασιτέχνης, στ. 1–4· Ελεύθεροι Πολιορκημένοι — Ελεύθεροι Πολιορκημένοι, Β΄ Σχεδίασμα, απόσπ. 1, στ. 1–2.",
+      "source": "Ιάκωβος Πολυλάς, «Ερασιτέχνης»· Διονύσιος Σολωμός, «Ελεύθεροι Πολιορκημένοι», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html"
+      ],
+      "sourceLocator": "Ερασιτέχνης, στ. 1–4 / Ελεύθεροι Πολιορκημένοι, Β΄ Σχεδίασμα, απόσπ. 1, στ. 1–2",
+      "sourceRefs": [
+        {
+          "entryId": "4-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+          "locator": "Ερασιτέχνης, στ. 1–4"
+        },
+        {
+          "entryId": "4-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+          "locator": "Ελεύθεροι Πολιορκημένοι, Β΄ Σχεδίασμα, απόσπ. 1, στ. 1–2"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς μετασχηματίζει ο Πολυλάς την εικόνα της απόλυτης σιωπής που θυμίζει τον Σολωμό;",
+      "options": [
+        "Η σιωπή που στον Σολωμό συνδέεται με την ακραία στέρηση γίνεται στον Πολυλά γαλήνιο πλαίσιο πνευματικής ανανέωσης.",
+        "Η σιωπή παρουσιάζεται και στα δύο αποσπάσματα ως αποτέλεσμα της πείνας του ίδιου αφηγηματικού προσώπου.",
+        "Στον Σολωμό η σιωπή δηλώνει ήρεμη φιλοσοφική ανάταση, ενώ στον Πολυλά εικόνα κοινωνικής πολιορκίας."
+      ],
+      "correct": "Η σιωπή που στον Σολωμό συνδέεται με την ακραία στέρηση γίνεται στον Πολυλά γαλήνιο πλαίσιο πνευματικής ανανέωσης.",
+      "why": "Η σχολική υποσημείωση επισημαίνει τη λεκτική συγγένεια· τα συμφραζόμενα διαφοροποιούν τη λειτουργία.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-polylas-solomos-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-08",
+        "4-04"
+      ],
+      "author": "Ιάκωβος Πολυλάς / Διονύσιος Σολωμός",
+      "work": "Ερασιτέχνης / Ελεύθεροι Πολιορκημένοι",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 9,
+      "level": 3,
+      "locator": "Ερασιτέχνης: Ερασιτέχνης, στ. 7–13 · Ελεύθεροι Πολιορκημένοι: Ελεύθεροι Πολιορκημένοι, Γ΄ Σχεδίασμα, απόσπ. 1",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερασιτέχνης — Ερασιτέχνης, στ. 7–13· Ελεύθεροι Πολιορκημένοι — Ελεύθεροι Πολιορκημένοι, Γ΄ Σχεδίασμα, απόσπ. 1.",
+      "source": "Ιάκωβος Πολυλάς, «Ερασιτέχνης»· Διονύσιος Σολωμός, «Ελεύθεροι Πολιορκημένοι», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html"
+      ],
+      "sourceLocator": "Ερασιτέχνης, στ. 7–13 / Ελεύθεροι Πολιορκημένοι, Γ΄ Σχεδίασμα, απόσπ. 1",
+      "sourceRefs": [
+        {
+          "entryId": "4-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+          "locator": "Ερασιτέχνης, στ. 7–13"
+        },
+        {
+          "entryId": "4-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+          "locator": "Ελεύθεροι Πολιορκημένοι, Γ΄ Σχεδίασμα, απόσπ. 1"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική σχέση συγκροτούν η φύση και η ποιητική αποστολή στον Ερασιτέχνη και στην αρχή του Γ΄ Σχεδιάσματος;",
+      "options": [
+        "Στον Πολυλά η γαλήνη προετοιμάζει την ποιητική θέαση ενός άλλου κόσμου, ενώ στον Σολωμό η επίκληση της θεϊκής μορφής πλαισιώνει την αποστολή να ψάλει την πολιορκία.",
+        "Και στα δύο κείμενα η ποιητική αποστολή περιορίζεται στην αντικειμενική περιγραφή ενός τοπίου.",
+        "Ο Πολυλάς αποδίδει ρητή εντολή σε θεά να εξιστορήσει την Έξοδο, ενώ ο Σολωμός δηλώνει ότι γράφει αποκλειστικά για τον νοητό κόσμο των Ιδεών."
+      ],
+      "correct": "Στον Πολυλά η γαλήνη προετοιμάζει την ποιητική θέαση ενός άλλου κόσμου, ενώ στον Σολωμό η επίκληση της θεϊκής μορφής πλαισιώνει την αποστολή να ψάλει την πολιορκία.",
+      "why": "Η καταληκτική προσδοκία του Πολυλά και η εκδοτική διευκρίνιση του Γ΄ Σχεδιάσματος προσδιορίζουν τη διαφοροποίηση.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-chatz-symbolism-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "7-16",
+        "7-17"
+      ],
+      "author": "Κωνσταντίνος Χατζόπουλος / Κωνσταντίνος Χατζόπουλος",
+      "work": "Δε γυρεύω ξένο / Ήρθες",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 1,
+      "level": 3,
+      "locator": "Δε γυρεύω ξένο: Δε γυρεύω ξένο, αρχή και προσφώνηση της αδελφής · Ήρθες: Ήρθες, αρχή και κατακλείδα",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Δε γυρεύω ξένο — Δε γυρεύω ξένο, αρχή και προσφώνηση της αδελφής· Ήρθες — Ήρθες, αρχή και κατακλείδα.",
+      "source": "Κωνσταντίνος Χατζόπουλος, «Δε γυρεύω ξένο»· Κωνσταντίνος Χατζόπουλος, «Ήρθες», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html"
+      ],
+      "sourceLocator": "Δε γυρεύω ξένο, αρχή και προσφώνηση της αδελφής / Ήρθες, αρχή και κατακλείδα",
+      "sourceRefs": [
+        {
+          "entryId": "7-16",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+          "locator": "Δε γυρεύω ξένο, αρχή και προσφώνηση της αδελφής"
+        },
+        {
+          "entryId": "7-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+          "locator": "Ήρθες, αρχή και κατακλείδα"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρει η κατανομή της πληροφορίας στις δύο συνθέσεις του Χατζόπουλου;",
+      "options": [
+        "Στο πρώτο ποίημα η αδιευκρίνιστη απώλεια εκφέρεται προσωπικά, ενώ στο δεύτερο δηλώνεται η άφιξη αλλά όχι η ταυτότητα του αποδέκτη ή η συνέχεια της παρουσίας του.",
+        "Και στα δύο ποιήματα η ταυτότητα του προσώπου προσδιορίζεται με ακρίβεια, αλλά δεν αποκαλύπτεται κανένα συμβάν.",
+        "Στο πρώτο ποίημα ο υπαίτιος της απώλειας αυτοπαρουσιάζεται, ενώ στο δεύτερο ο ταξιδιώτης εξηγεί γιατί έφθασε."
+      ],
+      "correct": "Στο πρώτο ποίημα η αδιευκρίνιστη απώλεια εκφέρεται προσωπικά, ενώ στο δεύτερο δηλώνεται η άφιξη αλλά όχι η ταυτότητα του αποδέκτη ή η συνέχεια της παρουσίας του.",
+      "why": "Οι αόριστες εκφορές και η έλλειψη αιτιώδους εξήγησης αποτελούν κοινό γνώρισμα με διαφορετική εφαρμογή.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-chatz-symbolism-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "7-16",
+        "7-17"
+      ],
+      "author": "Κωνσταντίνος Χατζόπουλος / Κωνσταντίνος Χατζόπουλος",
+      "work": "Δε γυρεύω ξένο / Ήρθες",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 2,
+      "level": 3,
+      "locator": "Δε γυρεύω ξένο: Δε γυρεύω ξένο, επαναφορά της απώλειας · Ήρθες: Ήρθες, επαναφορά του πλοίου",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Δε γυρεύω ξένο — Δε γυρεύω ξένο, επαναφορά της απώλειας· Ήρθες — Ήρθες, επαναφορά του πλοίου.",
+      "source": "Κωνσταντίνος Χατζόπουλος, «Δε γυρεύω ξένο»· Κωνσταντίνος Χατζόπουλος, «Ήρθες», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html"
+      ],
+      "sourceLocator": "Δε γυρεύω ξένο, επαναφορά της απώλειας / Ήρθες, επαναφορά του πλοίου",
+      "sourceRefs": [
+        {
+          "entryId": "7-16",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+          "locator": "Δε γυρεύω ξένο, επαναφορά της απώλειας"
+        },
+        {
+          "entryId": "7-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+          "locator": "Ήρθες, επαναφορά του πλοίου"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται το επαναλαμβανόμενο μοτίβο στην κατακλείδα των δύο ποιημάτων του Χατζόπουλου;",
+      "options": [
+        "Στο πρώτο επιμένει λεκτικά το βίωμα της απώλειας, ενώ στο δεύτερο διατηρείται η ορατή εικόνα που υποβάλλει αβεβαιότητα για την παραμονή.",
+        "Στο πρώτο η επανάληψη επιλύει το μυστήριο, ενώ στο δεύτερο επιβεβαιώνει την οριστική αναχώρηση του πλοίου.",
+        "Και στα δύο η επανάληψη παρέχει οριστική αιτιώδη εξήγηση της συναισθηματικής εμπειρίας."
+      ],
+      "correct": "Στο πρώτο επιμένει λεκτικά το βίωμα της απώλειας, ενώ στο δεύτερο διατηρείται η ορατή εικόνα που υποβάλλει αβεβαιότητα για την παραμονή.",
+      "why": "Η κυκλική διάρθρωση διατηρεί το ανοιχτό νόημα, είτε με δήλωση βιώματος είτε με οπτικό μοτίβο.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-chatz-porfyras-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "7-17",
+        "7-20"
+      ],
+      "author": "Κωνσταντίνος Χατζόπουλος / Λάμπρος Πορφύρας",
+      "work": "Ήρθες / Το θέατρο",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 1,
+      "level": 3,
+      "locator": "Ήρθες: Ήρθες, καταληκτική συλλογική θέαση · Το θέατρο: Το θέατρο, στ. 1–4 και 9–12",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ήρθες — Ήρθες, καταληκτική συλλογική θέαση· Το θέατρο — Το θέατρο, στ. 1–4 και 9–12.",
+      "source": "Κωνσταντίνος Χατζόπουλος, «Ήρθες»· Λάμπρος Πορφύρας, «Το θέατρο», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
+      ],
+      "sourceLocator": "Ήρθες, καταληκτική συλλογική θέαση / Το θέατρο, στ. 1–4 και 9–12",
+      "sourceRefs": [
+        {
+          "entryId": "7-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+          "locator": "Ήρθες, καταληκτική συλλογική θέαση"
+        },
+        {
+          "entryId": "7-20",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html",
+          "locator": "Το θέατρο, στ. 1–4 και 9–12"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορά παρατηρείται στην παρουσίαση της αντίληψης στο Ήρθες και στο Θέατρο;",
+      "options": [
+        "Στο Ήρθες η ποιητική εικόνα περιλαμβάνει το βλέμμα μιας ομάδας, ενώ στο Θέατρο η υποκειμενική μεταμόρφωση του δρόμου συνδέεται ρητά με πρωτοπρόσωπο παρατηρητή.",
+        "Στο Ήρθες ο ταξιδιώτης αφηγείται σε πρώτο πρόσωπο τη θέα του δρόμου, ενώ στο Θέατρο απουσιάζει κάθε προσωπική παρατήρηση.",
+        "Οι δύο ποιητικές φωνές αναλύουν ρητά τις σκέψεις όλων των προσώπων που βλέπουν."
+      ],
+      "correct": "Στο Ήρθες η ποιητική εικόνα περιλαμβάνει το βλέμμα μιας ομάδας, ενώ στο Θέατρο η υποκειμενική μεταμόρφωση του δρόμου συνδέεται ρητά με πρωτοπρόσωπο παρατηρητή.",
+      "why": "Ο συλλογικός δείκτης θέασης του Χατζόπουλου διακρίνεται από τις πρωτοπρόσωπες δηλώσεις του Πορφύρα.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-chatz-porfyras-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "7-17",
+        "7-20"
+      ],
+      "author": "Κωνσταντίνος Χατζόπουλος / Λάμπρος Πορφύρας",
+      "work": "Ήρθες / Το θέατρο",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 3,
+      "level": 3,
+      "locator": "Ήρθες: Ήρθες, στ. 1–4 και τελευταίοι πέντε στίχοι · Το θέατρο: Το θέατρο, στ. 1–4 και 11–12",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ήρθες — Ήρθες, στ. 1–4 και τελευταίοι πέντε στίχοι· Το θέατρο — Το θέατρο, στ. 1–4 και 11–12.",
+      "source": "Κωνσταντίνος Χατζόπουλος, «Ήρθες»· Λάμπρος Πορφύρας, «Το θέατρο», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
+      ],
+      "sourceLocator": "Ήρθες, στ. 1–4 και τελευταίοι πέντε στίχοι / Το θέατρο, στ. 1–4 και 11–12",
+      "sourceRefs": [
+        {
+          "entryId": "7-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+          "locator": "Ήρθες, στ. 1–4 και τελευταίοι πέντε στίχοι"
+        },
+        {
+          "entryId": "7-20",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html",
+          "locator": "Το θέατρο, στ. 1–4 και 11–12"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιούνται τα οπτικά μέσα υποβολής στα δύο συμβολιστικά ποιήματα;",
+      "options": [
+        "Ο Χατζόπουλος επαναφέρει το χλωμό τοπίο και το πλοίο, ενώ ο Πορφύρας αναπτύσσει συνεχείς αντιστοιχίες ανάμεσα στον δρόμο και στη θεατρική σκηνή.",
+        "Ο Χατζόπουλος οργανώνει όλες τις εικόνες γύρω από την αυλαία, ενώ ο Πορφύρας επαναφέρει την εικόνα της αναχώρησης ενός πλοίου.",
+        "Και οι δύο οργανώνουν την περιγραφή ως ακριβή τοπογραφική καταγραφή, χωρίς μεταφορά ή επαναληπτική εικόνα."
+      ],
+      "correct": "Ο Χατζόπουλος επαναφέρει το χλωμό τοπίο και το πλοίο, ενώ ο Πορφύρας αναπτύσσει συνεχείς αντιστοιχίες ανάμεσα στον δρόμο και στη θεατρική σκηνή.",
+      "why": "Οι δύο τρόποι εικονοποιίας δημιουργούν υποβλητική ατμόσφαιρα με διαφορετικούς μηχανισμούς.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-dusk-theatre-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-13",
+        "7-20"
+      ],
+      "author": "Λορέντζος Μαβίλης / Λάμπρος Πορφύρας",
+      "work": "Μούχρωμα / Το θέατρο",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 7,
+      "level": 3,
+      "locator": "Μούχρωμα: Μούχρωμα, στ. 13–14 · Το θέατρο: Το θέατρο, στ. 11–12",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Μούχρωμα — Μούχρωμα, στ. 13–14· Το θέατρο — Το θέατρο, στ. 11–12.",
+      "source": "Λορέντζος Μαβίλης, «Μούχρωμα»· Λάμπρος Πορφύρας, «Το θέατρο», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
+      ],
+      "sourceLocator": "Μούχρωμα, στ. 13–14 / Το θέατρο, στ. 11–12",
+      "sourceRefs": [
+        {
+          "entryId": "4-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+          "locator": "Μούχρωμα, στ. 13–14"
+        },
+        {
+          "entryId": "7-20",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html",
+          "locator": "Το θέατρο, στ. 11–12"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρει η συμβολική εικόνα του τέλους στο Μούχρωμα και στο Θέατρο;",
+      "options": [
+        "Στο Μούχρωμα το βαθμιαίο χάσιμο του χρώματος συσχετίζεται με τη φθορά της ζωής, ενώ στο Θέατρο η νύχτα κλείνει την εικόνα της ανθρώπινης παράστασης.",
+        "Στο Μούχρωμα η αυλαία διακόπτει μια παράσταση, ενώ στο Θέατρο η ψυχή ανακαλεί τις παλαιές αγάπες της.",
+        "Και στα δύο η δύση υποδηλώνει αναγκαστικά κυριολεκτικό θάνατο ενός κατονομασμένου χαρακτήρα."
+      ],
+      "correct": "Στο Μούχρωμα το βαθμιαίο χάσιμο του χρώματος συσχετίζεται με τη φθορά της ζωής, ενώ στο Θέατρο η νύχτα κλείνει την εικόνα της ανθρώπινης παράστασης.",
+      "why": "Οι καταληκτικές εικόνες θεμελιώνουν αναλογίες περατότητας χωρίς να ταυτίζονται οι συγκεκριμένες μεταφορές.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-dusk-theatre-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-13",
+        "7-20"
+      ],
+      "author": "Λορέντζος Μαβίλης / Λάμπρος Πορφύρας",
+      "work": "Μούχρωμα / Το θέατρο",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 9,
+      "level": 3,
+      "locator": "Μούχρωμα: Μούχρωμα, στ. 1–14 · Το θέατρο: Το θέατρο, στ. 1–12",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Μούχρωμα — Μούχρωμα, στ. 1–14· Το θέατρο — Το θέατρο, στ. 1–12.",
+      "source": "Λορέντζος Μαβίλης, «Μούχρωμα»· Λάμπρος Πορφύρας, «Το θέατρο», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
+      ],
+      "sourceLocator": "Μούχρωμα, στ. 1–14 / Το θέατρο, στ. 1–12",
+      "sourceRefs": [
+        {
+          "entryId": "4-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+          "locator": "Μούχρωμα, στ. 1–14"
+        },
+        {
+          "entryId": "7-20",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html",
+          "locator": "Το θέατρο, στ. 1–12"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια μορφολογική διαφορά δείχνει ότι η συγγένεια στην ατμόσφαιρα δεν συνεπάγεται ταυτόσημη στιχουργική μορφή;",
+      "options": [
+        "Ο Μαβίλης χρησιμοποιεί δεκατετράστιχη σονετική σύνθεση, ενώ ο Πορφύρας τρία τετράστιχα με πλεκτή ομοιοκαταληξία.",
+        "Οι δύο ποιητές χρησιμοποιούν την ίδια διάταξη δύο τετραστίχων και δύο τριστίχων.",
+        "Ο Μαβίλης γράφει ελεύθερο στίχο χωρίς ομοιοκαταληξία και ο Πορφύρας παραδοσιακή τερτσίνα."
+      ],
+      "correct": "Ο Μαβίλης χρησιμοποιεί δεκατετράστιχη σονετική σύνθεση, ενώ ο Πορφύρας τρία τετράστιχα με πλεκτή ομοιοκαταληξία.",
+      "why": "Η καταμέτρηση και η διάταξη των ομοιοκατάληκτων στίχων επιτρέπουν ανεξάρτητο μορφικό έλεγχο.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-polylas-mavilis-01",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-08",
+        "4-12"
+      ],
+      "author": "Ιάκωβος Πολυλάς / Λορέντζος Μαβίλης",
+      "work": "Ερασιτέχνης / Λήθη",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 6,
+      "level": 3,
+      "locator": "Ερασιτέχνης: Ερασιτέχνης, στ. 1–8 · Λήθη: Λήθη, στ. 12–14",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερασιτέχνης — Ερασιτέχνης, στ. 1–8· Λήθη — Λήθη, στ. 12–14.",
+      "source": "Ιάκωβος Πολυλάς, «Ερασιτέχνης»· Λορέντζος Μαβίλης, «Λήθη», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html"
+      ],
+      "sourceLocator": "Ερασιτέχνης, στ. 1–8 / Λήθη, στ. 12–14",
+      "sourceRefs": [
+        {
+          "entryId": "4-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+          "locator": "Ερασιτέχνης, στ. 1–8"
+        },
+        {
+          "entryId": "4-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+          "locator": "Λήθη, στ. 12–14"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική δυνατότητα υπέρβασης της οδύνης παρουσιάζουν οι δύο ποιητές;",
+      "options": [
+        "Ο Πολυλάς περιγράφει πρόσκαιρη πνευματική ανανέωση μέσα στη ζωή, ενώ ο Μαβίλης καταλήγει στη δυσχέρεια των ζωντανών να λησμονήσουν.",
+        "Ο Πολυλάς παρουσιάζει τη λησμονιά των νεκρών, ενώ ο Μαβίλης την ανάκτηση της ποιητικής φαντασίας στη νυχτερινή γαλήνη.",
+        "Και οι δύο καταλήγουν στη διαβεβαίωση ότι κάθε άνθρωπος μπορεί να απαλλαγεί οριστικά από τη μνήμη του πόνου."
+      ],
+      "correct": "Ο Πολυλάς περιγράφει πρόσκαιρη πνευματική ανανέωση μέσα στη ζωή, ενώ ο Μαβίλης καταλήγει στη δυσχέρεια των ζωντανών να λησμονήσουν.",
+      "why": "Η υποχώρηση των παθών στον Ερασιτέχνη αντιπαραβάλλεται στην αντίθεση επιθυμίας και δυνατότητας στη Λήθη.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-polylas-mavilis-02",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "4-08",
+        "4-12"
+      ],
+      "author": "Ιάκωβος Πολυλάς / Λορέντζος Μαβίλης",
+      "work": "Ερασιτέχνης / Λήθη",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Παράδοση και μοντερνισμός στη νεοελληνική ποίηση",
+      "room": 7,
+      "level": 3,
+      "locator": "Ερασιτέχνης: Ερασιτέχνης, στ. 9–13 · Λήθη: Λήθη, στ. 5–11",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερασιτέχνης — Ερασιτέχνης, στ. 9–13· Λήθη — Λήθη, στ. 5–11.",
+      "source": "Ιάκωβος Πολυλάς, «Ερασιτέχνης»· Λορέντζος Μαβίλης, «Λήθη», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html"
+      ],
+      "sourceLocator": "Ερασιτέχνης, στ. 9–13 / Λήθη, στ. 5–11",
+      "sourceRefs": [
+        {
+          "entryId": "4-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+          "locator": "Ερασιτέχνης, στ. 9–13"
+        },
+        {
+          "entryId": "4-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+          "locator": "Λήθη, στ. 5–11"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρει η πρόσληψη της αρχαίας παράδοσης στον Ερασιτέχνη και στη Λήθη;",
+      "options": [
+        "Ο Πολυλάς μεταπλάθει ποιητικά τη διάκριση αισθητού και νοητού, ενώ ο Μαβίλης αξιοποιεί την εικόνα του ασφοδελού λειμώνα μαζί με λαϊκές παραδόσεις της λησμονιάς.",
+        "Και τα δύο αποτελούν μεταφράσεις του ίδιου αρχαίου πλατωνικού χωρίου.",
+        "Ο Πολυλάς αφηγείται την περιπλάνηση των νεκρών στον Άδη, ενώ ο Μαβίλης περιγράφει την άμεση θέαση των νοητών Ιδεών."
+      ],
+      "correct": "Ο Πολυλάς μεταπλάθει ποιητικά τη διάκριση αισθητού και νοητού, ενώ ο Μαβίλης αξιοποιεί την εικόνα του ασφοδελού λειμώνα μαζί με λαϊκές παραδόσεις της λησμονιάς.",
+      "why": "Οι σχολικές εισαγωγές και οι συγκεκριμένες εικόνες στηρίζουν τη διάκριση διαφορετικών μορφών πρόσληψης.",
+      "note": "Συγκριτική ανάγνωση δύο σχολικών κειμένων· εκκρεμεί τελική επιμέλεια.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    }
+  ]
+}
