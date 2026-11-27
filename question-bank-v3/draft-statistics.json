@@ -1,55 +1,55 @@
 {
-  "draftQuestions": 717,
-  "draftWorks": 80,
-  "uniqueOptions": 2151,
-  "uniquePrompts": 717,
+  "draftQuestions": 868,
+  "draftWorks": 99,
+  "uniqueOptions": 2604,
+  "uniquePrompts": 868,
   "replacementQuestions": 251,
-  "newQuestions": 466,
+  "newQuestions": 617,
   "legacyQuestionsCoveredByReplacementSets": 240,
   "legacyWorksCovered": 26,
   "legacyQuestionsStillNotIndividuallyRewritten": 0,
-  "coverageIfMerged": 80,
-  "projectedCountIfMerged": 717,
+  "coverageIfMerged": 99,
+  "projectedCountIfMerged": 868,
   "rooms": [
     {
       "room": 0,
-      "questions": 80
+      "questions": 99
     },
     {
       "room": 1,
-      "questions": 45
+      "questions": 51
     },
     {
       "room": 2,
-      "questions": 80
+      "questions": 99
     },
     {
       "room": 3,
-      "questions": 80
+      "questions": 99
     },
     {
       "room": 4,
-      "questions": 69
-    },
-    {
-      "room": 5,
-      "questions": 67
-    },
-    {
-      "room": 6,
       "questions": 79
     },
     {
+      "room": 5,
+      "questions": 81
+    },
+    {
+      "room": 6,
+      "questions": 95
+    },
+    {
       "room": 7,
-      "questions": 63
+      "questions": 79
     },
     {
       "room": 8,
-      "questions": 74
+      "questions": 87
     },
     {
       "room": 9,
-      "questions": 80
+      "questions": 99
     }
   ],
   "perWork": [
@@ -1054,6 +1054,111 @@
       ]
     },
     {
+      "entryId": "5-01",
+      "work": "Επιστολή προς τον βασιλέα της Ελλάδος Όθωνα",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "5-02",
+      "work": "Η αναχώρησίς της",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "5-03",
+      "work": "Διονύσου πλους",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "5-04",
+      "work": "Ασμάτιον",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "5-05",
+      "work": "Το άσμα του Ορφέως",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "5-06",
+      "work": "Ο Πολυπαθής",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "5-07",
+      "work": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "5-08",
       "work": "Λουκής Λάρας",
       "count": 10,
@@ -1088,6 +1193,20 @@
       ]
     },
     {
+      "entryId": "5-10",
+      "work": "Αθηναϊκοί περίπατοι",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "5-11",
       "work": "Μονόλογος ευαισθήτου",
       "count": 10,
@@ -1105,6 +1224,37 @@
       ]
     },
     {
+      "entryId": "5-12",
+      "work": "Η μπογάτσα",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "6-01",
+      "work": "Το εσωτερικό διάγραμμα της Θείας Κωμωδίας",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "entryId": "6-02",
       "work": "Θεία Κωμωδία – Το τέλος του Οδυσσέα",
       "count": 10,
@@ -1115,6 +1265,21 @@
         3,
         4,
         5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "6-03",
+      "work": "Σονέτο",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
         6,
         7,
         8,
@@ -1166,6 +1331,125 @@
         6,
         7,
         8,
+        9
+      ]
+    },
+    {
+      "entryId": "6-07",
+      "work": "Βασιλιάς Ληρ",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-01",
+      "work": "Το πανηγύρι στα σπάρτα",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-02",
+      "work": "Ο δωδεκάλογος του γύφτου",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-03",
+      "work": "Σατιρικά γυμνάσματα",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-04",
+      "work": "Πατρίδες – Σαν των Φαιάκων το καράβι",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-05",
+      "work": "Πατρίδες – Πατρίδες! αέρας, γη",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-06",
+      "work": "Αγορά",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-07",
+      "work": "Τα πρωτοβρόχια",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
         9
       ]
     },
@@ -1332,9 +1616,9 @@
     }
   ],
   "coverage": {
-    "draft-authored": 80,
+    "draft-authored": 99,
     "legacy-only-needs-rewrite": 0,
-    "not-yet-covered": 35
+    "not-yet-covered": 16
   },
   "periodCoverage": [
     {
@@ -1360,17 +1644,17 @@
     {
       "period": "Φαναριώτες και Ρομαντική Σχολή των Αθηνών",
       "total": 12,
-      "covered": 3
+      "covered": 12
     },
     {
       "period": "Ξένη λογοτεχνία",
       "total": 7,
-      "covered": 4
+      "covered": 7
     },
     {
       "period": "Νέα Αθηναϊκή Σχολή",
       "total": 33,
-      "covered": 10
+      "covered": 17
     }
   ]
 }
