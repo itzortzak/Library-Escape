@@ -1,59 +1,60 @@
 {
-  "draftQuestions": 143,
-  "draftWorks": 16,
-  "uniqueOptions": 429,
-  "uniquePrompts": 143,
-  "replacementQuestions": 69,
-  "newQuestions": 74,
-  "legacyQuestionsCoveredByReplacementSets": 66,
-  "legacyWorksCovered": 7,
-  "legacyQuestionsStillNotIndividuallyRewritten": 174,
-  "coverageIfMerged": 35,
-  "projectedCountIfMerged": 317,
+  "draftQuestions": 321,
+  "draftWorks": 35,
+  "uniqueOptions": 963,
+  "uniquePrompts": 321,
+  "replacementQuestions": 145,
+  "newQuestions": 176,
+  "legacyQuestionsCoveredByReplacementSets": 145,
+  "legacyWorksCovered": 15,
+  "legacyQuestionsStillNotIndividuallyRewritten": 95,
+  "coverageIfMerged": 46,
+  "projectedCountIfMerged": 416,
   "rooms": [
     {
       "room": 0,
-      "questions": 16
+      "questions": 35
     },
     {
       "room": 1,
-      "questions": 9
+      "questions": 20
     },
     {
       "room": 2,
-      "questions": 16
+      "questions": 35
     },
     {
       "room": 3,
-      "questions": 16
+      "questions": 35
     },
     {
       "room": 4,
-      "questions": 14
+      "questions": 33
     },
     {
       "room": 5,
-      "questions": 13
+      "questions": 31
     },
     {
       "room": 6,
-      "questions": 16
+      "questions": 35
     },
     {
       "room": 7,
-      "questions": 12
+      "questions": 28
     },
     {
       "room": 8,
-      "questions": 15
+      "questions": 34
     },
     {
       "room": 9,
-      "questions": 16
+      "questions": 35
     }
   ],
   "perWork": [
     {
+      "entryId": "1-01",
       "work": "Του νεκρού αδελφού",
       "count": 10,
       "roomCoverage": [
@@ -70,134 +71,7 @@
       ]
     },
     {
-      "work": "Το κρούσος της Αντριανούπολης",
-      "count": 8,
-      "roomCoverage": [
-        0,
-        2,
-        3,
-        5,
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄",
-      "count": 8,
-      "roomCoverage": [
-        0,
-        2,
-        3,
-        4,
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Η θυσία του Αβραάμ",
-      "count": 9,
-      "roomCoverage": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Σαν πεταλούδα στη φωτιά",
-      "count": 8,
-      "roomCoverage": [
-        0,
-        2,
-        3,
-        4,
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Γιατρική παρηγορία",
-      "count": 9,
-      "roomCoverage": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Λήθη",
-      "count": 8,
-      "roomCoverage": [
-        0,
-        2,
-        3,
-        5,
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Η σατραπεία",
-      "count": 9,
-      "roomCoverage": [
-        0,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Απολείπειν ο Θεός Αντώνιον",
-      "count": 8,
-      "roomCoverage": [
-        0,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        9
-      ]
-    },
-    {
-      "work": "Περί φιλίας",
-      "count": 7,
-      "roomCoverage": [
-        0,
-        2,
-        3,
-        4,
-        6,
-        8,
-        9
-      ]
-    },
-    {
+      "entryId": "1-02",
       "work": "Της νύφης που κακοπάθησε",
       "count": 10,
       "roomCoverage": [
@@ -214,53 +88,7 @@
       ]
     },
     {
-      "work": "Γιατί είναι μαύρα τα βουνά",
-      "count": 10,
-      "roomCoverage": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Πάρθεν η Ρωμανία",
-      "count": 10,
-      "roomCoverage": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "work": "Της Δέσπως",
-      "count": 9,
-      "roomCoverage": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        8,
-        9
-      ]
-    },
-    {
+      "entryId": "1-03",
       "work": "Η αρπαγή της γυναίκας του Διγενή",
       "count": 10,
       "roomCoverage": [
@@ -277,6 +105,7 @@
       ]
     },
     {
+      "entryId": "1-04",
       "work": "Ο γιος της χήρας",
       "count": 10,
       "roomCoverage": [
@@ -291,6 +120,509 @@
         8,
         9
       ]
+    },
+    {
+      "entryId": "1-05",
+      "work": "Ο αιχμάλωτον",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-06",
+      "work": "Γιατί είναι μαύρα τα βουνά",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-07",
+      "work": "Ήλιε μου και τρισήλιε μου",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-08",
+      "work": "Η λυγερή στον Άδη",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-09",
+      "work": "Το κρούσος της Αντριανούπολης",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-10",
+      "work": "Πάρθεν η Ρωμανία",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-12",
+      "work": "Της Δέσπως",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-13",
+      "work": "Της Πάργας",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-14",
+      "work": "Της νύχτας οι αρματολοί",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-18",
+      "work": "Πτωχοπροδρομικά – μάθε το τσαγκάρην το παιδίν σου",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "1-19",
+      "work": "Λίβιστρος και Ροδάμνη – Άγουρος ποθοφλόγιστος",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-02",
+      "work": "Κυπριακά – Πάγω",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-06",
+      "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-07",
+      "work": "Η θυσία του Αβραάμ",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "2-09",
+      "work": "Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-12",
+      "work": "Σαν πεταλούδα στη φωτιά",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "3-13",
+      "work": "Γιατρική παρηγορία",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-11",
+      "work": "Τα μυστήρια της Κεφαλονιάς – Η προίκα",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "4-12",
+      "work": "Λήθη",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "5-11",
+      "work": "Μονόλογος ευαισθήτου",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "6-05",
+      "work": "Περί φιλίας",
+      "count": 7,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-08",
+      "work": "Περιμένοντας τους βαρβάρους",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-09",
+      "work": "Ιθάκη",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-10",
+      "work": "Η σατραπεία",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-11",
+      "work": "Απολείπειν ο Θεός Αντώνιον",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "entryId": "7-12",
+      "work": "Αλεξανδρινοί βασιλείς",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-13",
+      "work": "Ηγεμών εκ Δυτικής Λιβύης",
+      "count": 10,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-14",
+      "work": "Νέοι της Σιδώνος 400 μ.Χ.",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-26",
+      "work": "Οι μοιραίοι",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-27",
+      "work": "Πάλι μεθυσμένος είσαι",
+      "count": 8,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "entryId": "7-29",
+      "work": "Οι πόνοι της Παναγιάς",
+      "count": 9,
+      "roomCoverage": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
     }
-  ]
+  ],
+  "coverage": {
+    "draft-authored": 35,
+    "legacy-only-needs-rewrite": 11,
+    "not-yet-covered": 69
+  }
 }
