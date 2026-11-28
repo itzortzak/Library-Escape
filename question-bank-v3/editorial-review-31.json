@@ -14,7 +14,7 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
   ],
-  "sourceVerification": "Eight official electronic anthology pages retrieved through web access and read, covering nine works. Compared related questions from collections 01, 04, 06, 12, 13 and 16. Replaced repeated rhyme-scheme items for Λήθη and Μούχρωμα with distinct evidence/syntax items, and differentiated other overlapping prompts. Qualified the count of Ερασιτέχνης verses as specific to electronic anthology, not universal edition claim. Corrected the grammatical description of the repeated adjective in Ήρθες and distinguished observations from inferred interpretations. In Β΄ Σχεδίασμα differentiated the narrator's revision of judgment from the final mutual-learning statement.",
+  "sourceVerification": "Superseded: earlier direct-retrieval claim was not independently documented. See supplementarySourceVerification for the actual checkpoint 12 source recheck.",
   "difficultyCriteria": {
     "1": "direct recognition",
     "2": "functional interpretation",
@@ -1037,5 +1037,156 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Στίχοι 1–4, 5–8, 9–12."
       }
     }
-  ]
+  ],
+  "supplementarySourceVerification": {
+    "date": "2026-11-28",
+    "status": "Direct retrieval and editorial source recheck performed in checkpoint 12; previous unsupported direct retrieval statements superseded. Not independent approval.",
+    "reviewedQuestions": 29,
+    "checkedIds": [
+      "v3-dowry-advanced-01",
+      "v3-dowry-advanced-02",
+      "v3-dowry-advanced-03",
+      "v3-dowry-advanced-04",
+      "v3-free-advanced-01",
+      "v3-free-advanced-02",
+      "v3-free-advanced-03",
+      "v3-free-advanced-04",
+      "v3-polylas-advanced-01",
+      "v3-polylas-advanced-02",
+      "v3-polylas-advanced-03",
+      "v3-lethe-advanced-01",
+      "v3-lethe-advanced-02",
+      "v3-lethe-advanced-03",
+      "v3-dusk-advanced-01",
+      "v3-dusk-advanced-02",
+      "v3-dusk-advanced-03",
+      "v3-asma-advanced-01",
+      "v3-asma-advanced-02",
+      "v3-asma-advanced-03",
+      "v3-chatz-loss-advanced-01",
+      "v3-chatz-loss-advanced-02",
+      "v3-chatz-loss-advanced-03",
+      "v3-chatz-arrival-advanced-01",
+      "v3-chatz-arrival-advanced-02",
+      "v3-chatz-arrival-advanced-03",
+      "v3-theatre-advanced-01",
+      "v3-theatre-advanced-02",
+      "v3-theatre-advanced-03"
+    ],
+    "sources": [
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD5_2.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_1.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD3.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_1.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_4.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
+    ],
+    "findings": [
+      "Laskaratos: sacrifice, contrast, circular causality and final choice.",
+      "Solomos: school introduction on metres, fragments 6–7, speaker's judgement, reciprocal learning.",
+      "Polylas: spiritual renewal and imagination; replaced line-count item with direct final aspiration to avoid layout-dependent claim.",
+      "Mavilis: conditional structure and final contrast in Lethe; Dusk enjambment specified noun-adjective relation.",
+      "Paparrigopoulos: rhetorical analogy, generalisation and two attested learned forms.",
+      "Chatzopoulos: indefinite loss, secret motif, conjunctions and group observation.",
+      "Porfyras: restricted view, sounds and alternating rhyme."
+    ],
+    "changes": [
+      {
+        "id": "v3-polylas-advanced-03",
+        "before": {
+          "prompt": "Πόσοι στίχοι παρουσιάζονται στον Ερασιτέχνη της ηλεκτρονικής έκδοσης του σχολικού ανθολογίου;",
+          "options": [
+            "Δεκατρείς, με δύο τετράστιχα και πέντε καταληκτικούς στίχους.",
+            "Δεκατέσσερις, με δύο τετράστιχα και δύο καταληκτικά τρίστιχα.",
+            "Δώδεκα, με τρεις διαδοχικές ενότητες τεσσάρων στίχων."
+          ],
+          "correct": "Δεκατρείς, με δύο τετράστιχα και πέντε καταληκτικούς στίχους.",
+          "why": "Η συγκεκριμένη ηλεκτρονική σελίδα εμφανίζει δεκατρείς στίχους. Η παρατήρηση δεν αποτελεί ισχυρισμό για τη μορφή όλων των εκδόσεων του ποιήματος.",
+          "level": 1,
+          "locator": "Ηλεκτρονική έκδοση, σύνολο του ποιήματος",
+          "sourceLocator": "Ηλεκτρονική έκδοση, σύνολο του ποιήματος",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Ηλεκτρονική έκδοση, σύνολο του ποιήματος."
+        },
+        "after": {
+          "prompt": "Ποια προσδοκία εκφράζει ο ομιλητής του Ερασιτέχνη στους τελευταίους στίχους;",
+          "options": [
+            "Να εκφράσει την πνευματική εμπειρία με ποιητικό τραγούδι.",
+            "Να επανέλθει στην καθημερινή ζωή εγκαταλείποντας το τραγούδι.",
+            "Να περιγράψει την πνευματική εμπειρία με φιλοσοφική πραγματεία."
+          ],
+          "correct": "Να εκφράσει την πνευματική εμπειρία με ποιητικό τραγούδι.",
+          "why": "Η καταληκτική ελπίδα αφορά τη δημιουργία τραγουδιών. Αποφεύγεται η αξιολόγηση του αριθμού των στίχων μιας ηλεκτρονικής μεταγραφής, που μπορεί να επηρεάζεται από τη μορφοποίηση.",
+          "level": 1,
+          "locator": "Καταληκτικοί στίχοι, προσδοκία ποιητικής δημιουργίας",
+          "sourceLocator": "Καταληκτικοί στίχοι, προσδοκία ποιητικής δημιουργίας",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Καταληκτικοί στίχοι, προσδοκία ποιητικής δημιουργίας."
+        }
+      },
+      {
+        "id": "v3-dusk-advanced-03",
+        "before": {
+          "prompt": "Ποιο μορφοσυντακτικό στοιχείο συνδέει το δεύτερο τετράστιχο με το πρώτο τρίστιχο του Μουχρώματος;",
+          "options": [
+            "Ο διασκελισμός, καθώς ο προσδιορισμός της ανάμνησης συνεχίζεται στον επόμενο στίχο.",
+            "Η συντακτική ολοκλήρωση του τετραστίχου, καθώς το τρίστιχο αρχίζει ανεξάρτητη περίοδο.",
+            "Η αναφορική επανάληψη, καθώς το τρίστιχο αναπαράγει το ρήμα του τετραστίχου."
+          ],
+          "correct": "Ο διασκελισμός, καθώς ο προσδιορισμός της ανάμνησης συνεχίζεται στον επόμενο στίχο.",
+          "why": "Στο πέρασμα από τον όγδοο στον ένατο στίχο συνεχίζεται η ίδια συντακτική ενότητα. Έτσι το όριο των στροφών δεν συμπίπτει με το συντακτικό όριο.",
+          "level": 3,
+          "locator": "Στίχοι 8–9, μετάβαση από τα τετράστιχα στα τρίστιχα",
+          "sourceLocator": "Στίχοι 8–9, μετάβαση από τα τετράστιχα στα τρίστιχα",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Στίχοι 8–9, μετάβαση από τα τετράστιχα στα τρίστιχα."
+        },
+        "after": {
+          "prompt": "Ποιο μορφοσυντακτικό στοιχείο συνδέει το δεύτερο τετράστιχο με το πρώτο τρίστιχο του Μουχρώματος;",
+          "options": [
+            "Διασκελισμός, καθώς το επίθετο του ουσιαστικού γνώρα περνά στον επόμενο στίχο.",
+            "Συντακτική τομή, καθώς το πρώτο τρίστιχο αρχίζει μια ανεξάρτητη περίοδο.",
+            "Αναφορική επανάληψη, καθώς το τρίστιχο επαναφέρει το ρήμα του τετραστίχου."
+          ],
+          "correct": "Διασκελισμός, καθώς το επίθετο του ουσιαστικού γνώρα περνά στον επόμενο στίχο.",
+          "why": "Το ουσιαστικό γνώρα βρίσκεται στο τέλος του όγδοου στίχου και το επίθετο αξέχαστη στην αρχή του ένατου. Ο συντακτικός δεσμός υπερβαίνει το στροφικό όριο.",
+          "level": 3,
+          "locator": "Στίχοι 8–9, μετάβαση από τα τετράστιχα στα τρίστιχα",
+          "sourceLocator": "Στίχοι 8–9, μετάβαση από τα τετράστιχα στα τρίστιχα",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Στίχοι 8–9, μετάβαση από τα τετράστιχα στα τρίστιχα."
+        }
+      },
+      {
+        "id": "v3-asma-advanced-03",
+        "before": {
+          "prompt": "Ποιο ζεύγος γραμματικών τύπων του Ασματίου τεκμηριώνει τον αρχαΐζοντα χαρακτήρα της γλώσσας του;",
+          "options": [
+            "Η ονομαστική πληθυντικού στιγμαί και η μορφή διαγραφώσι με το θα.",
+            "Η ονομαστική πληθυντικού στιγμαί και ο ενεστώτας βλέπεις.",
+            "Οι τύποι βλέπεις και φεύγεις σε δεύτερο ενικό πρόσωπο."
+          ],
+          "correct": "Η ονομαστική πληθυντικού στιγμαί και η μορφή διαγραφώσι με το θα.",
+          "why": "Η λόγια ονομαστική πληθυντικού στιγμαί και ο τύπος υποτακτικής παθητικού αορίστου διαγραφώσι, που συνδυάζεται με το θα, είναι δύο σαφείς δείκτες καθαρεύουσας. Το βλέπεις και το φεύγεις απαντούν και στην κοινή νεοελληνική.",
+          "level": 2,
+          "locator": "Στίχος 7, οι δύο γραμματικοί τύποι",
+          "sourceLocator": "Στίχος 7, οι δύο γραμματικοί τύποι",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Στίχος 7, οι δύο γραμματικοί τύποι."
+        },
+        "after": {
+          "prompt": "Ποιο ζεύγος γραμματικών τύπων του Ασματίου τεκμηριώνει τον αρχαΐζοντα χαρακτήρα της γλώσσας του;",
+          "options": [
+            "Η ονομαστική πληθυντικού στιγμαί και ο ρηματικός τύπος διαγραφώσι.",
+            "Ο ενεστώτας βλέπεις και το ρήμα φεύγεις σε δεύτερο ενικό.",
+            "Η αντωνυμία σου και το επίρρημα πάλιν στην περιγραφή."
+          ],
+          "correct": "Η ονομαστική πληθυντικού στιγμαί και ο ρηματικός τύπος διαγραφώσι.",
+          "why": "Η λόγια κατάληξη της ονομαστικής πληθυντικού και ο τύπος παθητικής υποτακτικής αορίστου που χρησιμοποιείται με το θα αποτελούν σαφείς μορφολογικούς δείκτες. Οι υπόλοιποι συνδυασμοί δεν περιλαμβάνουν δύο αντίστοιχους μορφολογικούς δείκτες.",
+          "level": 2,
+          "locator": "Στίχος 7, οι δύο γραμματικοί τύποι",
+          "sourceLocator": "Στίχος 7, οι δύο γραμματικοί τύποι",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Στίχος 7, οι δύο γραμματικοί τύποι."
+        }
+      }
+    ],
+    "limitations": "Source recheck of answer keys and related prompts; exact cross-bank and executable checks to follow. No empirical difficulty calibration."
+  }
 }

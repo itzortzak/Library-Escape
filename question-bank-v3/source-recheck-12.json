@@ -1,0 +1,81 @@
+{
+  "status": "Direct anthology source recheck; prior unsubstantiated source claims corrected",
+  "date": "2026-11-28",
+  "baseCommit": "eaf76102aa918e346fae50e58eb9d95b907f36f4",
+  "collections": [
+    {
+      "collection": 16,
+      "count": 45,
+      "sourceCount": 5,
+      "changes": [
+        "v3-krystallis-01",
+        "v3-chatzopoulos-arrival-06"
+      ]
+    },
+    {
+      "collection": 17,
+      "count": 49,
+      "sourceCount": 6,
+      "changes": [
+        "v3-sikelianos-dinner-05",
+        "v3-sikelianos-loukas-02"
+      ]
+    },
+    {
+      "collection": 18,
+      "count": 28,
+      "sourceCount": 4,
+      "changes": []
+    },
+    {
+      "collection": 19,
+      "count": 27,
+      "sourceCount": 7,
+      "changes": []
+    },
+    {
+      "collection": 20,
+      "count": 29,
+      "sourceCount": 8,
+      "changes": [
+        "v3-polylas-advanced-03",
+        "v3-dusk-advanced-03",
+        "v3-asma-advanced-03"
+      ]
+    },
+    {
+      "collection": 21,
+      "count": 24,
+      "sourceCount": 6,
+      "changes": [
+        "v3-enrich21-6-05-2"
+      ]
+    },
+    {
+      "collection": 22,
+      "count": 24,
+      "sourceCount": 6,
+      "changes": [
+        "v3-enrich22-7-04-1"
+      ]
+    }
+  ],
+  "reviewedQuestions": 226,
+  "changedQuestions": [
+    "v3-krystallis-01",
+    "v3-chatzopoulos-arrival-06",
+    "v3-sikelianos-dinner-05",
+    "v3-sikelianos-loukas-02",
+    "v3-polylas-advanced-03",
+    "v3-dusk-advanced-03",
+    "v3-asma-advanced-03",
+    "v3-enrich21-6-05-2",
+    "v3-enrich22-7-04-1"
+  ],
+  "method": "Opened official source URLs in web retrieval, read the relevant primary passages and school notes, compared against question keys, and corrected selected prompts/options/explanations. All sources in per-collection records. Unchanged items retained; not independent peer review.",
+  "limits": [
+    "No empirical difficulty calibration.",
+    "Full semantic audit still outstanding.",
+    "Latest CI and cross-bank exact checks pending."
+  ]
+}

@@ -12,7 +12,7 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_5.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG10_3.html"
   ],
-  "sourceVerification": "All six official anthology pages and their accompanying introductions and exercises retrieved and read. Distinguish the recognition of visible whiteness from the ethical meaning in Άγραφον, the direct symbol from interpretive synthesis in Ιερά Οδός, the threshold rather than entry of Βαγγέλης, and the first-person plural voice from the unnamed presence in Το πέρασμά σου. Replaced a redundant emotional-development item with a language-focused item.",
+  "sourceVerification": "Superseded: earlier direct-retrieval claim was not independently documented. See supplementarySourceVerification for the actual checkpoint 12 source recheck.",
   "difficultyCriteria": {
     "1": "direct recognition",
     "2": "functional interpretation",
@@ -1671,5 +1671,142 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Η αντίθεση των δύο πρώτων στροφών με την τρίτη και την τέταρτη."
       }
     }
-  ]
+  ],
+  "supplementarySourceVerification": {
+    "date": "2026-11-28",
+    "status": "Direct retrieval and editorial source recheck performed in checkpoint 12; previous unsupported direct retrieval statements superseded. Not independent approval.",
+    "reviewedQuestions": 49,
+    "checkedIds": [
+      "v3-sikelianos-agrafon-01",
+      "v3-sikelianos-agrafon-02",
+      "v3-sikelianos-agrafon-03",
+      "v3-sikelianos-agrafon-04",
+      "v3-sikelianos-agrafon-05",
+      "v3-sikelianos-agrafon-06",
+      "v3-sikelianos-agrafon-07",
+      "v3-sikelianos-agrafon-08",
+      "v3-sikelianos-march-01",
+      "v3-sikelianos-march-02",
+      "v3-sikelianos-march-03",
+      "v3-sikelianos-march-04",
+      "v3-sikelianos-march-05",
+      "v3-sikelianos-march-06",
+      "v3-sikelianos-march-07",
+      "v3-sikelianos-march-08",
+      "v3-sikelianos-dinner-01",
+      "v3-sikelianos-dinner-02",
+      "v3-sikelianos-dinner-03",
+      "v3-sikelianos-dinner-04",
+      "v3-sikelianos-dinner-05",
+      "v3-sikelianos-dinner-06",
+      "v3-sikelianos-dinner-07",
+      "v3-sikelianos-iera-01",
+      "v3-sikelianos-iera-02",
+      "v3-sikelianos-iera-03",
+      "v3-sikelianos-iera-04",
+      "v3-sikelianos-iera-05",
+      "v3-sikelianos-iera-06",
+      "v3-sikelianos-iera-07",
+      "v3-sikelianos-iera-08",
+      "v3-sikelianos-iera-09",
+      "v3-sikelianos-loukas-01",
+      "v3-sikelianos-loukas-02",
+      "v3-sikelianos-loukas-03",
+      "v3-sikelianos-loukas-04",
+      "v3-sikelianos-loukas-05",
+      "v3-sikelianos-loukas-06",
+      "v3-sikelianos-loukas-07",
+      "v3-sikelianos-loukas-08",
+      "v3-sikelianos-loukas-09",
+      "v3-sikelianos-loukas-10",
+      "v3-varnalis-passage-01",
+      "v3-varnalis-passage-02",
+      "v3-varnalis-passage-03",
+      "v3-varnalis-passage-04",
+      "v3-varnalis-passage-05",
+      "v3-varnalis-passage-06",
+      "v3-varnalis-passage-07"
+    ],
+    "sources": [
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_1.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_2.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_3.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_4.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_5.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG10_3.html"
+    ],
+    "findings": [
+      "Agrafon: narrative and prayer, reaction of disciples, whiteness, hope and justice; introduction distinguishes apocryphal tradition.",
+      "March: repeated exhortations, need for aid, symbolic sun and cultivation.",
+      "Dinner: sensory analogies and final coexistence of calm and anxiety; corrected misleading explanation of reappearance of pain.",
+      "Iera Odos: first-person encounter, imagined awareness of animals, maternal figures, timelessness and hope.",
+      "Hosios Loukas: soldier remains at threshold; corrected prompt; first-person witness and ritual/human grief.",
+      "Varnalis: reciprocal grammatical roles, four stanzas, unnamed arrival and temporary joy."
+    ],
+    "changes": [
+      {
+        "id": "v3-sikelianos-dinner-05",
+        "before": {
+          "prompt": "Ποια συναισθηματική εξέλιξη διακρίνεται στον Δείπνο του Σικελιανού;",
+          "options": [
+            "Η γαλήνη της συντροφιάς συνυπάρχει στο τέλος με σιωπηλή αγωνία.",
+            "Η σιωπηλή αγωνία της συντροφιάς παραχωρεί τελικά τη θέση της στη γαλήνη.",
+            "Η γαλήνη της συντροφιάς διακόπτεται από έντονη διαφωνία των προσώπων."
+          ],
+          "correct": "Η γαλήνη της συντροφιάς συνυπάρχει στο τέλος με σιωπηλή αγωνία.",
+          "why": "Η καταληκτική εικόνα του φεγγαριού συνδέεται με την επανεμφάνιση του πόνου μέσα στην αρμονία.",
+          "level": 2,
+          "locator": "Η γαλήνη και η καταληκτική αγωνία",
+          "sourceLocator": "Η γαλήνη και η καταληκτική αγωνία",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Η γαλήνη και η καταληκτική αγωνία."
+        },
+        "after": {
+          "prompt": "Ποια συναισθηματική εξέλιξη διακρίνεται στον Δείπνο του Σικελιανού;",
+          "options": [
+            "Η γαλήνη της συντροφιάς συνυπάρχει στο τέλος με σιωπηλή αγωνία.",
+            "Η σιωπηλή αγωνία της συντροφιάς παραχωρεί τελικά τη θέση της στη γαλήνη.",
+            "Η γαλήνη της συντροφιάς διακόπτεται από έντονη διαφωνία των προσώπων."
+          ],
+          "correct": "Η γαλήνη της συντροφιάς συνυπάρχει στο τέλος με σιωπηλή αγωνία.",
+          "why": "Η κατακλείδα συνδέει τη δύση του φεγγαριού με τον πόνο που κατεβαίνει και με την αγωνία που πυρώνεται. Η ανάγνωση της συνύπαρξης γαλήνης και αγωνίας δεν απαιτεί να υποθέσουμε ότι ο πόνος είχε προηγουμένως εξαφανιστεί.",
+          "level": 2,
+          "locator": "Η γαλήνη και η καταληκτική αγωνία",
+          "sourceLocator": "Η γαλήνη και η καταληκτική αγωνία",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Η γαλήνη και η καταληκτική αγωνία."
+        }
+      },
+      {
+        "id": "v3-sikelianos-loukas-02",
+        "before": {
+          "prompt": "Τι ανατρέπει η είσοδος του Βαγγέλη στο οπτικό πεδίο της κοινότητας;",
+          "options": [
+            "Την πεποίθηση ότι χάθηκε στον πόλεμο, ενώ αποκαλύπτεται η αναπηρία του.",
+            "Την πεποίθηση ότι είχε επιστρέψει σώος πριν από την τελετή.",
+            "Την πεποίθηση ότι είχε παραμείνει στο χωριό και δεν είχε πολεμήσει."
+          ],
+          "correct": "Την πεποίθηση ότι χάθηκε στον πόλεμο, ενώ αποκαλύπτεται η αναπηρία του.",
+          "why": "Η αιφνίδια εμφάνισή του στο κατώφλι διαψεύδει την προηγούμενη πεποίθηση και αποκαλύπτει τη σωματική συνέπεια του πολέμου.",
+          "level": 2,
+          "locator": "Η άφιξη του Βαγγέλη και η προηγούμενη πεποίθηση των χωριανών",
+          "sourceLocator": "Η άφιξη του Βαγγέλη και η προηγούμενη πεποίθηση των χωριανών",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Η άφιξη του Βαγγέλη και η προηγούμενη πεποίθηση των χωριανών."
+        },
+        "after": {
+          "prompt": "Ποια πεποίθηση ανατρέπει η αιφνίδια εμφάνιση του Βαγγέλη στο κατώφλι του ναού;",
+          "options": [
+            "Την πεποίθηση ότι χάθηκε στον πόλεμο, ενώ αποκαλύπτεται η αναπηρία του.",
+            "Την πεποίθηση ότι είχε επιστρέψει σώος πριν από την τελετή.",
+            "Την πεποίθηση ότι είχε παραμείνει στο χωριό και δεν είχε πολεμήσει."
+          ],
+          "correct": "Την πεποίθηση ότι χάθηκε στον πόλεμο, ενώ αποκαλύπτεται η αναπηρία του.",
+          "why": "Η αιφνίδια εμφάνισή του στο κατώφλι διαψεύδει την προηγούμενη πεποίθηση και αποκαλύπτει τη σωματική συνέπεια του πολέμου.",
+          "level": 2,
+          "locator": "Η άφιξη του Βαγγέλη και η προηγούμενη πεποίθηση των χωριανών",
+          "sourceLocator": "Η άφιξη του Βαγγέλη και η προηγούμενη πεποίθηση των χωριανών",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Η άφιξη του Βαγγέλη και η προηγούμενη πεποίθηση των χωριανών."
+        }
+      }
+    ],
+    "limitations": "Source recheck of answer keys and related prompts; exact cross-bank and executable checks to follow. No empirical difficulty calibration."
+  }
 }

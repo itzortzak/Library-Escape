@@ -12,7 +12,7 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html"
   ],
-  "sourceVerification": "Direct retrieval of all six official anthology pages in this execution, including complete relevant primary text and school notes. Compared questions in collections 15 and 18. Replaced overlapping items with distinct prompts on the Asia/Europe contrast, biblical/Homeric parallels as parallels rather than proven borrowings, poetic extension beyond Empedocles, Psycharis's dual affiliation, Fotiadis's unification of issues, Delmouzos's work/dignity relationship, and Glinos's concrete linguistic classicism example. Source text supports each correct choice; final Glinos paragraph indicates usually one primary creative field with effects on related fields, not necessarily reciprocal causation.",
+  "sourceVerification": "Superseded: earlier direct-retrieval claim was not independently documented. See supplementarySourceVerification for the actual checkpoint 12 source recheck.",
   "sourceEvidence": [
     {
       "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
@@ -909,5 +909,86 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Παράγραφος για τον γενικό ή περιορισμένο χαρακτήρα της δημιουργικής ζύμωσης."
       }
     }
-  ]
+  ],
+  "supplementarySourceVerification": {
+    "date": "2026-11-28",
+    "status": "Direct retrieval and editorial source recheck performed in checkpoint 12; previous unsupported direct retrieval statements superseded. Not independent approval.",
+    "reviewedQuestions": 24,
+    "checkedIds": [
+      "v3-enrich22-7-04-1",
+      "v3-enrich22-7-04-2",
+      "v3-enrich22-7-04-3",
+      "v3-enrich22-7-04-4",
+      "v3-enrich22-7-05-1",
+      "v3-enrich22-7-05-2",
+      "v3-enrich22-7-05-3",
+      "v3-enrich22-7-05-4",
+      "v3-enrich22-7-30-1",
+      "v3-enrich22-7-30-2",
+      "v3-enrich22-7-30-3",
+      "v3-enrich22-7-30-4",
+      "v3-enrich22-7-31-1",
+      "v3-enrich22-7-31-2",
+      "v3-enrich22-7-31-3",
+      "v3-enrich22-7-31-4",
+      "v3-enrich22-7-32-1",
+      "v3-enrich22-7-32-2",
+      "v3-enrich22-7-32-3",
+      "v3-enrich22-7-32-4",
+      "v3-enrich22-7-33-1",
+      "v3-enrich22-7-33-2",
+      "v3-enrich22-7-33-3",
+      "v3-enrich22-7-33-4"
+    ],
+    "sources": [
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG1_5.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html"
+    ],
+    "findings": [
+      "Palamas: actual verses 1–14 and notes on Columbus, Asia/Europe, biblical and Homeric parallels; corrected grammatical referent of Columbus question.",
+      "Palamas: elements and lyre; distinguish Empedocles note from poem.",
+      "Psycharis: prologue's borders, readers, France/Greece and responsibility for quality.",
+      "Fotiadis: opening disclaimer, quoted learned phrases, social change, unified issue.",
+      "Delmouzos: individual/people analogy, capacities, social positions and dignity.",
+      "Glinos: class dominance, historical extent of worldwide, linguistic classicism and related fields."
+    ],
+    "changes": [
+      {
+        "id": "v3-enrich22-7-04-1",
+        "before": {
+          "prompt": "Ποια ιδιότητα της φαντασίας αναδεικνύει ειδικότερα η μεταφορική αναφορά στον Κολόμβο;",
+          "options": [
+            "Τη συνεχή αναζήτηση νέων πεδίων πνευματικής εμπειρίας.",
+            "Την επιστροφή της σκέψης στις ήδη γνωστές εμπειρίες.",
+            "Την επιθυμία της σκέψης να αποκτήσει ναυτικές γνώσεις."
+          ],
+          "correct": "Τη συνεχή αναζήτηση νέων πεδίων πνευματικής εμπειρίας.",
+          "why": "Ο Κολόμβος λειτουργεί ως μεταφορική μορφή εξερευνητή και όχι ως πρόσωπο μιας ιστορικής αφήγησης.",
+          "level": 2,
+          "locator": "Στίχος 8 και σχολική υποσημείωση για τον Κολόμβο",
+          "sourceLocator": "Στίχος 8 και σχολική υποσημείωση για τον Κολόμβο",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Στίχος 8 και σχολική υποσημείωση για τον Κολόμβο."
+        },
+        "after": {
+          "prompt": "Ποια ιδιότητα του ποιητικού υποκειμένου αναδεικνύει η μεταφορική αναφορά στον Κολόμβο;",
+          "options": [
+            "Τη συνεχή αναζήτηση νέων πεδίων πνευματικής εμπειρίας.",
+            "Την επιστροφή της σκέψης στις ήδη γνωστές εμπειρίες.",
+            "Την επιθυμία της σκέψης να αποκτήσει ναυτικές γνώσεις."
+          ],
+          "correct": "Τη συνεχή αναζήτηση νέων πεδίων πνευματικής εμπειρίας.",
+          "why": "Ο ομιλητής παρουσιάζεται να ακολουθεί διαρκώς έναν μεταφορικό εξερευνητή· η σχολική υποσημείωση επιβεβαιώνει τη μεταφορική χρήση του ονόματος.",
+          "level": 2,
+          "locator": "Στίχος 8 και σχολική υποσημείωση για τον Κολόμβο",
+          "sourceLocator": "Στίχος 8 και σχολική υποσημείωση για τον Κολόμβο",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Στίχος 8 και σχολική υποσημείωση για τον Κολόμβο."
+        }
+      }
+    ],
+    "limitations": "Source recheck of answer keys and related prompts; exact cross-bank and executable checks to follow. No empirical difficulty calibration."
+  }
 }

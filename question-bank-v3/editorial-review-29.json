@@ -10,7 +10,7 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html"
   ],
-  "sourceVerification": "Four official anthology pages retrieved and primary texts read, including the explicit editorial boundary between the summary and the primary excerpt of Γληνός. Distinguish the two types of historicism from the two responses to tradition in periods of creative ferment. In Ψυχάρης distinguish borrowing from invention and the rhetorical first person from autobiographical factual reporting. In Φωτιάδης attribute the distinction of mother tongue and foreign language explicitly to the author. In Δελμούζος distinguish equality of rights from uniformity of capacities and historical social privilege.",
+  "sourceVerification": "Superseded: earlier direct-retrieval claim was not independently documented. See supplementarySourceVerification for the actual checkpoint 12 source recheck.",
   "difficultyCriteria": {
     "1": "direct recognition",
     "2": "functional interpretation",
@@ -1011,7 +1011,7 @@
   ],
   "supplementarySourceVerification": {
     "date": "2026-11-28",
-    "status": "Direct source retrieval and review completed in checkpoint 11; this supersedes the previously unsupported direct retrieval claim.",
+    "status": "Direct retrieval and editorial source recheck performed in checkpoint 12; previous unsupported direct retrieval statements superseded. Not independent approval.",
     "reviewedQuestions": 28,
     "checkedIds": [
       "v3-psycharis-01",
@@ -1050,11 +1050,12 @@
       "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html"
     ],
     "findings": [
-      "Psycharis: the prologue's opening national aim, dual affiliation, methodological explanation, borrowing condition, educational proposal, literary character and final accessibility aim support the revised answer keys.",
-      "Fotiadis: the excerpt's initial exchange thesis, educational role, organic metaphor, progressive and conservative functions, exhortation to surpass ancestors and final mother-tongue distinction support the revised answers.",
-      "Delmouzos: the primary excerpt supports the definition, analogy, anti-demagoguery comparison, civic duties, equality and differences, and equal rights of peoples.",
-      "Glinos: the introduction explicitly distinguishes editorial summary from the primary excerpt; the primary excerpt supports the seven revised answers, including two reactions, organic and constraining metaphors, historical conditions of diffusion, social groups and the Rousseau language example."
+      "Psycharis: opening purpose, language method, criticism, creative nature of travel and accessibility.",
+      "Fotiadis: reciprocity, education, social development, present self, mother-tongue distinction.",
+      "Delmouzos: definition of humanism, critical judgement, duties, rights and differences.",
+      "Glinos: explicitly marked summary/primary boundary, two reactions, metaphors, historical and social argument, Rousseau example."
     ],
-    "limitations": "First direct source recheck, not independent second-reader approval; no changes to answer keys in collection 18."
+    "changes": [],
+    "limitations": "Source recheck of answer keys and related prompts; exact cross-bank and executable checks to follow. No empirical difficulty calibration."
   }
 }

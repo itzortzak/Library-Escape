@@ -13,7 +13,7 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_4.html"
   ],
-  "sourceVerification": "All seven official anthology pages actually retrieved and relevant passages and school notes read. Corrected the location of the Erofili closing lines (choral excerpt, not the whole tragedy); distinguished the editorial attribution of Porfyras 6 from first-person form; separated narrated action and inferred motive in PolyPathis; clarified dramatic aside and advance decision to divide the kingdom in Lear; distinguished poetic analogy from historical proof and individual cruelty from ethnic generalization in Iera Odos.",
+  "sourceVerification": "Superseded: earlier direct-retrieval claim was not independently documented. See supplementarySourceVerification for the actual checkpoint 12 source recheck.",
   "difficultyCriteria": {
     "1": "direct recognition",
     "2": "functional interpretation",
@@ -976,5 +976,59 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Ιερά Οδός, στ. 48–54."
       }
     }
-  ]
+  ],
+  "supplementarySourceVerification": {
+    "date": "2026-11-28",
+    "status": "Direct retrieval and editorial source recheck performed in checkpoint 12; previous unsupported direct retrieval statements superseded. Not independent approval.",
+    "reviewedQuestions": 27,
+    "checkedIds": [
+      "v3-erofili-deep-01",
+      "v3-erofili-deep-02",
+      "v3-erofili-deep-03",
+      "v3-erofili-deep-04",
+      "v3-elenitsa-deep-01",
+      "v3-elenitsa-deep-02",
+      "v3-elenitsa-deep-03",
+      "v3-elenitsa-deep-04",
+      "v3-porfyras-deep-01",
+      "v3-porfyras-deep-02",
+      "v3-porfyras-deep-03",
+      "v3-porfyras-deep-04",
+      "v3-zalokostas-deep-01",
+      "v3-zalokostas-deep-02",
+      "v3-zalokostas-deep-03",
+      "v3-palaiologos-deep-01",
+      "v3-palaiologos-deep-02",
+      "v3-palaiologos-deep-03",
+      "v3-palaiologos-deep-04",
+      "v3-lear-deep-01",
+      "v3-lear-deep-02",
+      "v3-lear-deep-03",
+      "v3-lear-deep-04",
+      "v3-iera-deep-01",
+      "v3-iera-deep-02",
+      "v3-iera-deep-03",
+      "v3-iera-deep-04"
+    ],
+    "sources": [
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_7.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD2_3.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE_2.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE7.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_4.html"
+    ],
+    "findings": [
+      "Erofili: Act III scene V chorus, appetites, direct address, general condemnation and final relationships.",
+      "Elenitsa: narrator transition, asymmetric knowledge, value judgement, advance announcement.",
+      "Porfyras: second fragment's ranking, editorial note on sixth, lacunae, final recognition.",
+      "Zalokostas: three waves and no stated motive for departure.",
+      "PolyPathis: narrated refusal and motive, hypothetical reader objection and irony, legal/economic disparity.",
+      "Lear: division, speeches and asides in Act I scene I.",
+      "Iera Odos: framing similes, interpreted consciousness, final shared hope, mother imagery."
+    ],
+    "changes": [],
+    "limitations": "Source recheck of answer keys and related prompts; exact cross-bank and executable checks to follow. No empirical difficulty calibration."
+  }
 }

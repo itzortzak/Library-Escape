@@ -11,7 +11,7 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG7.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
   ],
-  "sourceVerification": "Read six poems and accompanying school commentary on five official anthology pages. Corrected poetic address vs repeated verb, extended simile vs metaphor, placement of contemporary youth reference, gate vs interior of temple, and interpretive modality. Individually revised all answer sets.",
+  "sourceVerification": "Superseded: earlier direct-retrieval claim was not independently documented. See supplementarySourceVerification for the actual checkpoint 12 source recheck.",
   "difficultyCriteria": {
     "1": "direct recognition",
     "2": "functional interpretation",
@@ -1447,5 +1447,136 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Το πραγματικό σκηνικό και οι θεατρικές αντιστοιχίες."
       }
     }
-  ]
+  ],
+  "supplementarySourceVerification": {
+    "date": "2026-11-28",
+    "status": "Direct retrieval and editorial source recheck performed in checkpoint 12; previous unsupported direct retrieval statements superseded. Not independent approval.",
+    "reviewedQuestions": 45,
+    "checkedIds": [
+      "v3-krystallis-01",
+      "v3-krystallis-02",
+      "v3-krystallis-03",
+      "v3-krystallis-04",
+      "v3-krystallis-05",
+      "v3-krystallis-06",
+      "v3-krystallis-07",
+      "v3-chatzopoulos-loss-01",
+      "v3-chatzopoulos-loss-02",
+      "v3-chatzopoulos-loss-03",
+      "v3-chatzopoulos-loss-04",
+      "v3-chatzopoulos-loss-05",
+      "v3-chatzopoulos-loss-06",
+      "v3-chatzopoulos-loss-07",
+      "v3-chatzopoulos-arrival-01",
+      "v3-chatzopoulos-arrival-02",
+      "v3-chatzopoulos-arrival-03",
+      "v3-chatzopoulos-arrival-04",
+      "v3-chatzopoulos-arrival-05",
+      "v3-chatzopoulos-arrival-06",
+      "v3-chatzopoulos-arrival-07",
+      "v3-malakasis-01",
+      "v3-malakasis-02",
+      "v3-malakasis-03",
+      "v3-malakasis-04",
+      "v3-malakasis-05",
+      "v3-malakasis-06",
+      "v3-malakasis-07",
+      "v3-malakasis-08",
+      "v3-griparis-01",
+      "v3-griparis-02",
+      "v3-griparis-03",
+      "v3-griparis-04",
+      "v3-griparis-05",
+      "v3-griparis-06",
+      "v3-griparis-07",
+      "v3-griparis-08",
+      "v3-griparis-09",
+      "v3-porfyras-01",
+      "v3-porfyras-02",
+      "v3-porfyras-03",
+      "v3-porfyras-04",
+      "v3-porfyras-05",
+      "v3-porfyras-06",
+      "v3-porfyras-07"
+    ],
+    "sources": [
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG5.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG6.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG7.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG8.html"
+    ],
+    "findings": [
+      "Krystallis: final appeal asks for wings and transport; correct answer formerly supplied recipient instead of request. Revised.",
+      "Chatzopoulos: confirmed four stanzas of each poem, indefinite loss and return of ship; differentiated open windows and sails from time-based question.",
+      "Malakasis: names, music, listener reactions, dawn and social propriety in primary poem and notes.",
+      "Gryparis: midnight, collective fear, prostrate priestesses, modern youth analogy and unresolved miracle.",
+      "Porfyras: stage analogy, limited perspective, sounds, final curtain and symbolic reading."
+    ],
+    "changes": [
+      {
+        "id": "v3-krystallis-01",
+        "before": {
+          "prompt": "Με ποιο συγκεκριμένο αίτημα απευθύνεται το ποιητικό υποκείμενο στον σταυραϊτό στην κατακλείδα;",
+          "options": [
+            "Στον σταυραϊτό, που καλείται να τον μεταφέρει στα βουνά.",
+            "Στον σταυραϊτό, που καλείται να εγκατασταθεί στον κάμπο.",
+            "Στον σταυραϊτό, που καλείται να τον διδάξει πώς να κυνηγά."
+          ],
+          "correct": "Στον σταυραϊτό, που καλείται να τον μεταφέρει στα βουνά.",
+          "why": "Οι προσφωνήσεις του αετού και η τελική παράκληση σε δεύτερο πρόσωπο προσδιορίζουν τον αποδέκτη.",
+          "level": 1,
+          "locator": "στ. 13–19, 45–49",
+          "sourceLocator": "στ. 13–19, 45–49",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: στ. 13–19, 45–49."
+        },
+        "after": {
+          "prompt": "Με ποιο συγκεκριμένο αίτημα απευθύνεται το ποιητικό υποκείμενο στον σταυραϊτό στην κατακλείδα;",
+          "options": [
+            "Να του δώσει φτερά και να τον πάρει μαζί του στα βουνά.",
+            "Να κατεβεί στον κάμπο και να μείνει εκεί μαζί του.",
+            "Να του δείξει πώς να βρίσκει τροφή και να κυνηγά."
+          ],
+          "correct": "Να του δώσει φτερά και να τον πάρει μαζί του στα βουνά.",
+          "why": "Στην κατακλείδα ο ομιλητής ζητεί από το πουλί φτερά και μεταφορά στα βουνά. Η ερώτηση ζητεί το αίτημα, όχι την ταυτότητα του αποδέκτη.",
+          "level": 1,
+          "locator": "στ. 45–49",
+          "sourceLocator": "στ. 45–49",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: στ. 45–49."
+        }
+      },
+      {
+        "id": "v3-chatzopoulos-arrival-06",
+        "before": {
+          "prompt": "Ποια συμβολική ερμηνεία του πλοίου στηρίζεται στη δομή;",
+          "options": [
+            "Την επισφάλεια μιας παρουσίας υπό την προοπτική αποχωρισμού.",
+            "Τη σταθερότητα ενός δεσμού μετά την οριστική επιστροφή.",
+            "Τη νοσταλγία των κατοίκων για έναν τόπο που εγκατέλειψαν."
+          ],
+          "correct": "Την επισφάλεια μιας παρουσίας υπό την προοπτική αποχωρισμού.",
+          "why": "Η επανάληψη του μοτίβου αναστέλλει τη βεβαιότητα της άφιξης.",
+          "level": 3,
+          "locator": "Ήρθες, επαναφορά του πλοίου",
+          "sourceLocator": "Ήρθες, επαναφορά του πλοίου",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Ήρθες, επαναφορά του πλοίου."
+        },
+        "after": {
+          "prompt": "Ποια συμβολική αντίθεση επιτρέπει η συσχέτιση των ανοιχτών παραθύρων με τα απλωμένα πανιά στο Ήρθες;",
+          "options": [
+            "Τα παράθυρα υποβάλλουν υποδοχή, ενώ τα πανιά αφήνουν ανοιχτό το ενδεχόμενο αποχωρισμού.",
+            "Τα παράθυρα υποβάλλουν απομόνωση, ενώ τα πανιά δηλώνουν οριστική εγκατάσταση.",
+            "Τα παράθυρα και τα πανιά υποβάλλουν εξίσου την ολοκλήρωση του αποχωρισμού."
+          ],
+          "correct": "Τα παράθυρα υποβάλλουν υποδοχή, ενώ τα πανιά αφήνουν ανοιχτό το ενδεχόμενο αποχωρισμού.",
+          "why": "Η εικόνα της υποδοχής στη δεύτερη στροφή αντιπαραβάλλεται με το πλοίο που παραμένει με απλωμένα πανιά. Η αναχώρηση είναι ενδεχόμενη, όχι βεβαιωμένο γεγονός.",
+          "level": 3,
+          "locator": "Ήρθες, πρώτη, δεύτερη και τελευταία στροφή",
+          "sourceLocator": "Ήρθες, πρώτη, δεύτερη και τελευταία στροφή",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Ήρθες, πρώτη, δεύτερη και τελευταία στροφή."
+        }
+      }
+    ],
+    "limitations": "Source recheck of answer keys and related prompts; exact cross-bank and executable checks to follow. No empirical difficulty calibration."
+  }
 }

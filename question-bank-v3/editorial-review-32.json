@@ -12,7 +12,7 @@
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_3.html",
     "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG10_3.html"
   ],
-  "sourceVerification": "Six official anthology HTML pages directly retrieved and read, including full relevant sections of Roidis and Montaigne. Checked primary passages and available school commentary. Compared earlier items on the same six works from collections 01–17. Replaced overlapping items on Aretaeus's equal division of money, Drosinis's final exclamation, Sikelianos's light and goodness, and Varnalis's Easter imagery. Distinguished the actual statement from proposed empirical investigation in Roidis; maintained the attribution of Montaigne's ideal of indivisible friendship to the author; differentiated metaphorical and literal statements; preserved the tension between diminishing pain and intensifying anxiety in Dinner.",
+  "sourceVerification": "Superseded: earlier direct-retrieval claim was not independently documented. See supplementarySourceVerification for the actual checkpoint 12 source recheck.",
   "difficultyCriteria": {
     "1": "direct recognition",
     "2": "functional interpretation",
@@ -884,5 +884,86 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Τέταρτη στροφή, κεντρικός τρίτος στίχος και περιβάλλον παράπονο."
       }
     }
-  ]
+  ],
+  "supplementarySourceVerification": {
+    "date": "2026-11-28",
+    "status": "Direct retrieval and editorial source recheck performed in checkpoint 12; previous unsupported direct retrieval statements superseded. Not independent approval.",
+    "reviewedQuestions": 24,
+    "checkedIds": [
+      "v3-enrich21-5-10-1",
+      "v3-enrich21-5-10-2",
+      "v3-enrich21-5-10-3",
+      "v3-enrich21-5-10-4",
+      "v3-enrich21-6-05-1",
+      "v3-enrich21-6-05-2",
+      "v3-enrich21-6-05-3",
+      "v3-enrich21-6-05-4",
+      "v3-enrich21-7-07-1",
+      "v3-enrich21-7-07-2",
+      "v3-enrich21-7-07-3",
+      "v3-enrich21-7-07-4",
+      "v3-enrich21-7-15-1",
+      "v3-enrich21-7-15-2",
+      "v3-enrich21-7-15-3",
+      "v3-enrich21-7-15-4",
+      "v3-enrich21-7-23-1",
+      "v3-enrich21-7-23-2",
+      "v3-enrich21-7-23-3",
+      "v3-enrich21-7-23-4",
+      "v3-enrich21-7-28-1",
+      "v3-enrich21-7-28-2",
+      "v3-enrich21-7-28-3",
+      "v3-enrich21-7-28-4"
+    ],
+    "sources": [
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexE10_1.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF4.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG2.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG9_3.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG10_3.html"
+    ],
+    "findings": [
+      "Roidis: irony, Baudelaire, statistics explicitly not supplied and proposed cemetery comparison.",
+      "Montaigne: Diogenes, Aretaeus assumes both duties, numerical escalation, horse example; balanced choices.",
+      "Drosinis: future, audible leaves, migration and completed final journey.",
+      "Krystallis: claws, adversative conjunction, cyclical time, natural subsistence.",
+      "Sikelianos: lamp and stars, women's representation, oil/light and final anxiety.",
+      "Varnalis: personification, negative imagery, religious lexicon, final complaint framing departure."
+    ],
+    "changes": [
+      {
+        "id": "v3-enrich21-6-05-2",
+        "before": {
+          "prompt": "Ποιο γνώρισμα του Αρεταίου αναδεικνύει η ανάληψη και της υποχρέωσης του Χαρίξενου;",
+          "options": [
+            "Συνέπεια στη φιλική δέσμευση ακόμη και όταν αυτή διευρύνεται.",
+            "Συνέπεια στη δέσμευση προς τη μητέρα, αλλά άρνηση της δεύτερης υποχρέωσης.",
+            "Επιθυμία μεταβίβασης της πρόσθετης υποχρέωσης στην οικογένεια του Χαρίξενου."
+          ],
+          "correct": "Συνέπεια στη φιλική δέσμευση ακόμη και όταν αυτή διευρύνεται.",
+          "why": "Μετά τον θάνατο του Χαρίξενου ο Αρεταίος αναλαμβάνει και το δεύτερο σκέλος της διαθήκης, όπως είχε προβλέψει ο Ευδαμίδας.",
+          "level": 2,
+          "locator": "Διαθήκη και ανάληψη της θέσης του Χαρίξενου",
+          "sourceLocator": "Διαθήκη και ανάληψη της θέσης του Χαρίξενου",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Διαθήκη και ανάληψη της θέσης του Χαρίξενου."
+        },
+        "after": {
+          "prompt": "Ποιο γνώρισμα του Αρεταίου αναδεικνύει η ανάληψη και της υποχρέωσης του Χαρίξενου;",
+          "options": [
+            "Συνέπεια στη φιλική δέσμευση παρά την πρόσθετη ευθύνη που αναλαμβάνει.",
+            "Συνέπεια στη φροντίδα της μητέρας αλλά άρνηση της δεύτερης υποχρέωσης.",
+            "Προθυμία μεταβίβασης της νέας υποχρέωσης στην οικογένεια του Χαρίξενου."
+          ],
+          "correct": "Συνέπεια στη φιλική δέσμευση παρά την πρόσθετη ευθύνη που αναλαμβάνει.",
+          "why": "Μετά τον θάνατο του Χαρίξενου ο Αρεταίος αναλαμβάνει και το δεύτερο σκέλος της διαθήκης, όπως είχε προβλέψει ο Ευδαμίδας.",
+          "level": 2,
+          "locator": "Διαθήκη και ανάληψη της θέσης του Χαρίξενου",
+          "sourceLocator": "Διαθήκη και ανάληψη της θέσης του Χαρίξενου",
+          "text": "Μελέτησε στο σχολικό ανθολόγιο: Διαθήκη και ανάληψη της θέσης του Χαρίξενου."
+        }
+      }
+    ],
+    "limitations": "Source recheck of answer keys and related prompts; exact cross-bank and executable checks to follow. No empirical difficulty calibration."
+  }
 }
