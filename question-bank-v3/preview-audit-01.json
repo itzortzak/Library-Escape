@@ -4176,6 +4176,40 @@
     "Difficulty labels are provisional judgments, not measured item difficulty.",
     "Full individual source review remains incomplete.",
     "Risk flags are not proof of wrong answers.",
-    "Previous fingerprint files are historical snapshots."
-  ]
+    "Previous fingerprint files are historical snapshots.",
+    "Browser test used actual preview but did not play through all 1350 questions; mobile tested emulated viewport and touch controls, not physical phones or school interactive boards.",
+    "CI artifact is downloadable by authorized GitHub users until expiration; not a public Pages deployment."
+  ],
+  "testResult": {
+    "runId": 46117240163,
+    "head": "de2493c3cda403fb879d9f9909923d5b7f3227f7",
+    "conclusion": "success",
+    "nodeValidator": "passed",
+    "navigation": {
+      "layouts": 40,
+      "reachablePuzzlePositions": 1598
+    },
+    "browser": {
+      "engine": "Chromium headless",
+      "shortSessionQuestions": 30,
+      "rooms": 10,
+      "distinctSelections": 60,
+      "correctPositions": [
+        8,
+        11,
+        11
+      ],
+      "filtering": "passed",
+      "sourceLinks": "passed",
+      "saveResume": "passed",
+      "mobileViewportVisibleControls": "passed"
+    },
+    "artifact": {
+      "id": 15252116996,
+      "name": "library-escape-v3-preview",
+      "bytes": 5441582,
+      "expires": "2027-02-26T06:34:35Z"
+    },
+    "productionMain": "26b0ccefea064ab47f4b704974d06725ab9c2098"
+  }
 }
