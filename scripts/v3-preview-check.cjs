@@ -10,10 +10,10 @@ const assert=require('node:assert/strict');
   await page.locator('#collection').waitFor();
   assert.equal(await page.locator('#collection').inputValue(),'v3-reviewed');
   assert.equal(await page.evaluate(()=>V3_DATA.length),1350);
-  assert.equal(await page.evaluate(()=>V3_REVIEWED.flat().length),527);
+  assert.equal(await page.evaluate(()=>V3_REVIEWED.flat().length),677);
   assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),30);
   await page.selectOption('#count','all');
-  assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),527);
+  assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),677);
   await page.selectOption('#collection','v3-all');
   assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),1350);
   await page.selectOption('#period','Ξένη λογοτεχνία');
@@ -86,6 +86,6 @@ const assert=require('node:assert/strict');
   else{for(let i=0;i<mobile.idx;i++)await p.click('#dialNext');await p.click('#dialSelect')}
   assert.equal(await p.evaluate(()=>s.right),1);
   assert.deepEqual(errors,[]);
-  console.log('PASS: v3 menu, 1350/527 counts, period and level filters, 60 unique selections, 30-answer 10-room escape, source links, save/resume, mobile visible controls. Correct positions:',positions);
+  console.log('PASS: v3 menu, 1350/677 counts, period and level filters, 60 unique selections, 30-answer 10-room escape, source links, save/resume, mobile visible controls. Correct positions:',positions);
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
