@@ -10,10 +10,15 @@ const assert=require('node:assert/strict');
   await page.locator('#collection').waitFor();
   assert.equal(await page.locator('#collection').inputValue(),'v3-reviewed');
   assert.equal(await page.evaluate(()=>V3_DATA.length),1350);
-  assert.equal(await page.evaluate(()=>V3_REVIEWED.flat().length),817);
+  assert.equal(await page.evaluate(()=>V3_REVIEWED.flat().length),968);
   assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),30);
+  // Validate rendering of every school reference, not just a random session.
+  const missingSources=await page.evaluate(()=>V3_DATA.filter(q=>{const div=document.createElement('div');div.innerHTML=passage(q);const links=[...div.querySelectorAll('a[href]')];const refs=q.sourceRefs?.length?q.sourceRefs:[{url:q.sourceUrl}];return links.length!==refs.length||links.some(a=>!v3SafeSource(a.href))}).map(q=>q.id));
+  assert.deepEqual(missingSources,[]);
+  assert.equal(await page.evaluate(()=>v3SafeSource('https://dev.old.ebooks.edu.gr/modules/ebook/show.php/DSGL-A111/262/1917,6376/')),true);
+  assert.equal(await page.evaluate(()=>v3SafeSource('https://ebooks.edu.gr.example.org/ebooks/')),false);
   await page.selectOption('#count','all');
-  assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),817);
+  assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),968);
   await page.selectOption('#collection','v3-all');
   assert.equal(await page.evaluate(()=>available().reduce((n,r)=>n+r.count,0)),1350);
   await page.selectOption('#period','Ξένη λογοτεχνία');
@@ -52,7 +57,7 @@ const assert=require('node:assert/strict');
     const idx=buttons.findIndex(b=>b.textContent===q.correct);
     if(idx<0)throw Error('Correct answer missing');
     const links=[...document.querySelectorAll('#dialogBody a[href]')];
-    if(!links.length||links.some(a=>!a.href.startsWith('https://ebooks.edu.gr/ebooks/')))throw Error('Missing source link');
+    if(!links.length||links.some(a=>!v3SafeSource(a.href)))throw Error('Missing source link');
     buttons[idx].click();return idx;
    });positions[answer]++;
    await page.click('#next');
@@ -86,6 +91,6 @@ const assert=require('node:assert/strict');
   else{for(let i=0;i<mobile.idx;i++)await p.click('#dialNext');await p.click('#dialSelect')}
   assert.equal(await p.evaluate(()=>s.right),1);
   assert.deepEqual(errors,[]);
-  console.log('PASS: v3 menu, 1350/817 counts, period and level filters, 60 unique selections, 30-answer 10-room escape, source links, save/resume, mobile visible controls. Correct positions:',positions);
+  console.log('PASS: v3 menu, 1350/968 counts, period and level filters, 60 unique selections, 30-answer 10-room escape, source links, save/resume, mobile visible controls. Correct positions:',positions);
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
