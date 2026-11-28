@@ -95,12 +95,88 @@
       "tooLong": [],
       "tooShort": []
     },
-    "levelChanges": 7
+    "levelChanges": 7,
+    "crossBankComparison": {
+      "reviewedTogether": 28,
+      "otherQuestions": 1322,
+      "otherChoices": 3966,
+      "batches": [
+        577,
+        469,
+        276
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "method": "Exact normalized comparison of both revised collections jointly against other 29 collections, and internal uniqueness check of the 28 questions, at commit 0204bbc."
+    },
+    "fullBankDifficulty": {
+      "levels": [
+        259,
+        613,
+        478
+      ],
+      "pools": [
+        [
+          100,
+          32,
+          9
+        ],
+        [
+          9,
+          23,
+          50
+        ],
+        [
+          8,
+          117,
+          38
+        ],
+        [
+          18,
+          145,
+          22
+        ],
+        [
+          18,
+          75,
+          18
+        ],
+        [
+          55,
+          48,
+          14
+        ],
+        [
+          30,
+          91,
+          10
+        ],
+        [
+          6,
+          26,
+          80
+        ],
+        [
+          8,
+          31,
+          96
+        ],
+        [
+          7,
+          25,
+          141
+        ]
+      ],
+      "minimum": 6,
+      "method": "Previous full-bank distribution plus recorded level changes in both comparative collections."
+    }
   },
   "limitations": [
-    "Difficulty is qualitative, not empirically calibrated.",
-    "Targeted comparison of the two collections is not a comprehensive semantic audit.",
-    "Full-bank technical and exact collision checks pending."
+    "Qualitative difficulty; no classroom calibration.",
+    "Targeted semantic comparison of both comparative collections, not full semantic audit.",
+    "Some distractors reverse the two textual correspondences; final audit should diversify distractor mechanisms.",
+    "Executable CI and browser checks pending."
   ],
   "changes": [
     {
