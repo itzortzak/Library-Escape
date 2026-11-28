@@ -84,12 +84,86 @@
     "levelChanges": 16,
     "duplicatePrompts": 0,
     "duplicateOptions": 0,
-    "invalid": 0
+    "invalid": 0,
+    "crossBankComparison": {
+      "otherQuestions": 1322,
+      "otherChoices": 3966,
+      "batches": [
+        577,
+        469,
+        276
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "method": "Exact normalized Greek text comparison at commit 89879e2, all 30 other collections."
+    },
+    "fullBankDifficulty": {
+      "levels": [
+        257,
+        603,
+        490
+      ],
+      "pools": [
+        [
+          100,
+          31,
+          10
+        ],
+        [
+          9,
+          21,
+          52
+        ],
+        [
+          8,
+          116,
+          39
+        ],
+        [
+          18,
+          143,
+          24
+        ],
+        [
+          18,
+          75,
+          18
+        ],
+        [
+          54,
+          48,
+          15
+        ],
+        [
+          30,
+          89,
+          12
+        ],
+        [
+          6,
+          25,
+          81
+        ],
+        [
+          8,
+          31,
+          96
+        ],
+        [
+          6,
+          24,
+          143
+        ]
+      ],
+      "minimum": 6,
+      "method": "Previous distribution plus level changes recorded in collection 24."
+    }
   },
   "limitations": [
     "Qualitative difficulty; no classroom calibration.",
     "Targeted semantic comparison only.",
-    "Whole-bank validation pending."
+    "Latest executable CI and browser test pending."
   ],
   "changes": [
     {
