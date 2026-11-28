@@ -55,13 +55,87 @@
     "levelChanges": 13,
     "duplicatePrompts": 0,
     "duplicateOptions": 0,
-    "invalid": 0
+    "invalid": 0,
+    "crossBankComparison": {
+      "otherQuestions": 1321,
+      "otherChoices": 3963,
+      "batches": [
+        577,
+        464,
+        280
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "method": "Exact normalized Greek text comparison of final collection 20 against all 30 other collections at commit bfc3a61."
+    },
+    "fullBankDifficulty": {
+      "levels": [
+        253,
+        559,
+        538
+      ],
+      "pools": [
+        [
+          100,
+          29,
+          12
+        ],
+        [
+          9,
+          19,
+          54
+        ],
+        [
+          8,
+          108,
+          47
+        ],
+        [
+          17,
+          119,
+          49
+        ],
+        [
+          18,
+          74,
+          19
+        ],
+        [
+          52,
+          47,
+          18
+        ],
+        [
+          30,
+          87,
+          14
+        ],
+        [
+          6,
+          25,
+          81
+        ],
+        [
+          7,
+          29,
+          99
+        ],
+        [
+          6,
+          22,
+          145
+        ]
+      ],
+      "minimum": 6,
+      "method": "Recalculated from editorial-review-30 with recorded changes in collection 20."
+    }
   },
   "limitations": [
     "First editorial review, not independent approval.",
     "Difficulty is not empirically calibrated.",
-    "Cross-bank exact duplicate check and full CI pending.",
-    "Targeted semantic comparison is not comprehensive."
+    "Exact comparison is not semantic uniqueness. Full executable CI and browser results pending.",
+    "Targeted review of six earlier related collections is not a complete semantic audit."
   ],
   "changes": [
     {
