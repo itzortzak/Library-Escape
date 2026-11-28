@@ -56,13 +56,87 @@
     "levelChanges": 6,
     "duplicatePrompts": 0,
     "duplicateOptions": 0,
-    "invalid": 0
+    "invalid": 0,
+    "crossBankComparison": {
+      "otherQuestions": 1323,
+      "otherChoices": 3969,
+      "batches": [
+        577,
+        466,
+        280
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "method": "Exact normalized Greek text comparison of the final edited collection against all 30 other collections at commit 7e2e12a; not a semantic-uniqueness test."
+    },
+    "fullBankDifficulty": {
+      "levels": [
+        252,
+        547,
+        551
+      ],
+      "pools": [
+        [
+          100,
+          28,
+          13
+        ],
+        [
+          9,
+          19,
+          54
+        ],
+        [
+          7,
+          107,
+          49
+        ],
+        [
+          17,
+          112,
+          56
+        ],
+        [
+          18,
+          74,
+          19
+        ],
+        [
+          52,
+          47,
+          18
+        ],
+        [
+          30,
+          87,
+          14
+        ],
+        [
+          6,
+          25,
+          81
+        ],
+        [
+          7,
+          29,
+          99
+        ],
+        [
+          6,
+          19,
+          148
+        ]
+      ],
+      "minimum": 6,
+      "method": "Recalculated from editorial-review-29 with recorded changes in collection 19."
+    }
   },
   "limitations": [
     "First editorial review, not independent approval.",
     "Difficulty is not empirically calibrated.",
-    "Full-bank collision check and CI pending.",
-    "Semantic overlap with earlier questions on the same works needs targeted review."
+    "Exact comparison is not semantic uniqueness. Full executable CI and browser results pending.",
+    "Potential conceptual overlap with earlier items on the same works remains to be assessed."
   ],
   "changes": [
     {
