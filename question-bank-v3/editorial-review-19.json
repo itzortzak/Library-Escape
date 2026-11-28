@@ -2,8 +2,8 @@
   "status": "first source-based editorial review; not independent approval",
   "count": 36,
   "collection": "bank-draft-08.json",
-  "commit": "5be313f8d13064d995680b046beb22b4b29f2d17",
-  "sourceBlob": "7332debfd64cfbf0a30b7322ee2ac9267c46104e",
+  "commit": "e8b9d9852b1ce06c93afd87f581d3eb354a74168",
+  "sourceBlob": "d2be0da9635e71820b1cf55ae085d2c5940af8a6",
   "previousBlob": "c4faaae88e2d132ed092aba3c5902efe0b6ddd93",
   "sourceAccessDate": "2026-11-28",
   "sources": [
@@ -429,11 +429,11 @@
       "after": {
         "prompt": "Ποιο σχήμα λόγου χρησιμοποιεί η καπετάνισσα όταν ταυτίζει τους δύο άνδρες με σημαίες;",
         "options": [
-          "Μεταφορά.",
+          "Μεταφορά της σημαίας στους δύο άνδρες.",
           "Παρομοίωση με ρητό συγκριτικό σύνδεσμο.",
           "Προσωποποίηση των πολεμικών σημαιών."
         ],
-        "correct": "Μεταφορά.",
+        "correct": "Μεταφορά της σημαίας στους δύο άνδρες.",
         "why": "Η ονομασία των ανδρών ως σημαιών προβάλλει μεταφορικά την εξέχουσα θέση τους.",
         "level": 1,
         "locator": "Στ. 17–19",
@@ -1154,5 +1154,13 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Εισαγωγικό σημείωμα και στ. 10–23."
       }
     }
-  ]
+  ],
+  "followup": {
+    "reason": "Whole-bank option uniqueness",
+    "id": "v3-kontog-04",
+    "old": "Μεταφορά.",
+    "value": "Μεταφορά της σημαίας στους δύο άνδρες.",
+    "commit": "e8b9d9852b1ce06c93afd87f581d3eb354a74168",
+    "sourceBlob": "d2be0da9635e71820b1cf55ae085d2c5940af8a6"
+  }
 }
