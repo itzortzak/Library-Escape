@@ -34,10 +34,20 @@
     "materialLengthCueAfter": 0,
     "duplicatePrompts": 0,
     "duplicateOptions": 0,
-    "invalid": 0
+    "invalid": 0,
+    "crossBankComparison": {
+      "priorOtherQuestions": 1305,
+      "priorOtherChoices": 3915,
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "note": "Compared the 45 revised questions against all 30 other collections in three batches (577, 448, 280). Final clarification to first prompt after comparison; full CI validation required."
+    },
+    "lengthAbove20Percent": 0,
+    "lengthBelowBothByFactor1_2": 0
   },
   "limitations": [
-    "Local collection checks only. Cross-bank validation and preview integration remain pending.",
+    "Full executable validation and browser results pending; comparison is exact text, not semantic uniqueness.",
     "Difficulty is editorial, not empirically calibrated.",
     "No independent scholarly approval."
   ],
@@ -59,7 +69,7 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: στ. 13–19, 45–49."
       },
       "after": {
-        "prompt": "Σε ποιον απευθύνεται το ποιητικό υποκείμενο στο Σταυραΐτό;",
+        "prompt": "Με ποιο συγκεκριμένο αίτημα απευθύνεται το ποιητικό υποκείμενο στον σταυραϊτό στην κατακλείδα;",
         "options": [
           "Στον σταυραϊτό, που καλείται να τον μεταφέρει στα βουνά.",
           "Στον σταυραϊτό, που καλείται να εγκατασταθεί στον κάμπο.",
