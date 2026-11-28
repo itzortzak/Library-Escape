@@ -448,56 +448,13 @@
   "total": 1350,
   "choices": 4050,
   "counts": {
-    "anthology": 990,
+    "anthology": 1150,
     "comparative": 100,
     "theory": 100
   },
   "coveredEntries": 115,
   "catalogueEntries": 115,
-  "stale": [
-    "1-09",
-    "1-11",
-    "2-04",
-    "2-06",
-    "3-03",
-    "3-04",
-    "3-05",
-    "3-06",
-    "3-09",
-    "3-10",
-    "3-11",
-    "3-12",
-    "3-14",
-    "3-17",
-    "3-18",
-    "4-01",
-    "4-04",
-    "4-06",
-    "4-08",
-    "4-11",
-    "4-12",
-    "4-13",
-    "5-02",
-    "5-04",
-    "5-06",
-    "5-10",
-    "6-05",
-    "6-07",
-    "7-04",
-    "7-05",
-    "7-07",
-    "7-15",
-    "7-16",
-    "7-17",
-    "7-20",
-    "7-23",
-    "7-24",
-    "7-28",
-    "7-30",
-    "7-31",
-    "7-32",
-    "7-33"
-  ],
+  "stale": [],
   "pools": [
     [
       110,
@@ -550,43 +507,7 @@
       161
     ]
   ],
-  "errors": [
-    {
-      "id": "v3-montaigne-01",
-      "file": "bank-draft-01.json",
-      "issue": "author differs from catalogue"
-    },
-    {
-      "id": "v3-montaigne-02",
-      "file": "bank-draft-01.json",
-      "issue": "author differs from catalogue"
-    },
-    {
-      "id": "v3-montaigne-03",
-      "file": "bank-draft-01.json",
-      "issue": "author differs from catalogue"
-    },
-    {
-      "id": "v3-montaigne-04",
-      "file": "bank-draft-01.json",
-      "issue": "author differs from catalogue"
-    },
-    {
-      "id": "v3-montaigne-05",
-      "file": "bank-draft-01.json",
-      "issue": "author differs from catalogue"
-    },
-    {
-      "id": "v3-montaigne-06",
-      "file": "bank-draft-01.json",
-      "issue": "author differs from catalogue"
-    },
-    {
-      "id": "v3-montaigne-07",
-      "file": "bank-draft-01.json",
-      "issue": "author differs from catalogue"
-    }
-  ],
+  "errors": [],
   "duplicates": {
     "ids": [],
     "prompts": [],
@@ -598,7 +519,24 @@
     "correctShortest": 177,
     "bothWrongAbsolute": 63
   },
-  "nearOverlapCandidates": [],
+  "nearOverlapCandidates": [
+    {
+      "a": "v3-palamas-sparta-01",
+      "b": "v3-palamas-sparta-02",
+      "p": 0.429,
+      "c": 0.059,
+      "fileA": "bank-draft-15.json",
+      "fileB": "bank-draft-15.json"
+    },
+    {
+      "a": "v3-theory-r1-01",
+      "b": "v3-theory-r1-04",
+      "p": 0.077,
+      "c": 0.4,
+      "fileA": "theory-draft-01.json",
+      "fileB": "theory-draft-01.json"
+    }
+  ],
   "selection": {
     "questions": 1350,
     "rooms": 10,
@@ -674,6 +612,3821 @@
     "Hash screening uses two 32-bit hashes; matches must be verified against original strings.",
     "Similarity is lexical, not semantic proof; only compares questions about same entry, pair, or theory topic.",
     "Selector ran on fingerprints with grouped work metadata in JS isolate, not Node or production browser.",
-    "Catalogue link matches do not certify external pages or philological interpretations."
-  ]
+    "Catalogue link matches do not certify external pages or philological interpretations.",
+    "Initial aggregation mistakenly excluded anthology_deepening from anthology totals; corrected classification includes all 160 deepening items.",
+    "Translator suffix is legitimate metadata, not author error.",
+    "Lowered lexical similarity threshold, removed common words and used crude suffix trimming to increase recall; candidates require reading."
+  ],
+  "subcategories": {
+    "anthology": 990,
+    "anthology_deepening": 160
+  },
+  "topicMismatches": [],
+  "authorReview": {
+    "count": 7,
+    "disposition": "False positive: question author label includes Greek translator Κλ. Παράσχος; catalogue gives original author only. Retain translator attribution.",
+    "ids": [
+      "v3-montaigne-01",
+      "v3-montaigne-02",
+      "v3-montaigne-03",
+      "v3-montaigne-04",
+      "v3-montaigne-05",
+      "v3-montaigne-06",
+      "v3-montaigne-07"
+    ]
+  },
+  "riskQueue": {
+    "longestCorrect": [
+      {
+        "id": "v3-dead-brother-01",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-dead-brother-02",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-dead-brother-05",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-dead-brother-06",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-adrianople-06",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-erofili-01",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-erofili-02",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-erofili-04",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-erofili-08",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-abraham-02",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-abraham-04",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-abraham-06",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-abraham-07",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-abraham-09",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-love-01",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-love-03",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-love-05",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-love-07",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-doctor-01",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-doctor-02",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-doctor-05",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-doctor-06",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-doctor-07",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-vilaras-doctor-08",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-lethe-01",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-lethe-03",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-lethe-05",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-satrapy-01",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-satrapy-02",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-satrapy-05",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-satrapy-08",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-antony-01",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-antony-02",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-antony-04",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-antony-05",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-antony-06",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-montaigne-02",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-montaigne-03",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-montaigne-06",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-bride-01",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-bride-06",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-bride-10",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-charon-01",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-charon-03",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-romania-01",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-romania-02",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-romania-03",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-romania-05",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-romania-07",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-despo-01",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-despo-02",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-despo-07",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-despo-09",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-digenis-02",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-digenis-09",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-widow-son-02",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-widow-son-06",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-barbarians-01",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-barbarians-03",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-barbarians-06",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-barbarians-08",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-ithaca-06",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-ithaca-08",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-ithaca-09",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-hegemon-01",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-hegemon-07",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-hegemon-08",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-alex-kings-01",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-alex-kings-05",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-alex-kings-06",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-alex-kings-07",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-alex-kings-08",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-alex-kings-09",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-sidon-01",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-sidon-05",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-sidon-06",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-sidon-09",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-fatalists-08",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-drunk-02",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-mary-05",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-mary-08",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-ptochos-02",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-ptochos-03",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-ptochos-04",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-ptochos-05",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-ptochos-06",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-ptochos-09",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-01",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-03",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-04",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-05",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-06",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-08",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-09",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-livistros-10",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-01",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-02",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-03",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-04",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-05",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-07",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-09",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-erotokritos-recognition-10",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-dowry-01",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-dowry-02",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-dowry-03",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-dowry-05",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-dowry-06",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-dowry-07",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-dowry-08",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-01",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-02",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-03",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-04",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-05",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-06",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-09",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-sensitive-10",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-cyprus-farewell-02",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-cyprus-farewell-04",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-cyprus-farewell-05",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-cyprus-farewell-06",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-cyprus-farewell-07",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-cyprus-farewell-09",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-captive-02",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-captive-03",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-captive-04",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-captive-06",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-captive-10",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-sun-01",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-sun-02",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-sun-03",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-sun-05",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-sun-08",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-sun-09",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-underworld-girl-01",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-underworld-girl-04",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-underworld-girl-05",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-underworld-girl-06",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-underworld-girl-09",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-underworld-girl-10",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-parga-01",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-parga-02",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-parga-04",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-parga-07",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-parga-09",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-armatoloi-02",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-armatoloi-03",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-armatoloi-06",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-armatoloi-07",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-armatoloi-08",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-armatoloi-09",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-01",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-02",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-03",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-04",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-06",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-07",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-08",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-09",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-alexander-dark-01",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-alexander-dark-03",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-alexander-dark-07",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-alexander-dark-09",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-free-02",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-free-04",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-free-05",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-free-06",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-free-07",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-free-08",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-woman-01",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-woman-02",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-woman-03",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-woman-05",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-woman-08",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-solomos-woman-09",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-mavilis-dusk-01",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-mavilis-dusk-02",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-mavilis-dusk-04",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-mavilis-dusk-05",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-valaoritis-foteinos-01",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-valaoritis-foteinos-04",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-valaoritis-foteinos-08",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-valaoritis-foteinos-09",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-valaoritis-foteinos-10",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-vik-ras-01",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-ras-02",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-ras-03",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-ras-06",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-ras-09",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-ras-10",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-narcissus-02",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-narcissus-03",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-narcissus-04",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-narcissus-08",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-vik-narcissus-09",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-02",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-03",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-04",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-06",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-07",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-08",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-09",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-01",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-03",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-04",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-05",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-06",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-07",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-08",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-cervantes-basin-10",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-02",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-04",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-05",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-06",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-07",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-08",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-09",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-moliere-j-10",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-kolokotr-01",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kolokotr-02",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kolokotr-03",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kolokotr-04",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kolokotr-05",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kolokotr-07",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kolokotr-09",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kontog-01",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kontog-02",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kontog-04",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kontog-06",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kontog-07",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kontog-08",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-kontog-09",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-01",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-02",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-03",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-04",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-05",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-06",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-08",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-digenis-death-09",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-01",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-02",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-03",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-05",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-06",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-07",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-08",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-anak-09",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-barbary-02",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-barbary-06",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-barbary-08",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-sphrantzes-01",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-sphrantzes-02",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-sphrantzes-05",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-sphrantzes-07",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-sphrantzes-09",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katalogia-02",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katalogia-03",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katalogia-07",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katalogia-09",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-apokopos-01",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-apokopos-02",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-apokopos-05",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-apokopos-06",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-apokopos-08",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-apokopos-09",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-apokopos-10",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-rodolinos-02",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-rodolinos-04",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-rodolinos-06",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-rodolinos-07",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-rodolinos-08",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katzourbos-06",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katzourbos-07",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katzourbos-08",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-katzourbos-09",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-galaxidi-01",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-galaxidi-02",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-galaxidi-03",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-galaxidi-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-galaxidi-06",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-galaxidi-07",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-galaxidi-09",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-galaxidi-10",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-miniatis-01",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-miniatis-02",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-miniatis-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-miniatis-05",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-miniatis-08",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-kosmas-01",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-kosmas-03",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-kosmas-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-kosmas-06",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-kosmas-07",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-kosmas-08",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-katartzis-01",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-katartzis-02",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-katartzis-03",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-katartzis-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-katartzis-08",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-rigas-03",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-rigas-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-rigas-06",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-rigas-07",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-rigas-08",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-01",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-02",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-03",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-05",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-06",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-07",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-08",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-nomarchia-09",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-01",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-02",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-03",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-05",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-06",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-07",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-08",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-09",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-korais-voltaire-10",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-adelfiki-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-adelfiki-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-adelfiki-03",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-adelfiki-04",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-adelfiki-05",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-adelfiki-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-adelfiki-07",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-vilaras-letter-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-vilaras-letter-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-vilaras-letter-03",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-vilaras-letter-04",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-vilaras-letter-05",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-vilaras-letter-07",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-elenitsa-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-elenitsa-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-elenitsa-05",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-elenitsa-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-elenitsa-07",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-elenitsa-09",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-fagopoti-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-fagopoti-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-fagopoti-03",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-fagopoti-04",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-fagopoti-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-prison-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-prison-03",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-prison-04",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-prison-05",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-prison-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-prison-08",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-prison-09",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-refugees-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-refugees-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-refugees-03",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-refugees-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-refugees-08",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-refugees-09",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-03",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-04",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-05",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-07",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-08",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kolokotronis-memoir-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kolokotronis-memoir-05",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kolokotronis-memoir-07",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kolokotronis-memoir-08",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-03",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-04",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-05",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-08",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kalvos-patris-01",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-patris-02",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-patris-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-patris-05",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-patris-06",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-patris-08",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-agar-01",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-agar-02",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-agar-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-agar-05",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-agar-06",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-agar-07",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-agar-08",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-volcano-03",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-volcano-05",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-volcano-07",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-volcano-08",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-01",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-02",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-03",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-05",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-06",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-07",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-08",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-shark-01",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-shark-02",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-shark-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-shark-09",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-polylas-art-01",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-polylas-art-02",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-polylas-art-03",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-polylas-art-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-polylas-art-07",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-markoras-father-01",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-markoras-father-03",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-markoras-father-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-markoras-father-05",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-markoras-father-07",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-markoras-father-08",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-01",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-02",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-03",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-05",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-06",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-07",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-laskaratos-sendoff-08",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-soutsos-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-soutsos-02",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-soutsos-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-soutsos-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-soutsos-05",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-soutsos-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-soutsos-07",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-soutsos-08",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-zalokostas-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-zalokostas-02",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-zalokostas-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-zalokostas-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-zalokostas-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-ragkavis-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-ragkavis-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-ragkavis-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-ragkavis-05",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-ragkavis-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-ragkavis-07",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-ragkavis-08",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-paparrigopoulos-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-paparrigopoulos-05",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-paparrigopoulos-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vasileiadis-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vasileiadis-02",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vasileiadis-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vasileiadis-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vasileiadis-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vasileiadis-08",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-palaiologos-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-palaiologos-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-palaiologos-08",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-02",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-05",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-08",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-roidis-walks-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-roidis-walks-02",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-roidis-walks-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-roidis-walks-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-roidis-walks-05",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-roidis-walks-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-roidis-walks-07",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-01",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-02",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-03",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-05",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-06",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-07",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-vlachos-08",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-02",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-03",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-04",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-06",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-07",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-08",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-09",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-petrarch-01",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-petrarch-02",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-petrarch-03",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-petrarch-06",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-petrarch-07",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-petrarch-08",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-02",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-03",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-04",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-05",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-06",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-07",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-08",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-09",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-10",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-palamas-sparta-01",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-02",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-03",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-04",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-05",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-06",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-08",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-prophetic-01",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-prophetic-03",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-prophetic-05",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-prophetic-06",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-prophetic-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-prophetic-08",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-satire-02",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-satire-03",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-satire-05",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-satire-06",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-satire-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-satire-08",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-01",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-02",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-03",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-04",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-05",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-06",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-elements-01",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-elements-02",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-elements-03",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-elements-04",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-elements-06",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-agora-01",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-agora-02",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-agora-04",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-agora-06",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-agora-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-agora-08",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-drosinis-01",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-drosinis-03",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-drosinis-04",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-drosinis-05",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-drosinis-06",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-drosinis-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-krystallis-01",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-krystallis-02",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-krystallis-03",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-krystallis-05",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-krystallis-06",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-krystallis-07",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-loss-01",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-loss-02",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-loss-03",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-loss-04",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-loss-05",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-loss-07",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-arrival-01",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-arrival-02",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-arrival-03",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-arrival-05",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-arrival-06",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-chatzopoulos-arrival-07",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-malakasis-01",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-malakasis-02",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-malakasis-03",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-malakasis-05",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-malakasis-06",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-malakasis-07",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-malakasis-08",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-01",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-02",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-04",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-05",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-06",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-07",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-08",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-griparis-09",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-porfyras-01",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-porfyras-02",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-porfyras-03",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-porfyras-04",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-porfyras-05",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-porfyras-06",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-porfyras-07",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-sikelianos-agrafon-01",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-agrafon-02",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-agrafon-03",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-agrafon-04",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-agrafon-05",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-agrafon-07",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-agrafon-08",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-march-01",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-march-04",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-march-05",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-march-08",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-dinner-01",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-dinner-02",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-dinner-03",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-dinner-04",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-dinner-05",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-dinner-07",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-01",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-02",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-03",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-04",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-05",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-06",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-08",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-iera-09",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-02",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-03",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-04",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-05",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-06",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-07",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-09",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-sikelianos-loukas-10",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-varnalis-passage-01",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-varnalis-passage-02",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-varnalis-passage-03",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-varnalis-passage-04",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-varnalis-passage-05",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-varnalis-passage-06",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-varnalis-passage-07",
+        "file": "bank-draft-17.json"
+      },
+      {
+        "id": "v3-psycharis-02",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-psycharis-04",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-psycharis-05",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-psycharis-06",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-psycharis-07",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-fotiadis-01",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-fotiadis-02",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-fotiadis-03",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-fotiadis-04",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-fotiadis-05",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-fotiadis-07",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-01",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-02",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-03",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-04",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-05",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-06",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-07",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-glinos-01",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-glinos-02",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-glinos-03",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-glinos-04",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-glinos-05",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-glinos-06",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-glinos-07",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-erofili-deep-01",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-elenitsa-deep-01",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-elenitsa-deep-02",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-elenitsa-deep-04",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-porfyras-deep-01",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-porfyras-deep-03",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-zalokostas-deep-02",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-zalokostas-deep-03",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-palaiologos-deep-01",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-palaiologos-deep-02",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-palaiologos-deep-03",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-palaiologos-deep-04",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-lear-deep-01",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-lear-deep-02",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-lear-deep-03",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-lear-deep-04",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-iera-deep-02",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-iera-deep-03",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-iera-deep-04",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-dowry-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-dowry-advanced-02",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-dowry-advanced-04",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-free-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-free-advanced-02",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-free-advanced-03",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-polylas-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-polylas-advanced-02",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-polylas-advanced-03",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-lethe-advanced-03",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-dusk-advanced-02",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-asma-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-asma-advanced-02",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-asma-advanced-03",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-chatz-loss-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-chatz-loss-advanced-02",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-chatz-loss-advanced-03",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-chatz-arrival-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-chatz-arrival-advanced-03",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-theatre-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-theatre-advanced-02",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-theatre-advanced-03",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-enrich21-5-10-1",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-5-10-2",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-5-10-3",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-5-10-4",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-6-05-1",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-6-05-4",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-07-1",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-07-3",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-07-4",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-15-1",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-15-2",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-15-4",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-23-1",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-23-2",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-23-4",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-28-1",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-28-3",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich21-7-28-4",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich22-7-04-2",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-04-3",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-04-4",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-05-1",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-05-2",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-30-1",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-30-2",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-30-3",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-30-4",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-31-4",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-32-1",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-32-2",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-32-3",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-32-4",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-33-1",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-33-2",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-33-3",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-33-4",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich23-1-09-1",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-1-09-2",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-1-09-3",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-1-09-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-1-11-1",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-1-11-3",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-1-11-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-2-04-1",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-2-04-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-03-1",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-03-3",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-03-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-04-2",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-04-3",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-04-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-05-1",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-05-2",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-05-3",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-05-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-06-1",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-06-2",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-06-3",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-06-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich24-3-09-1",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-09-2",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-10-1",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-10-3",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-12-1",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-12-2",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-12-4",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-14-4",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-17-3",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-3-17-4",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-4-01-2",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-enrich24-4-01-4",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-compare-solomos-nature-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-solomos-nature-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-gender-voice-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-gender-voice-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-mavilis-memory-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-mavilis-memory-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-polylas-solomos-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-polylas-solomos-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-chatz-symbolism-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-chatz-symbolism-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-chatz-porfyras-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-chatz-porfyras-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-dusk-theatre-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-dusk-theatre-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-polylas-mavilis-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-polylas-mavilis-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-porfyras-eras-01",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-porfyras-eras-02",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-porfyras-lithi-01",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-porfyras-lithi-02",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-porfyras-mouchroma-01",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-porfyras-mouchroma-02",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-eras-mouchroma-01",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-eras-mouchroma-02",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-proika-asmation-01",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-proika-asmation-02",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-lithi-asmation-01",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-lithi-asmation-02",
+        "file": "comparative-draft-02.json"
+      },
+      {
+        "id": "v3-compare-03-01-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-01-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-02-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-02-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-03-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-03-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-04-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-04-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-05-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-06-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-06-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-07-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-07-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-08-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-08-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-04-01-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-02-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-02-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-02-3",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-03-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-03-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-04-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-04-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-05-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-05-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-06-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-06-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-07-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-07-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-08-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-08-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-09-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-09-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-10-1",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-04-10-2",
+        "file": "comparative-draft-04.json"
+      },
+      {
+        "id": "v3-compare-05-01-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-01-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-02-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-02-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-03-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-03-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-04-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-04-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-05-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-05-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-06-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-06-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-07-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-07-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-08-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-08-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-09-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-09-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-10-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-10-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-11-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-11-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-12-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-12-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-13-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-13-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-14-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-14-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-15-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-15-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-16-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-16-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-17-1",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-compare-05-17-2",
+        "file": "comparative-draft-05.json"
+      },
+      {
+        "id": "v3-theory-r0-04",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r0-05",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r1-02",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r1-04",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r5-05",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r6-05",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r7-01",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r9-03",
+        "file": "theory-draft-01.json"
+      },
+      {
+        "id": "v3-theory-r1-07",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r1-08",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r2-08",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r5-06",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r5-07",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r5-09",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r5-10",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r6-06",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r6-09",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r6-10",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r7-09",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r9-08",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r9-09",
+        "file": "theory-draft-02.json"
+      },
+      {
+        "id": "v3-theory-r9-10",
+        "file": "theory-draft-02.json"
+      }
+    ],
+    "bothWrongAbsolute": [
+      {
+        "id": "v3-abraham-09",
+        "file": "bank-draft-01.json"
+      },
+      {
+        "id": "v3-bride-09",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-widow-son-04",
+        "file": "bank-draft-02.json"
+      },
+      {
+        "id": "v3-alex-kings-09",
+        "file": "bank-draft-03.json"
+      },
+      {
+        "id": "v3-dowry-08",
+        "file": "bank-draft-04.json"
+      },
+      {
+        "id": "v3-parga-08",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-armatoloi-08",
+        "file": "bank-draft-05.json"
+      },
+      {
+        "id": "v3-erotokritos-duel-04",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-alexander-dark-10",
+        "file": "bank-draft-06.json"
+      },
+      {
+        "id": "v3-vik-ras-05",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-08",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-dante-odysseus-09",
+        "file": "bank-draft-07.json"
+      },
+      {
+        "id": "v3-anak-08",
+        "file": "bank-draft-08.json"
+      },
+      {
+        "id": "v3-rodolinos-05",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-rodolinos-07",
+        "file": "bank-draft-09.json"
+      },
+      {
+        "id": "v3-kosmas-04",
+        "file": "bank-draft-10.json"
+      },
+      {
+        "id": "v3-vilaras-letter-04",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-vilaras-letter-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-skouzes-refugees-08",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kasomoulis-06",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kolokotronis-memoir-01",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kolokotronis-memoir-07",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-makrygiannis-02",
+        "file": "bank-draft-11.json"
+      },
+      {
+        "id": "v3-kalvos-patris-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-kalvos-volcano-05",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-thoughts-04",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-solomos-shark-06",
+        "file": "bank-draft-12.json"
+      },
+      {
+        "id": "v3-ragkavis-08",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-palaiologos-04",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-pitsipios-02",
+        "file": "bank-draft-13.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-03",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-kazantzakis-dante-08",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-petrarch-05",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-lear-09",
+        "file": "bank-draft-14.json"
+      },
+      {
+        "id": "v3-palamas-sparta-01",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-sparta-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-phaeacians-05",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-palamas-elements-05",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-drosinis-07",
+        "file": "bank-draft-15.json"
+      },
+      {
+        "id": "v3-porfyras-05",
+        "file": "bank-draft-16.json"
+      },
+      {
+        "id": "v3-psycharis-07",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-delmouzos-05",
+        "file": "bank-draft-18.json"
+      },
+      {
+        "id": "v3-porfyras-deep-02",
+        "file": "bank-draft-19.json"
+      },
+      {
+        "id": "v3-free-advanced-04",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-polylas-advanced-01",
+        "file": "bank-draft-20.json"
+      },
+      {
+        "id": "v3-enrich21-7-15-1",
+        "file": "bank-draft-21.json"
+      },
+      {
+        "id": "v3-enrich22-7-30-4",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich22-7-33-4",
+        "file": "bank-draft-22.json"
+      },
+      {
+        "id": "v3-enrich23-3-03-3",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-05-2",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-05-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-06-2",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich23-3-06-4",
+        "file": "bank-draft-23.json"
+      },
+      {
+        "id": "v3-enrich24-3-14-3",
+        "file": "bank-draft-24.json"
+      },
+      {
+        "id": "v3-compare-solomos-nature-01",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-gender-voice-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-mavilis-memory-02",
+        "file": "comparative-draft-01.json"
+      },
+      {
+        "id": "v3-compare-03-01-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-05-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-05-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-06-2",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-compare-03-08-1",
+        "file": "comparative-draft-03.json"
+      },
+      {
+        "id": "v3-theory-r7-09",
+        "file": "theory-draft-02.json"
+      }
+    ]
+  }
 }
