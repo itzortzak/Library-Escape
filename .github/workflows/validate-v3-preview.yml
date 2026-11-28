@@ -1,0 +1,47 @@
+name: Validate v3 preview (no publication)
+on:
+  push:
+    branches: [v3-question-bank-review]
+    paths:
+      - 'question-bank-v3/*-draft-*.json'
+      - 'question-bank-v3/anthology-coverage.json'
+      - 'question-bank-v3/validate-drafts.mjs'
+      - 'question-bank-v3/selector.mjs'
+      - 'scripts/build-v3-preview.py'
+      - 'scripts/v3-preview-runtime.js'
+      - 'scripts/v3-preview-check.cjs'
+      - '.github/workflows/validate-v3-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: library-escape-v3-preview
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate legacy build, full bank and v3 preview
+        run: |
+          python3 scripts/build-v3-preview.py
+          node scripts/navigation-check.cjs
+      - name: Browser tests
+        run: |
+          npm install --no-save --package-lock=false playwright@1.58.2
+          npx playwright install --with-deps chromium
+          python3 -m http.server 8766 --directory dist-v3 > /tmp/library-v3-server.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8766/VERSION >/dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/v3-preview-check.cjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: library-escape-v3-preview
+          path: dist-v3/
+          include-hidden-files: true
