@@ -11,6 +11,8 @@ on:
       - 'scripts/v3-preview-runtime.js'
       - 'scripts/v3-preview-check.cjs'
       - '.github/workflows/validate-v3-preview.yml'
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
