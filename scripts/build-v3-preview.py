@@ -16,7 +16,7 @@ catalogue = json.loads((bankdir / "anthology-coverage.json").read_text(encoding=
 by_id = {e["id"]: e for e in catalogue}
 by_title = {e.get("legacyBankTitle", e["work"]): e for e in catalogue}
 # Prior first editorial passes (not independent approval); later batches require explicit additions.
-reviewed_files = {f"bank-draft-{i:02d}.json" for i in range(1, 22)} | {"theory-draft-01.json", "theory-draft-02.json"}
+reviewed_files = {f"bank-draft-{i:02d}.json" for i in range(1, 23)} | {"theory-draft-01.json", "theory-draft-02.json"}
 questions = []
 for p in sorted(bankdir.glob("*-draft-*.json")):
     if not re.fullmatch(r"(bank|comparative|theory)-draft-\d+\.json", p.name):
@@ -34,7 +34,7 @@ for p in sorted(bankdir.glob("*-draft-*.json")):
         questions.append(q)
 assert len(questions) == 1350
 assert len({q["id"] for q in questions}) == 1350
-assert sum(q["reviewed"] for q in questions) == 1170
+assert sum(q["reviewed"] for q in questions) == 1194
 html = (root / "dist/index.html").read_text(encoding="utf-8")
 def replace_once(old, new):
     global html
@@ -66,9 +66,9 @@ out.mkdir(exist_ok=True)
 data = html.encode("utf-8")
 (out / "index.html").write_bytes(data)
 (out / ".nojekyll").touch()
-(out / "VERSION").write_text("3.0.0-preview.10\n", encoding="utf-8")
+(out / "VERSION").write_text("3.0.0-preview.11\n", encoding="utf-8")
 (out / "SHA256SUMS").write_text(hashlib.sha256(data).hexdigest()+"  index.html\n", encoding="utf-8")
-(out / "PREVIEW.txt").write_text("Δοκιμαστική έκδοση. 1170 ερωτήσεις πρώτης επιμέλειας, 180 προς αναλυτική επαλήθευση. Όχι οριστική δημοσίευση. Τα σχολικά χωρία παραπέμπονται με συνδέσμους, δεν αναπαράγονται αυτούσια.\n", encoding="utf-8")
+(out / "PREVIEW.txt").write_text("Δοκιμαστική έκδοση. 1194 ερωτήσεις πρώτης επιμέλειας, 156 προς αναλυτική επαλήθευση. Όχι οριστική δημοσίευση. Τα σχολικά χωρία παραπέμπονται με συνδέσμους, δεν αναπαράγονται αυτούσια.\n", encoding="utf-8")
 with (out / "catalogue.csv").open("w", encoding="utf-8-sig", newline="") as f:
     w = csv.writer(f, delimiter=";")
     w.writerow(["ID","Έργο","Συγγραφέας","Αίθουσα","Δυσκολία","Πρώτη επιμέλεια","Ερώτηση","Σωστή απάντηση","Αιτιολόγηση","Πηγή","Χωρίο"])
@@ -77,4 +77,4 @@ with (out / "catalogue.csv").open("w", encoding="utf-8-sig", newline="") as f:
         return "'" + v if v.startswith(("=", "+", "-", "@")) else v
     for q in questions:
         w.writerow([cell(v) for v in [q["id"],q["work"],q["author"],q["room"]+1,q["level"],"Ναι" if q["reviewed"] else "Όχι",q["prompt"],q["correct"],q["why"],q["sourceUrl"],q["sourceLocator"]]])
-print("Built separate v3 preview with 1350 questions, default 1170 first-reviewed.")
+print("Built separate v3 preview with 1350 questions, default 1194 first-reviewed.")

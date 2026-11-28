@@ -1008,5 +1008,53 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Η αναφορά στον Ρουσσό και στη διατήρηση της γαλλικής γλώσσας."
       }
     }
-  ]
+  ],
+  "supplementarySourceVerification": {
+    "date": "2026-11-28",
+    "status": "Direct source retrieval and review completed in checkpoint 11; this supersedes the previously unsupported direct retrieval claim.",
+    "reviewedQuestions": 28,
+    "checkedIds": [
+      "v3-psycharis-01",
+      "v3-psycharis-02",
+      "v3-psycharis-03",
+      "v3-psycharis-04",
+      "v3-psycharis-05",
+      "v3-psycharis-06",
+      "v3-psycharis-07",
+      "v3-fotiadis-01",
+      "v3-fotiadis-02",
+      "v3-fotiadis-03",
+      "v3-fotiadis-04",
+      "v3-fotiadis-05",
+      "v3-fotiadis-06",
+      "v3-fotiadis-07",
+      "v3-delmouzos-01",
+      "v3-delmouzos-02",
+      "v3-delmouzos-03",
+      "v3-delmouzos-04",
+      "v3-delmouzos-05",
+      "v3-delmouzos-06",
+      "v3-delmouzos-07",
+      "v3-glinos-01",
+      "v3-glinos-02",
+      "v3-glinos-03",
+      "v3-glinos-04",
+      "v3-glinos-05",
+      "v3-glinos-06",
+      "v3-glinos-07"
+    ],
+    "sources": [
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+      "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html"
+    ],
+    "findings": [
+      "Psycharis: the prologue's opening national aim, dual affiliation, methodological explanation, borrowing condition, educational proposal, literary character and final accessibility aim support the revised answer keys.",
+      "Fotiadis: the excerpt's initial exchange thesis, educational role, organic metaphor, progressive and conservative functions, exhortation to surpass ancestors and final mother-tongue distinction support the revised answers.",
+      "Delmouzos: the primary excerpt supports the definition, analogy, anti-demagoguery comparison, civic duties, equality and differences, and equal rights of peoples.",
+      "Glinos: the introduction explicitly distinguishes editorial summary from the primary excerpt; the primary excerpt supports the seven revised answers, including two reactions, organic and constraining metaphors, historical conditions of diffusion, social groups and the Rousseau language example."
+    ],
+    "limitations": "First direct source recheck, not independent second-reader approval; no changes to answer keys in collection 18."
+  }
 }

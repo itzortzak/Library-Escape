@@ -83,12 +83,86 @@
     "levelChanges": 9,
     "duplicatePrompts": 0,
     "duplicateOptions": 0,
-    "invalid": 0
+    "invalid": 0,
+    "crossBankComparison": {
+      "otherQuestions": 1326,
+      "otherChoices": 3978,
+      "batches": [
+        577,
+        469,
+        280
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "method": "Exact normalized Greek text comparison of collection 22 against all 30 other collections at commit c0947e6."
+    },
+    "fullBankDifficulty": {
+      "levels": [
+        254,
+        574,
+        522
+      ],
+      "pools": [
+        [
+          100,
+          29,
+          12
+        ],
+        [
+          9,
+          19,
+          54
+        ],
+        [
+          8,
+          110,
+          45
+        ],
+        [
+          18,
+          128,
+          39
+        ],
+        [
+          18,
+          75,
+          18
+        ],
+        [
+          52,
+          49,
+          16
+        ],
+        [
+          30,
+          87,
+          14
+        ],
+        [
+          6,
+          25,
+          81
+        ],
+        [
+          7,
+          30,
+          98
+        ],
+        [
+          6,
+          22,
+          145
+        ]
+      ],
+      "minimum": 6,
+      "method": "Recalculated from editorial-review-32 with recorded changes in collection 22."
+    }
   },
   "limitations": [
     "Difficulty is qualitative; no classroom calibration.",
-    "Full-bank exact check and executable CI pending.",
-    "Targeted semantic comparison is not exhaustive."
+    "Full executable CI and browser results pending.",
+    "Targeted semantic comparison is not a full semantic audit."
   ],
   "changes": [
     {
