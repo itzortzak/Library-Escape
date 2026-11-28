@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-28",
+  "collection": "question-bank-v3/comparative-draft-04.json",
+  "count": 22,
+  "sourceBlob": "92c2d3134ec19f93cf28c14f7ee39ed6cf5c5d24",
+  "sourceVerification": [
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA4_1.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexA4_3.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexC6_2.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_3.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG1_5.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_5.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_6.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG3_3.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_4.html"
+  ],
+  "method": "Direct reading of twelve official school HTML pages, editorial revision of all 22 questions and their choices and justifications, two locator corrections; difficulty editorial.",
+  "items": [
+    {
+      "id": "v3-compare-04-01-1",
+      "sourceRefs": [
+        {
+          "entryId": "1-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA4_1.html",
+          "locator": "Στίχοι 1–3, θρήνος των πουλιών"
+        },
+        {
+          "entryId": "1-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexA4_3.html",
+          "locator": "Στίχοι 1–4, προσφώνηση προς τον ήλιο"
+        }
+      ],
+      "why": "Στην Αντριανούπολη η φύση συμμετέχει στον θρήνο· στους Σκλάβους ο ήλιος γίνεται αποδέκτης της παράκλησης.",
+      "level": 1
+    },
+    {
+      "id": "v3-compare-04-01-2",
+      "sourceRefs": [
+        {
+          "entryId": "1-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA4_1.html",
+          "locator": "Στίχος 2, ώρες της ημέρας"
+        },
+        {
+          "entryId": "1-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexA4_3.html",
+          "locator": "Στίχοι 1–4, ανατολή και δύση"
+        }
+      ],
+      "why": "Οι ώρες της ημέρας δηλώνουν τη διαρκή λύπη· η ανατολή και η δύση του ήλιου γίνονται αντικείμενο της παράκλησης.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-02-1",
+      "sourceRefs": [
+        {
+          "entryId": "3-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexC6_2.html",
+          "locator": "Εισαγωγικό σημείωμα και αρχή του αποσπάσματος"
+        },
+        {
+          "entryId": "3-18",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_3.html",
+          "locator": "Εισαγωγικό σημείωμα και αρχή του αποσπάσματος"
+        }
+      ],
+      "why": "Τα σχολικά εισαγωγικά σημειώματα διακρίνουν τη συγγραφή του Κασομούλη από την υπαγόρευση του Κολοκοτρώνη στον Τερτσέτη.",
+      "level": 1
+    },
+    {
+      "id": "v3-compare-04-02-2",
+      "sourceRefs": [
+        {
+          "entryId": "3-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexC6_2.html",
+          "locator": "Σκηνή της γυναίκας και αναγνώριση του Γρηγόρη"
+        },
+        {
+          "entryId": "3-18",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_3.html",
+          "locator": "Χωρίο με την εσφαλμένη αρχική αναγνώριση των νεοαφιχθέντων"
+        }
+      ],
+      "why": "Ο Κασομούλης αναγνωρίζει τον Γρηγόρη μετά την παρέμβασή του· ο Κολοκοτρώνης αναφέρει ότι οι νεοαφιχθέντες που θεώρησαν αντιπάλους ήταν δικοί τους.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-02-3",
+      "sourceRefs": [
+        {
+          "entryId": "3-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexC6_2.html",
+          "locator": "Συνομιλία Στορνάρη και Νότη"
+        },
+        {
+          "entryId": "3-18",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_3.html",
+          "locator": "Αρχικός διάλογος με τους συνομιλητές του Κολοκοτρώνη"
+        }
+      ],
+      "why": "Ο Στορνάρης και ο Νότης διαφωνούν για την αναμονή των γυναικών· οι συνομιλητές του Κολοκοτρώνη φοβούνται για την ασφάλειά τους, ενώ εκείνος αναλαμβάνει ευθύνη.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-02-4",
+      "sourceRefs": [
+        {
+          "entryId": "3-17",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexC6_2.html",
+          "locator": "Σκηνή του Αποστόλη Τζαλαχά"
+        },
+        {
+          "entryId": "3-18",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_3.html",
+          "locator": "Καταληκτική αποτίμηση του Βαλτετσίου"
+        }
+      ],
+      "why": "Η προσφορά του Τζαλαχά στον ανιψιό του αντιπαραβάλλεται με την καταληκτική αποτίμηση του Βαλτετσίου ως γεγονότος σημαντικού για την πατρίδα.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-03-1",
+      "sourceRefs": [
+        {
+          "entryId": "4-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html",
+          "locator": "Στροφές γ΄–ε΄, διαρκής ανάμνηση της Ζακύνθου"
+        },
+        {
+          "entryId": "7-15",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
+          "locator": "Στίχοι 20–25 και κατακλείδα, επιθυμία επιστροφής"
+        }
+      ],
+      "why": "Στις αρχικές στροφές ο Κάλβος διαβεβαιώνει ότι δεν λησμόνησε τη Ζάκυνθο· η επανάληψη της επιθυμίας στον Κρυστάλλη εκφράζει έναν ανεκπλήρωτο πόθο.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-03-2",
+      "sourceRefs": [
+        {
+          "entryId": "4-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html",
+          "locator": "Στροφή κγ΄, επιθυμία για τάφο στην πατρίδα"
+        },
+        {
+          "entryId": "7-15",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
+          "locator": "Τελευταίοι πέντε στίχοι, παράκληση για φτερά"
+        }
+      ],
+      "why": "Ο τελευταίος στίχος του Κάλβου συνδέει τον θάνατο με την πατρίδα· η έκκληση στον αετό ζητεί απελευθέρωση από τον κάμπο.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-04-1",
+      "sourceRefs": [
+        {
+          "entryId": "4-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html",
+          "locator": "Στροφές στ΄–ιβ΄, ξένες χώρες και Ζάκυνθος"
+        },
+        {
+          "entryId": "7-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
+          "locator": "Πρώτα δύο τετράστιχα, γεωγραφικές αναφορές"
+        }
+      ],
+      "why": "Ο Κάλβος αναγνωρίζει τα γνωρίσματα άλλων χωρών αλλά προτιμά τη Ζάκυνθο· στον Παλαμά οι τόποι αποκτούν ψυχική υπόσταση.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-04-2",
+      "sourceRefs": [
+        {
+          "entryId": "4-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD1_1.html",
+          "locator": "Στροφές ιγ΄–ιζ΄, μυθολογικές εικόνες του ιόνιου τοπίου"
+        },
+        {
+          "entryId": "7-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
+          "locator": "Πρώτοι δύο στίχοι, ομηρική παρομοίωση"
+        }
+      ],
+      "why": "Η αναφορά στην Άρτεμη και στους Ζεφύρους ποιητικοποιεί το ιόνιο τοπίο· το πλοίο των Φαιάκων παραβάλλεται με τη φαντασία.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-05-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
+          "locator": "Πρώτο και δεύτερο τρίστιχο, ταξίδια και κατακλείδα"
+        },
+        {
+          "entryId": "7-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG1_5.html",
+          "locator": "Πρώτο τετράστιχο και πρώτο τρίστιχο, μεταθανάτια επιστροφή"
+        }
+      ],
+      "why": "Στο ένατο σονέτο οι τόποι εσωτερικεύονται, ενώ στο δωδέκατο τα τέσσερα στοιχεία παρουσιάζονται ως αρχή και τέλος.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-05-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG1_4.html",
+          "locator": "Τελευταίοι δύο στίχοι, εικόνα του χόρτου"
+        },
+        {
+          "entryId": "7-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG1_5.html",
+          "locator": "Τελευταίοι τρεις στίχοι, εικόνα της λύρας"
+        }
+      ],
+      "why": "Το ριζωμένο χόρτο διαφεύγει τον αφανισμό· στο δωδέκατο σονέτο η εικόνα της λύρας υποδηλώνει τη συνέχεια του ποιητικού ήχου.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-06-1",
+      "sourceRefs": [
+        {
+          "entryId": "1-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexA4_3.html",
+          "locator": "Στίχοι 1–4, προσφώνηση προς τον ήλιο"
+        },
+        {
+          "entryId": "7-15",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
+          "locator": "Αρχικοί στίχοι και καταληκτική προσφώνηση προς τον αετό"
+        }
+      ],
+      "why": "Ο ήλιος καλείται να μην φωτίσει τους αιχμαλώτους· ο αετός καλείται να μεταφέρει την ποιητική φωνή στα βουνά.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-06-2",
+      "sourceRefs": [
+        {
+          "entryId": "1-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexA4_3.html",
+          "locator": "Τελευταίος στίχος, δάκρυα και ηλιακές ακτίνες"
+        },
+        {
+          "entryId": "7-15",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG4.html",
+          "locator": "Χωρίο από τη γέννηση του πόθου έως την εικόνα της σωματικής φθοράς"
+        }
+      ],
+      "why": "Η υπερβολή με τα δάκρυα και τις ακτίνες αντιπαραβάλλεται με τη μεταφορική μεταμόρφωση του πόθου σε απειλητικό πλάσμα.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-07-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_5.html",
+          "locator": "Τελική ενότητα, γνώση και αντιδράσεις του πλήθους"
+        },
+        {
+          "entryId": "7-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_6.html",
+          "locator": "Πρώτη και δεύτερη ενότητα, διάκριση εντύπωσης και κινήτρων"
+        }
+      ],
+      "why": "Η επίγνωση του πλήθους δηλώνεται στο τέλος των Βασιλέων· στον Ηγεμόνα η ποιητική αφήγηση ανατρέπει την αρχική εντύπωση.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-07-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_5.html",
+          "locator": "Στίχοι για την εμφάνιση του Καισαρίωνα"
+        },
+        {
+          "entryId": "7-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_6.html",
+          "locator": "Αρχική περιγραφή της εμφάνισης και συμπεριφοράς του Αριστομένη"
+        }
+      ],
+      "why": "Η λαμπρή περιβολή του Καισαρίωνα συμβάλλει στο θέαμα· η ελληνική εμφάνιση του Αριστομένη αποτελεί μέρος της προσποίησής του.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-08-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG3_3.html",
+          "locator": "Ενότητα της αποδοχής των σατραπειών"
+        },
+        {
+          "entryId": "7-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_6.html",
+          "locator": "Δεύτερη ενότητα, αποκάλυψη του σκοπού της συμπεριφοράς"
+        }
+      ],
+      "why": "Η αποδοχή των σατραπειών δεν ικανοποιεί το πρόσωπο· η συμπεριφορά του ηγεμόνα στοχεύει στη διατήρηση της καλής εντύπωσης.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-08-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG3_3.html",
+          "locator": "Στίχοι για την απελπισία και τις πραγματικές επιθυμίες"
+        },
+        {
+          "entryId": "7-13",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_6.html",
+          "locator": "Καταληκτικοί στίχοι, φόβος έκθεσης και πλήξη"
+        }
+      ],
+      "why": "Ο πρώτος δέχεται όσα δεν επιθυμεί· ο δεύτερος περιορίζει τον λόγο του από φόβο χλευασμού και πλήττει.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-09-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG3_3.html",
+          "locator": "Κεντρικοί στίχοι, υποχώρηση και αποδοχή της εύνοιας"
+        },
+        {
+          "entryId": "7-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_4.html",
+          "locator": "Τελευταία ενότητα, προτροπή για θαρραλέο αποχαιρετισμό"
+        }
+      ],
+      "why": "Στη Σατραπεία η υποχώρηση παρουσιάζεται ποιητικά ως γεγονός· στο Απολείπειν διατυπώνονται προτροπές για τον επικείμενο αποχαιρετισμό.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-09-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG3_3.html",
+          "locator": "Καταληκτικά ερωτήματα"
+        },
+        {
+          "entryId": "7-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_4.html",
+          "locator": "Επαναλαμβανόμενες προστακτικές στις δύο ενότητες"
+        }
+      ],
+      "why": "Τα τελικά ερωτήματα της Σατραπείας δεν αναμένουν απάντηση· οι προστακτικές του Απολείπειν καθορίζουν μια στάση απέναντι στην απώλεια.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-04-10-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_4.html",
+          "locator": "Αρχική και καταληκτική αναφορά στην Αλεξάνδρεια"
+        },
+        {
+          "entryId": "7-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_5.html",
+          "locator": "Ενότητα της δημόσιας τελετής και τελική αποτίμηση"
+        }
+      ],
+      "why": "Η Αλεξάνδρεια αποτελεί το αντικείμενο του αποχαιρετισμού στο πρώτο ποίημα· στο δεύτερο το Γυμνάσιο φιλοξενεί μια λαμπρή αλλά κενή τελετή.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-04-10-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_4.html",
+          "locator": "Στίχοι για την άρνηση της αυταπάτης"
+        },
+        {
+          "entryId": "7-12",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexG3_5.html",
+          "locator": "Καταληκτικοί στίχοι για την επίγνωση του πλήθους"
+        }
+      ],
+      "why": "Οι αρνητικές προτροπές του Απολείπειν αποκλείουν την αυταπάτη· το πλήθος των Βασιλέων ενθουσιάζεται μολονότι αντιλαμβάνεται την κενότητα των τίτλων.",
+      "level": 3
+    }
+  ],
+  "checks": {
+    "uniqueWithinCollectionIds": 22,
+    "uniqueWithinCollectionChoices": 66,
+    "correctLongest": 5
+  },
+  "limitations": "No independent peer review or confirmed full-bank CI; 34 comparative questions await editorial review."
+}

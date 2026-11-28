@@ -1,0 +1,29 @@
+{
+  "anthology": {
+    "questions": 1046,
+    "rooms": 10,
+    "sessions": 100,
+    "checkedSelections": 3000,
+    "distinctQuestionSets": 100,
+    "correctOptionPositions": [
+      1045,
+      974,
+      981
+    ],
+    "repeatBeforeExhaustion": false
+  },
+  "combinedMetadataFixture": {
+    "questions": 1062,
+    "rooms": 10,
+    "sessions": 100,
+    "checkedSelections": 3000,
+    "distinctQuestionSets": 100,
+    "correctOptionPositions": [
+      984,
+      987,
+      1029
+    ],
+    "repeatBeforeExhaustion": false
+  },
+  "note": "The selector algorithm was executed with all 1046 anthology items and the 16 comparative items' exact selection metadata and three distinct placeholder choices, due to connector batch limits. All actual prompts, options and IDs were checked pairwise across batches; full combined Node validation remains pending."
+}

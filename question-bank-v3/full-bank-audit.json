@@ -1,0 +1,374 @@
+{
+  "files": [
+    {
+      "name": "bank-draft-01.json",
+      "sha": "a5871fb28ae6b800d888edbefbd4ebf1fb568c28"
+    },
+    {
+      "name": "bank-draft-02.json",
+      "sha": "cc1cbcf66b73c27d728a54faaaeb95f91ddfe8bb"
+    },
+    {
+      "name": "bank-draft-03.json",
+      "sha": "67eecb315bf38c1bd66b1813893dbc38b17b4e56"
+    },
+    {
+      "name": "bank-draft-04.json",
+      "sha": "5deda8d1a8bf74e314e8c77ba83c89868b4b371f"
+    },
+    {
+      "name": "bank-draft-05.json",
+      "sha": "c9b88c719e7378af988b50b14d2c33af0a83cdf8"
+    },
+    {
+      "name": "bank-draft-06.json",
+      "sha": "73c7f2707084740b715f7ae1ed2e7ee70c75a805"
+    },
+    {
+      "name": "bank-draft-07.json",
+      "sha": "906f22bbff7488879a20adcf06ac588255523b0e"
+    },
+    {
+      "name": "bank-draft-08.json",
+      "sha": "c4faaae88e2d132ed092aba3c5902efe0b6ddd93"
+    },
+    {
+      "name": "bank-draft-09.json",
+      "sha": "077bf1f3ae328999b5faaf9447849ef8b6060bbd"
+    },
+    {
+      "name": "bank-draft-10.json",
+      "sha": "6dfbc4757510605af5ca52471a4d381d58869d14"
+    },
+    {
+      "name": "bank-draft-11.json",
+      "sha": "ab28796021556cdcf4e09ead82aee84607627190"
+    },
+    {
+      "name": "bank-draft-12.json",
+      "sha": "9ce34eaa14270e04fdd17b903b6adccca2d7e7b9"
+    },
+    {
+      "name": "bank-draft-13.json",
+      "sha": "fbaec995fa0ecb68ef3d9d61ffa8a6dd65650f95"
+    },
+    {
+      "name": "bank-draft-14.json",
+      "sha": "aeb539b29023dfac642c761fb6ea8157436e4dc7"
+    },
+    {
+      "name": "bank-draft-15.json",
+      "sha": "945cb15c44e1c688d87a1f57dc2ceddf40432d7a"
+    },
+    {
+      "name": "bank-draft-16.json",
+      "sha": "d6aed0a7e621c51af17218129c5c8c4af3c41d3b"
+    },
+    {
+      "name": "bank-draft-17.json",
+      "sha": "649d8b7135e2d210ea4765454565c35bb863511b"
+    },
+    {
+      "name": "bank-draft-18.json",
+      "sha": "971a49f6b01945499b480cfd692a4d82a4c9102e"
+    },
+    {
+      "name": "bank-draft-19.json",
+      "sha": "f3611ab74b0f02a7564a40ca9690d2840ecf143a"
+    },
+    {
+      "name": "bank-draft-20.json",
+      "sha": "a1d904313d66ad75c87a4a5caa12ec87b3942c65"
+    },
+    {
+      "name": "bank-draft-21.json",
+      "sha": "f285413555e2d85f10e5fa8750cad1e341857be0"
+    },
+    {
+      "name": "bank-draft-22.json",
+      "sha": "849bb4390cfcadd8e4479744dcb5c32def26304c"
+    },
+    {
+      "name": "bank-draft-23.json",
+      "sha": "f510ab3e82e29ff0b8fd1a7d13cd22812f80243f"
+    },
+    {
+      "name": "bank-draft-24.json",
+      "sha": "7fa2a4c582837950bc5a3ca83ce54467e2ac7f53"
+    },
+    {
+      "name": "comparative-draft-01.json",
+      "sha": "305beed710b526ee2a4f4c60804d20b5a699e7e0"
+    },
+    {
+      "name": "comparative-draft-02.json",
+      "sha": "88744784be30b0d5fc28ca0b3c14b3ba3992779c"
+    },
+    {
+      "name": "comparative-draft-03.json",
+      "sha": "6a15a16bda50a589aa64cea07858c1fb2e0bd39f"
+    },
+    {
+      "name": "comparative-draft-04.json",
+      "sha": "914d9f9e6d19a4f740ae46c437c7ea2c2af267fd"
+    },
+    {
+      "name": "comparative-draft-05.json",
+      "sha": "44c7684921659667a1737cb7fc61d7b931af5236"
+    },
+    {
+      "name": "theory-draft-01.json",
+      "sha": "08fb56179f08eb797e98ac64eaab7a8107764249"
+    },
+    {
+      "name": "theory-draft-02.json",
+      "sha": "d084b9608611ea185f3700f9174e2d066c20ee6e"
+    }
+  ],
+  "count": 1350,
+  "choices": 4050,
+  "duplicateIds": 0,
+  "duplicatePromptFingerprints": 0,
+  "duplicateChoiceFingerprints": 0,
+  "errors": [],
+  "warnings": [],
+  "coverageErrors": [],
+  "entries": 115,
+  "categories": {
+    "a": 1150,
+    "c": 100,
+    "t": 100
+  },
+  "levels": {
+    "1": 209,
+    "2": 529,
+    "3": 612
+  },
+  "roomCounts": {
+    "0": 141,
+    "1": 82,
+    "2": 163,
+    "3": 185,
+    "4": 111,
+    "5": 117,
+    "6": 131,
+    "7": 112,
+    "8": 135,
+    "9": 173
+  },
+  "roomLevels": [
+    {
+      "room": 0,
+      "levels": {
+        "1": 110,
+        "2": 17,
+        "3": 14
+      },
+      "categories": {
+        "a": 122,
+        "c": 9,
+        "t": 10
+      }
+    },
+    {
+      "room": 1,
+      "levels": {
+        "1": 2,
+        "2": 14,
+        "3": 66
+      },
+      "categories": {
+        "a": 65,
+        "c": 7,
+        "t": 10
+      }
+    },
+    {
+      "room": 2,
+      "levels": {
+        "1": 2,
+        "2": 121,
+        "3": 40
+      },
+      "categories": {
+        "a": 142,
+        "c": 11,
+        "t": 10
+      }
+    },
+    {
+      "room": 3,
+      "levels": {
+        "1": 5,
+        "2": 123,
+        "3": 57
+      },
+      "categories": {
+        "a": 162,
+        "c": 13,
+        "t": 10
+      }
+    },
+    {
+      "room": 4,
+      "levels": {
+        "1": 4,
+        "2": 86,
+        "3": 21
+      },
+      "categories": {
+        "a": 89,
+        "c": 12,
+        "t": 10
+      }
+    },
+    {
+      "room": 5,
+      "levels": {
+        "1": 75,
+        "2": 28,
+        "3": 14
+      },
+      "categories": {
+        "a": 100,
+        "c": 7,
+        "t": 10
+      }
+    },
+    {
+      "room": 6,
+      "levels": {
+        "1": 5,
+        "2": 112,
+        "3": 14
+      },
+      "categories": {
+        "a": 112,
+        "c": 9,
+        "t": 10
+      }
+    },
+    {
+      "room": 7,
+      "levels": {
+        "1": 2,
+        "2": 7,
+        "3": 103
+      },
+      "categories": {
+        "a": 95,
+        "c": 7,
+        "t": 10
+      }
+    },
+    {
+      "room": 8,
+      "levels": {
+        "1": 2,
+        "2": 17,
+        "3": 116
+      },
+      "categories": {
+        "a": 114,
+        "c": 11,
+        "t": 10
+      }
+    },
+    {
+      "room": 9,
+      "levels": {
+        "1": 2,
+        "2": 4,
+        "3": 167
+      },
+      "categories": {
+        "a": 149,
+        "c": 14,
+        "t": 10
+      }
+    }
+  ],
+  "selection": {
+    "algorithm": "Exact selector logic mirrored in JS, using actual IDs, room, level, work-key and normalized option fingerprints, not literal option strings; Node validator and browser not executed",
+    "sessions": 100,
+    "checkedSelections": 3000,
+    "distinctQuestionSets": 100,
+    "correctOptionPositions": [
+      998,
+      995,
+      1007
+    ],
+    "repeatBeforeExhaustion": false,
+    "exhaustion": [
+      {
+        "level": "all",
+        "eligible": 1350,
+        "sessions": 62,
+        "distinctSeen": 1350,
+        "picks": 1860,
+        "correctPositions": [
+          623,
+          653,
+          584
+        ],
+        "repeatBeforePoolExhaustion": false,
+        "roomsWithFewerThan3": []
+      },
+      {
+        "level": 1,
+        "eligible": 209,
+        "sessions": 37,
+        "distinctSeen": 209,
+        "picks": 925,
+        "correctPositions": [
+          311,
+          309,
+          305
+        ],
+        "repeatBeforePoolExhaustion": false,
+        "roomsWithFewerThan3": [
+          1,
+          2,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "level": 2,
+        "eligible": 529,
+        "sessions": 41,
+        "distinctSeen": 529,
+        "picks": 1230,
+        "correctPositions": [
+          422,
+          395,
+          413
+        ],
+        "repeatBeforePoolExhaustion": false,
+        "roomsWithFewerThan3": []
+      },
+      {
+        "level": 3,
+        "eligible": 612,
+        "sessions": 56,
+        "distinctSeen": 612,
+        "picks": 1680,
+        "correctPositions": [
+          515,
+          577,
+          588
+        ],
+        "repeatBeforePoolExhaustion": false,
+        "roomsWithFewerThan3": []
+      }
+    ]
+  },
+  "status": "structural-audit-passed; not production approved",
+  "fingerprintMethod": "two deterministic 32-bit hashes of NFC, trimmed, whitespace-normalized, lowercase Greek text; zero fingerprint collisions/repeats implies zero exact normalized duplicates",
+  "limitations": [
+    "No semantic/philological certification",
+    "Source URLs match the catalogue, not live source content verification",
+    "Selection simulation does not exercise browser UI or actual Node script"
+  ]
+}

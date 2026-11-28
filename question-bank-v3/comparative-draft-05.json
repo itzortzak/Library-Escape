@@ -1,0 +1,1640 @@
+{
+  "schemaVersion": 1,
+  "status": "draft—not production",
+  "category": "comparative",
+  "source": "Official electronic anthology, 13 texts consulted",
+  "questions": [
+    {
+      "id": "v3-compare-05-01-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "1-01",
+        "2-03"
+      ],
+      "author": "Δημοτικό τραγούδι / Μπεργαδής",
+      "work": "Του νεκρού αδελφού / Απόκοπος – Ειπέ μας αν κρατεί ουρανός",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματικές και δραματικές τεχνικές",
+      "room": 2,
+      "level": 2,
+      "locator": "Του νεκρού αδελφού: Επιστροφή του Κωνσταντίνου από τον τάφο · Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Μοιρολόγι των νεκρών, ευχή επιστροφής",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Του νεκρού αδελφού: Επιστροφή του Κωνσταντίνου από τον τάφο · Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Μοιρολόγι των νεκρών, ευχή επιστροφής.",
+      "source": "Δημοτικό τραγούδι, «Του νεκρού αδελφού»· Μπεργαδής, «Απόκοπος – Ειπέ μας αν κρατεί ουρανός», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html"
+      ],
+      "sourceLocator": "Επιστροφή του Κωνσταντίνου από τον τάφο / Μοιρολόγι των νεκρών, ευχή επιστροφής",
+      "sourceRefs": [
+        {
+          "entryId": "1-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+          "locator": "Επιστροφή του Κωνσταντίνου από τον τάφο"
+        },
+        {
+          "entryId": "2-03",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+          "locator": "Μοιρολόγι των νεκρών, ευχή επιστροφής"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρει η αφηγηματική πραγματοποίηση της επιστροφής από τον Κάτω Κόσμο;",
+      "options": [
+        "Ο Κωνσταντίνος επιστρέφει προσωρινά· οι νεκροί του Απόκοπου εύχονται να επιστρέψουν.",
+        "Ο Κωνσταντίνος επιθυμεί την επιστροφή· οι νεκροί του Απόκοπου την πραγματοποιούν.",
+        "Ο Κωνσταντίνος και οι νεκροί πραγματοποιούν την επιστροφή τους μέσα σε όνειρο."
+      ],
+      "correct": "Ο Κωνσταντίνος επιστρέφει προσωρινά· οι νεκροί του Απόκοπου εύχονται να επιστρέψουν.",
+      "why": "Στην παραλογή η κατάρα κινητοποιεί την υπερφυσική επάνοδο· στο μοιρολόγι του Απόκοπου η έξοδος από τον τάφο διατυπώνεται ως ευχή.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-01-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "1-01",
+        "2-03"
+      ],
+      "author": "Δημοτικό τραγούδι / Μπεργαδής",
+      "work": "Του νεκρού αδελφού / Απόκοπος – Ειπέ μας αν κρατεί ουρανός",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Συναισθήματα και κίνητρα",
+      "room": 6,
+      "level": 2,
+      "locator": "Του νεκρού αδελφού: Κατάρα της μητέρας στο μνήμα · Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Ερωτήσεις για τη μνήμη των ζωντανών",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Του νεκρού αδελφού: Κατάρα της μητέρας στο μνήμα · Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Ερωτήσεις για τη μνήμη των ζωντανών.",
+      "source": "Δημοτικό τραγούδι, «Του νεκρού αδελφού»· Μπεργαδής, «Απόκοπος – Ειπέ μας αν κρατεί ουρανός», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html"
+      ],
+      "sourceLocator": "Κατάρα της μητέρας στο μνήμα / Ερωτήσεις για τη μνήμη των ζωντανών",
+      "sourceRefs": [
+        {
+          "entryId": "1-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+          "locator": "Κατάρα της μητέρας στο μνήμα"
+        },
+        {
+          "entryId": "2-03",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+          "locator": "Ερωτήσεις για τη μνήμη των ζωντανών"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική όψη του δεσμού ζωντανών και νεκρών προβάλλεται στα δύο χωρία;",
+      "options": [
+        "Η μητέρα απαιτεί εκπλήρωση υπόσχεσης· οι νεκροί ζητούν επιβεβαίωση της μνήμης τους.",
+        "Η μητέρα ζητεί επιβεβαίωση της μνήμης της· οι νεκροί απαιτούν τήρηση όρκου.",
+        "Η μητέρα και οι νεκροί επιδιώκουν να αποκαταστήσουν έναν γάμο."
+      ],
+      "correct": "Η μητέρα απαιτεί εκπλήρωση υπόσχεσης· οι νεκροί ζητούν επιβεβαίωση της μνήμης τους.",
+      "why": "Η κατάρα συνδέεται με τον όρκο επιστροφής της Αρετής· οι ερωτήσεις του Απόκοπου κορυφώνονται στην αγωνία για τη μνήμη των ζωντανών.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-02-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-03",
+        "2-07"
+      ],
+      "author": "Μπεργαδής / Βιτσέντζος Κορνάρος (αποδιδόμενο έργο)",
+      "work": "Απόκοπος – Ειπέ μας αν κρατεί ουρανός / Η θυσία του Αβραάμ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Συμβολισμοί",
+      "room": 7,
+      "level": 2,
+      "locator": "Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Ευχή των νεκρών να εγκαταλείψουν τον τάφο · Η θυσία του Αβραάμ: Λόγια του Σιμπάν και του Ισαάκ για την επιστροφή από τον Άδη",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Ευχή των νεκρών να εγκαταλείψουν τον τάφο · Η θυσία του Αβραάμ: Λόγια του Σιμπάν και του Ισαάκ για την επιστροφή από τον Άδη.",
+      "source": "Μπεργαδής, «Απόκοπος – Ειπέ μας αν κρατεί ουρανός»· Βιτσέντζος Κορνάρος (αποδιδόμενο έργο), «Η θυσία του Αβραάμ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html"
+      ],
+      "sourceLocator": "Ευχή των νεκρών να εγκαταλείψουν τον τάφο / Λόγια του Σιμπάν και του Ισαάκ για την επιστροφή από τον Άδη",
+      "sourceRefs": [
+        {
+          "entryId": "2-03",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+          "locator": "Ευχή των νεκρών να εγκαταλείψουν τον τάφο"
+        },
+        {
+          "entryId": "2-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+          "locator": "Λόγια του Σιμπάν και του Ισαάκ για την επιστροφή από τον Άδη"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η σημασία της επανόδου από τον Άδη στα δύο έργα;",
+      "options": [
+        "Στον Απόκοπο είναι ευχή των νεκρών· στη Θυσία μεταφορά για τη διάσωση του Ισαάκ.",
+        "Στον Απόκοπο είναι μεταφορά της διάσωσης· στη Θυσία ευχή των νεκρών.",
+        "Στα δύο χωρία αποτελεί ανάμνηση πραγματικής ανάστασης των προσώπων."
+      ],
+      "correct": "Στον Απόκοπο είναι ευχή των νεκρών· στη Θυσία μεταφορά για τη διάσωση του Ισαάκ.",
+      "why": "Ο Ισαάκ δεν πέθανε· η εικόνα της επανόδου από τον Άδη εκφράζει τη σωτηρία του από τον επικείμενο θάνατο.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-02-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-03",
+        "2-07"
+      ],
+      "author": "Μπεργαδής / Βιτσέντζος Κορνάρος (αποδιδόμενο έργο)",
+      "work": "Απόκοπος – Ειπέ μας αν κρατεί ουρανός / Η θυσία του Αβραάμ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Συναισθήματα και κίνητρα",
+      "room": 6,
+      "level": 1,
+      "locator": "Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Μοιρολόγι και επιθυμία υποδοχής από τους οικείους · Η θυσία του Αβραάμ: Συνάντηση Σάρρας και Ισαάκ",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Απόκοπος – Ειπέ μας αν κρατεί ουρανός: Μοιρολόγι και επιθυμία υποδοχής από τους οικείους · Η θυσία του Αβραάμ: Συνάντηση Σάρρας και Ισαάκ.",
+      "source": "Μπεργαδής, «Απόκοπος – Ειπέ μας αν κρατεί ουρανός»· Βιτσέντζος Κορνάρος (αποδιδόμενο έργο), «Η θυσία του Αβραάμ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html"
+      ],
+      "sourceLocator": "Μοιρολόγι και επιθυμία υποδοχής από τους οικείους / Συνάντηση Σάρρας και Ισαάκ",
+      "sourceRefs": [
+        {
+          "entryId": "2-03",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB3.html",
+          "locator": "Μοιρολόγι και επιθυμία υποδοχής από τους οικείους"
+        },
+        {
+          "entryId": "2-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+          "locator": "Συνάντηση Σάρρας και Ισαάκ"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια αντίθεση συναισθηματικής κατάστασης δημιουργεί η σύγκριση των δύο σκηνών υποδοχής;",
+      "options": [
+        "Οι νεκροί φαντάζονται την υποδοχή τους· η Σάρρα συναντά πραγματικά τον Ισαάκ.",
+        "Οι νεκροί συναντούν τους συγγενείς τους· η Σάρρα φαντάζεται τη συνάντηση.",
+        "Στα δύο χωρία η συνάντηση πραγματοποιείται αλλά προκαλεί απογοήτευση."
+      ],
+      "correct": "Οι νεκροί φαντάζονται την υποδοχή τους· η Σάρρα συναντά πραγματικά τον Ισαάκ.",
+      "why": "Οι νεκροί αναρωτιούνται ποιος θα τους υποδεχόταν· στη Θυσία η συνάντηση πραγματοποιείται επί σκηνής.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-03-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-06",
+        "2-07"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Βιτσέντζος Κορνάρος (αποδιδόμενο έργο)",
+      "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄ / Η θυσία του Αβραάμ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματική φωνή",
+      "room": 0,
+      "level": 1,
+      "locator": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Χορικό Γ΄ πράξης, επίκληση στον πλούτο και στη δόξα · Η θυσία του Αβραάμ: Αναγγελία της σωτηρίας από τον Σιμπάν",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Χορικό Γ΄ πράξης, επίκληση στον πλούτο και στη δόξα · Η θυσία του Αβραάμ: Αναγγελία της σωτηρίας από τον Σιμπάν.",
+      "source": "Γεώργιος Χορτάτσης, «Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄»· Βιτσέντζος Κορνάρος (αποδιδόμενο έργο), «Η θυσία του Αβραάμ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html"
+      ],
+      "sourceLocator": "Χορικό Γ΄ πράξης, επίκληση στον πλούτο και στη δόξα / Αναγγελία της σωτηρίας από τον Σιμπάν",
+      "sourceRefs": [
+        {
+          "entryId": "2-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+          "locator": "Χορικό Γ΄ πράξης, επίκληση στον πλούτο και στη δόξα"
+        },
+        {
+          "entryId": "2-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+          "locator": "Αναγγελία της σωτηρίας από τον Σιμπάν"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορά παρουσιάζουν τα εκφέροντα τον λόγο πρόσωπα στα δύο δραματικά αποσπάσματα;",
+      "options": [
+        "Ο χορός εκφέρει συλλογική κρίση· ο Σιμπάν μεταφέρει είδηση.",
+        "Ο χορός μεταφέρει είδηση· ο Σιμπάν εκφέρει γενική ηθική κρίση.",
+        "Ο χορός και ο Σιμπάν αναλαμβάνουν τον ρόλο εξωτερικού αφηγητή."
+      ],
+      "correct": "Ο χορός εκφέρει συλλογική κρίση· ο Σιμπάν μεταφέρει είδηση.",
+      "why": "Ο χορός καταγγέλλει τα πάθη· ο Σιμπάν αναλαμβάνει να αναγγείλει τη σωτηρία του παιδιού.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-03-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-06",
+        "2-07"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Βιτσέντζος Κορνάρος (αποδιδόμενο έργο)",
+      "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄ / Η θυσία του Αβραάμ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Κοινωνικές αντιλήψεις",
+      "room": 8,
+      "level": 2,
+      "locator": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Κατακλείδα χορικού, διάλυση συγγενικών δεσμών · Η θυσία του Αβραάμ: Αναγγελία σωτηρίας και συνάντηση μητέρας–γιου",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Κατακλείδα χορικού, διάλυση συγγενικών δεσμών · Η θυσία του Αβραάμ: Αναγγελία σωτηρίας και συνάντηση μητέρας–γιου.",
+      "source": "Γεώργιος Χορτάτσης, «Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄»· Βιτσέντζος Κορνάρος (αποδιδόμενο έργο), «Η θυσία του Αβραάμ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html"
+      ],
+      "sourceLocator": "Κατακλείδα χορικού, διάλυση συγγενικών δεσμών / Αναγγελία σωτηρίας και συνάντηση μητέρας–γιου",
+      "sourceRefs": [
+        {
+          "entryId": "2-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+          "locator": "Κατακλείδα χορικού, διάλυση συγγενικών δεσμών"
+        },
+        {
+          "entryId": "2-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+          "locator": "Αναγγελία σωτηρίας και συνάντηση μητέρας–γιου"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η λειτουργία των οικογενειακών σχέσεων στα χωρία της Ερωφίλης και της Θυσίας;",
+      "options": [
+        "Η απληστία διαρρηγνύει τη συγγένεια· η διάσωση φανερώνει τη μητρική στοργή.",
+        "Η απληστία ενισχύει τη συγγένεια· η διάσωση αποδυναμώνει τη μητρική στοργή.",
+        "Η συγγένεια και στα δύο χωρία εξαρτάται από την οικονομική ανταμοιβή."
+      ],
+      "correct": "Η απληστία διαρρηγνύει τη συγγένεια· η διάσωση φανερώνει τη μητρική στοργή.",
+      "why": "Η κατακλείδα του χορικού απαριθμεί συγκρούσεις συγγενών· η Σάρρα σπεύδει να συναντήσει το παιδί της.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-04-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-06",
+        "6-07"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Ουίλλιαμ Σαίξπηρ",
+      "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄ / Βασιλιάς Ληρ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Κοινωνικές αντιλήψεις",
+      "room": 8,
+      "level": 3,
+      "locator": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Χορικό, αναφορά στις συγκρούσεις μεταξύ συγγενών · Βασιλιάς Ληρ: Πρώτο απόσπασμα, αποκήρυξη Κορδέλιας",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Χορικό, αναφορά στις συγκρούσεις μεταξύ συγγενών · Βασιλιάς Ληρ: Πρώτο απόσπασμα, αποκήρυξη Κορδέλιας.",
+      "source": "Γεώργιος Χορτάτσης, «Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄»· Ουίλλιαμ Σαίξπηρ, «Βασιλιάς Ληρ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html"
+      ],
+      "sourceLocator": "Χορικό, αναφορά στις συγκρούσεις μεταξύ συγγενών / Πρώτο απόσπασμα, αποκήρυξη Κορδέλιας",
+      "sourceRefs": [
+        {
+          "entryId": "2-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+          "locator": "Χορικό, αναφορά στις συγκρούσεις μεταξύ συγγενών"
+        },
+        {
+          "entryId": "6-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
+          "locator": "Πρώτο απόσπασμα, αποκήρυξη Κορδέλιας"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια σχέση παρουσιάζει η γενική κρίση του χορού με τη συγκεκριμένη πράξη του Ληρ;",
+      "options": [
+        "Η γενική καταγγελία του χορού φωτίζει την αποκήρυξη της Κορδέλιας από τον Ληρ.",
+        "Η κρίση του χορού δικαιολογεί την αποκήρυξη ως πράξη αποκατάστασης της δικαιοσύνης.",
+        "Η αποκήρυξη της Κορδέλιας εξηγείται από οικονομική διαφωνία μεταξύ των αδελφών."
+      ],
+      "correct": "Η γενική καταγγελία του χορού φωτίζει την αποκήρυξη της Κορδέλιας από τον Ληρ.",
+      "why": "Ο χορός καταγγέλλει τη διάλυση των δεσμών· ο Ληρ απαρνείται την Κορδέλια επειδή δεν ανταποκρίνεται στην απαίτησή του για δημόσια δήλωση αγάπης. Η σύγκριση δεν αποδεικνύει επίδραση.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-04-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-06",
+        "6-07"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Ουίλλιαμ Σαίξπηρ",
+      "work": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄ / Βασιλιάς Ληρ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματικές και δραματικές τεχνικές",
+      "room": 2,
+      "level": 2,
+      "locator": "Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Χορικό, γενίκευση των συνεπειών της απληστίας · Βασιλιάς Ληρ: Πρώτο απόσπασμα, διάλογος Ληρ και Κορδέλιας",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄: Χορικό, γενίκευση των συνεπειών της απληστίας · Βασιλιάς Ληρ: Πρώτο απόσπασμα, διάλογος Ληρ και Κορδέλιας.",
+      "source": "Γεώργιος Χορτάτσης, «Ερωφίλη – Πράξη Γ΄, σκηνή Ε΄»· Ουίλλιαμ Σαίξπηρ, «Βασιλιάς Ληρ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html"
+      ],
+      "sourceLocator": "Χορικό, γενίκευση των συνεπειών της απληστίας / Πρώτο απόσπασμα, διάλογος Ληρ και Κορδέλιας",
+      "sourceRefs": [
+        {
+          "entryId": "2-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexB5_2.html",
+          "locator": "Χορικό, γενίκευση των συνεπειών της απληστίας"
+        },
+        {
+          "entryId": "6-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
+          "locator": "Πρώτο απόσπασμα, διάλογος Ληρ και Κορδέλιας"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρει ο δραματικός τρόπος παρουσίασης της ηθικής σύγκρουσης;",
+      "options": [
+        "Στον Χορτάτση με χορικό σχολιασμό· στον Σαίξπηρ με δραματικό διάλογο.",
+        "Στον Χορτάτση με διάλογο πατέρα και κόρης· στον Σαίξπηρ με χορικό σχολιασμό.",
+        "Στον Χορτάτση και στον Σαίξπηρ με αναδρομική αφήγηση του ίδιου προσώπου."
+      ],
+      "correct": "Στον Χορτάτση με χορικό σχολιασμό· στον Σαίξπηρ με δραματικό διάλογο.",
+      "why": "Ο χορός γενικεύει τις συνέπειες της απληστίας· ο διάλογος Ληρ και Κορδέλιας παρουσιάζει τη σύγκρουση σε εξέλιξη.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-05-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "1-01",
+        "2-09"
+      ],
+      "author": "Δημοτικό τραγούδι / Βιτσέντζος Κορνάρος",
+      "work": "Του νεκρού αδελφού / Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Εκφραστικά μέσα",
+      "room": 3,
+      "level": 2,
+      "locator": "Του νεκρού αδελφού: Επεισόδιο των πουλιών κατά την επιστροφή της Αρετής · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Επεισόδιο των πουλιών στη φυλακή της Αρετούσας",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Του νεκρού αδελφού: Επεισόδιο των πουλιών κατά την επιστροφή της Αρετής · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Επεισόδιο των πουλιών στη φυλακή της Αρετούσας.",
+      "source": "Δημοτικό τραγούδι, «Του νεκρού αδελφού»· Βιτσέντζος Κορνάρος, «Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html"
+      ],
+      "sourceLocator": "Επεισόδιο των πουλιών κατά την επιστροφή της Αρετής / Επεισόδιο των πουλιών στη φυλακή της Αρετούσας",
+      "sourceRefs": [
+        {
+          "entryId": "1-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+          "locator": "Επεισόδιο των πουλιών κατά την επιστροφή της Αρετής"
+        },
+        {
+          "entryId": "2-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+          "locator": "Επεισόδιο των πουλιών στη φυλακή της Αρετούσας"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρει η εκφραστική λειτουργία των πουλιών στις δύο αφηγήσεις;",
+      "options": [
+        "Τα πρώτα πουλιά αποκαλύπτουν τον θάνατο· τα δεύτερα προμηνύουν χαρά.",
+        "Τα πρώτα πουλιά προμηνύουν γάμο· τα δεύτερα αποκαλύπτουν έναν θάνατο.",
+        "Τα πουλιά και των δύο έργων μεταφέρουν προφορικό μήνυμα από τους συγγενείς."
+      ],
+      "correct": "Τα πρώτα πουλιά αποκαλύπτουν τον θάνατο· τα δεύτερα προμηνύουν χαρά.",
+      "why": "Στην παραλογή τα πουλιά μιλούν ανθρώπινα· στον Ερωτόκριτο τα ζευγαρώματα και οι κινήσεις τους λειτουργούν ως γαμήλιοι οιωνοί.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-05-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "1-01",
+        "2-09"
+      ],
+      "author": "Δημοτικό τραγούδι / Βιτσέντζος Κορνάρος",
+      "work": "Του νεκρού αδελφού / Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Εστίαση και γνώση",
+      "room": 1,
+      "level": 3,
+      "locator": "Του νεκρού αδελφού: Διάλογοι Αρετής και Κωνσταντίνου κατά τη διαδρομή · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Αρχική δήλωση του ποιητή και ερμηνεία της Φροσύνης",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Του νεκρού αδελφού: Διάλογοι Αρετής και Κωνσταντίνου κατά τη διαδρομή · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Αρχική δήλωση του ποιητή και ερμηνεία της Φροσύνης.",
+      "source": "Δημοτικό τραγούδι, «Του νεκρού αδελφού»· Βιτσέντζος Κορνάρος, «Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html"
+      ],
+      "sourceLocator": "Διάλογοι Αρετής και Κωνσταντίνου κατά τη διαδρομή / Αρχική δήλωση του ποιητή και ερμηνεία της Φροσύνης",
+      "sourceRefs": [
+        {
+          "entryId": "1-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+          "locator": "Διάλογοι Αρετής και Κωνσταντίνου κατά τη διαδρομή"
+        },
+        {
+          "entryId": "2-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+          "locator": "Αρχική δήλωση του ποιητή και ερμηνεία της Φροσύνης"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η γνώση του αναγνώστη από τη γνώση των γυναικείων προσώπων;",
+      "options": [
+        "Ο αναγνώστης γνωρίζει την αλήθεια νωρίτερα από την Αρετή και την Αρετούσα.",
+        "Οι δύο γυναίκες γνωρίζουν την αλήθεια νωρίτερα από τον αναγνώστη.",
+        "Ο αναγνώστης και οι γυναίκες μαθαίνουν τα πάντα ταυτόχρονα στην κατακλείδα."
+      ],
+      "correct": "Ο αναγνώστης γνωρίζει την αλήθεια νωρίτερα από την Αρετή και την Αρετούσα.",
+      "why": "Ο θάνατος του Κωνσταντίνου έχει δηλωθεί στην αφήγηση· ο ποιητής του Ερωτόκριτου προαναγγέλλει την αποκάλυψη της ταυτότητας.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-06-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-07",
+        "2-09"
+      ],
+      "author": "Βιτσέντζος Κορνάρος (αποδιδόμενο έργο) / Βιτσέντζος Κορνάρος",
+      "work": "Η θυσία του Αβραάμ / Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματικές και δραματικές τεχνικές",
+      "room": 2,
+      "level": 2,
+      "locator": "Η θυσία του Αβραάμ: Αναγγελία του Σιμπάν και ακολούθως επανένωση · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Αρχικές εικόνες της αυγής και των πουλιών",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Η θυσία του Αβραάμ: Αναγγελία του Σιμπάν και ακολούθως επανένωση · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Αρχικές εικόνες της αυγής και των πουλιών.",
+      "source": "Βιτσέντζος Κορνάρος (αποδιδόμενο έργο), «Η θυσία του Αβραάμ»· Βιτσέντζος Κορνάρος, «Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html"
+      ],
+      "sourceLocator": "Αναγγελία του Σιμπάν και ακολούθως επανένωση / Αρχικές εικόνες της αυγής και των πουλιών",
+      "sourceRefs": [
+        {
+          "entryId": "2-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+          "locator": "Αναγγελία του Σιμπάν και ακολούθως επανένωση"
+        },
+        {
+          "entryId": "2-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+          "locator": "Αρχικές εικόνες της αυγής και των πουλιών"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς προετοιμάζεται η ευτυχής έκβαση στα δύο κρητικά κείμενα;",
+      "options": [
+        "Στη Θυσία με αναγγελία· στον Ερωτόκριτο με προαναγγελία της αποκάλυψης και οιωνούς.",
+        "Στη Θυσία με οιωνούς της φύσης· στον Ερωτόκριτο με αγγελία ενός υπηρέτη.",
+        "Και στις δύο περιπτώσεις η έκβαση προκύπτει αιφνίδια χωρίς προετοιμασία."
+      ],
+      "correct": "Στη Θυσία με αναγγελία· στον Ερωτόκριτο με προαναγγελία της αποκάλυψης και οιωνούς.",
+      "why": "Ο Σιμπάν φέρνει τα νέα της σωτηρίας· ο ποιητής δηλώνει ότι έφτασε η ώρα της αποκάλυψης και ακολουθούν οι ευοίωνες εικόνες.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-06-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-07",
+        "2-09"
+      ],
+      "author": "Βιτσέντζος Κορνάρος (αποδιδόμενο έργο) / Βιτσέντζος Κορνάρος",
+      "work": "Η θυσία του Αβραάμ / Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 1,
+      "locator": "Η θυσία του Αβραάμ: Λόγια της Σάρρας μετά τη χαρμόσυνη είδηση · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Συμβουλές της Φροσύνης προς την Αρετούσα",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Η θυσία του Αβραάμ: Λόγια της Σάρρας μετά τη χαρμόσυνη είδηση · Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Συμβουλές της Φροσύνης προς την Αρετούσα.",
+      "source": "Βιτσέντζος Κορνάρος (αποδιδόμενο έργο), «Η θυσία του Αβραάμ»· Βιτσέντζος Κορνάρος, «Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html"
+      ],
+      "sourceLocator": "Λόγια της Σάρρας μετά τη χαρμόσυνη είδηση / Συμβουλές της Φροσύνης προς την Αρετούσα",
+      "sourceRefs": [
+        {
+          "entryId": "2-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_1.html",
+          "locator": "Λόγια της Σάρρας μετά τη χαρμόσυνη είδηση"
+        },
+        {
+          "entryId": "2-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+          "locator": "Συμβουλές της Φροσύνης προς την Αρετούσα"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική μορφή μέριμνας χαρακτηρίζει τις δύο γυναίκες;",
+      "options": [
+        "Η Σάρρα χαίρεται για τη σωτηρία· η Φροσύνη συμβουλεύει τη φυλακισμένη Αρετούσα.",
+        "Η Σάρρα συμβουλεύει για γάμο· η Φροσύνη χαίρεται για τη διάσωση του γιου της.",
+        "Οι δύο γυναίκες επιμένουν στην αναμονή ενός απόντος αγαπημένου προσώπου."
+      ],
+      "correct": "Η Σάρρα χαίρεται για τη σωτηρία· η Φροσύνη συμβουλεύει τη φυλακισμένη Αρετούσα.",
+      "why": "Η Σάρρα δοξάζει τον Θεό και σπεύδει προς τον Ισαάκ· η Φροσύνη προτρέπει την Αρετούσα να δεχθεί τον ξένο.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-07-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-09",
+        "6-06"
+      ],
+      "author": "Βιτσέντζος Κορνάρος / Μολιέρος",
+      "work": "Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Κοινωνικές αντιλήψεις",
+      "room": 8,
+      "level": 3,
+      "locator": "Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Συμβουλές της Φροσύνης για τον επιθυμητό γάμο · Ο Αρχοντοχωριάτης: Διάλογος Γιορδάνη και Κλεόντη",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Συμβουλές της Φροσύνης για τον επιθυμητό γάμο · Ο Αρχοντοχωριάτης: Διάλογος Γιορδάνη και Κλεόντη.",
+      "source": "Βιτσέντζος Κορνάρος, «Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Συμβουλές της Φροσύνης για τον επιθυμητό γάμο / Διάλογος Γιορδάνη και Κλεόντη",
+      "sourceRefs": [
+        {
+          "entryId": "2-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+          "locator": "Συμβουλές της Φροσύνης για τον επιθυμητό γάμο"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Διάλογος Γιορδάνη και Κλεόντη"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιούνται οι περιορισμοί στην επιλογή συζύγου στα δύο χωρία;",
+      "options": [
+        "Στον Ερωτόκριτο η άρνηση του πατέρα οδηγεί σε φυλάκιση· στον Μολιέρο κριτήριο είναι ο τίτλος.",
+        "Στον Ερωτόκριτο κριτήριο είναι ο τίτλος του ξένου· στον Μολιέρο η άρνηση οδηγεί σε φυλάκιση.",
+        "Στα δύο χωρία η πατρική συναίνεση εξαρτάται από τη στρατιωτική ανδρεία."
+      ],
+      "correct": "Στον Ερωτόκριτο η άρνηση του πατέρα οδηγεί σε φυλάκιση· στον Μολιέρο κριτήριο είναι ο τίτλος.",
+      "why": "Η Φροσύνη αναφέρεται ρητά στη φυλακή και στην πατρική βούληση· ο Γιορδάνης απορρίπτει τον Κλεόντη όταν μαθαίνει ότι δεν είναι αριστοκράτης.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-07-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-09",
+        "6-06"
+      ],
+      "author": "Βιτσέντζος Κορνάρος / Μολιέρος",
+      "work": "Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 2,
+      "locator": "Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Επιχειρήματα Φροσύνης για την αποδοχή του ξένου · Ο Αρχοντοχωριάτης: Αντιρρήσεις της κυρίας Γιορδάνη",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός: Επιχειρήματα Φροσύνης για την αποδοχή του ξένου · Ο Αρχοντοχωριάτης: Αντιρρήσεις της κυρίας Γιορδάνη.",
+      "source": "Βιτσέντζος Κορνάρος, «Ερωτόκριτος – Ήρθεν η ώρα κι ο καιρός»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Επιχειρήματα Φροσύνης για την αποδοχή του ξένου / Αντιρρήσεις της κυρίας Γιορδάνη",
+      "sourceRefs": [
+        {
+          "entryId": "2-09",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB6_3.html",
+          "locator": "Επιχειρήματα Φροσύνης για την αποδοχή του ξένου"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Αντιρρήσεις της κυρίας Γιορδάνη"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορά στη στάση των δύο συμβουλευτικών προσώπων προκύπτει από τα επιχειρήματά τους;",
+      "options": [
+        "Η Φροσύνη προτείνει υποχώρηση· η κυρία Γιορδάνη αμφισβητεί την πατρική απαίτηση.",
+        "Η Φροσύνη ενθαρρύνει την αντίσταση· η κυρία Γιορδάνη στηρίζει τον σύζυγό της.",
+        "Οι δύο γυναίκες θεωρούν τον αριστοκρατικό τίτλο βασικό κριτήριο του γάμου."
+      ],
+      "correct": "Η Φροσύνη προτείνει υποχώρηση· η κυρία Γιορδάνη αμφισβητεί την πατρική απαίτηση.",
+      "why": "Η Φροσύνη θεωρεί ανέφικτη την ένωση με τον Ερωτόκριτο· η κυρία Γιορδάνη προκρίνει τον έντιμο γαμπρό αντί του τίτλου.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-08-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-05",
+        "6-06"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Μολιέρος",
+      "work": "Κατζούρμπος / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 1,
+      "locator": "Κατζούρμπος: Καυχησιολογίες του Κουστουλιέρη και μάθημα ξιφασκίας · Ο Αρχοντοχωριάτης: Άρνηση του Γιορδάνη να δεχθεί τον Κλεόντη",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Κατζούρμπος: Καυχησιολογίες του Κουστουλιέρη και μάθημα ξιφασκίας · Ο Αρχοντοχωριάτης: Άρνηση του Γιορδάνη να δεχθεί τον Κλεόντη.",
+      "source": "Γεώργιος Χορτάτσης, «Κατζούρμπος»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Καυχησιολογίες του Κουστουλιέρη και μάθημα ξιφασκίας / Άρνηση του Γιορδάνη να δεχθεί τον Κλεόντη",
+      "sourceRefs": [
+        {
+          "entryId": "2-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+          "locator": "Καυχησιολογίες του Κουστουλιέρη και μάθημα ξιφασκίας"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Άρνηση του Γιορδάνη να δεχθεί τον Κλεόντη"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποιο διαφορετικό γνώρισμα των κωμικών τύπων εκτίθεται μέσω της συμπεριφοράς τους;",
+      "options": [
+        "Ο Κουστουλιέρης επιδεικνύει ανδρεία· ο Γιορδάνης επιδιώκει αριστοκρατικές τιμές.",
+        "Ο Κουστουλιέρης επιδιώκει τίτλους· ο Γιορδάνης επιδεικνύει πολεμική ανδρεία.",
+        "Οι δύο χαρακτήρες επιζητούν κύρος μέσω της επίδειξης λογιοσύνης."
+      ],
+      "correct": "Ο Κουστουλιέρης επιδεικνύει ανδρεία· ο Γιορδάνης επιδιώκει αριστοκρατικές τιμές.",
+      "why": "Οι καυχησιολογίες και η επίδειξη ξιφασκίας χαρακτηρίζουν τον Κουστουλιέρη· η απαίτηση αριστοκρατικού γαμπρού χαρακτηρίζει τον Γιορδάνη.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-08-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-05",
+        "6-06"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Μολιέρος",
+      "work": "Κατζούρμπος / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματικές και δραματικές τεχνικές",
+      "room": 2,
+      "level": 2,
+      "locator": "Κατζούρμπος: Αντιδράσεις του Κατζούρμπου στην επίδειξη ξιφασκίας · Ο Αρχοντοχωριάτης: Αντιρρήσεις της κυρίας Γιορδάνη και της Νικολέτας",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Κατζούρμπος: Αντιδράσεις του Κατζούρμπου στην επίδειξη ξιφασκίας · Ο Αρχοντοχωριάτης: Αντιρρήσεις της κυρίας Γιορδάνη και της Νικολέτας.",
+      "source": "Γεώργιος Χορτάτσης, «Κατζούρμπος»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Αντιδράσεις του Κατζούρμπου στην επίδειξη ξιφασκίας / Αντιρρήσεις της κυρίας Γιορδάνη και της Νικολέτας",
+      "sourceRefs": [
+        {
+          "entryId": "2-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+          "locator": "Αντιδράσεις του Κατζούρμπου στην επίδειξη ξιφασκίας"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Αντιρρήσεις της κυρίας Γιορδάνη και της Νικολέτας"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς συμβάλλουν τα άλλα πρόσωπα στην έκθεση των κωμικών πρωταγωνιστών;",
+      "options": [
+        "Το μάθημα ξιφασκίας και οι αντιρρήσεις της οικογένειας αποδυναμώνουν τις αξιώσεις τους.",
+        "Το μάθημα ξιφασκίας και οι οικογενειακές αντιρρήσεις δικαιώνουν τις αξιώσεις τους.",
+        "Οι δύο κωμικοί τύποι εκτίθενται μέσω μιας ομολογίας των δικών τους σφαλμάτων."
+      ],
+      "correct": "Το μάθημα ξιφασκίας και οι αντιρρήσεις της οικογένειας αποδυναμώνουν τις αξιώσεις τους.",
+      "why": "Ο Κατζούρμπος πλήττει τον δάσκαλό του κατά το μάθημα· η σύζυγος και η Νικολέτα αντιλέγουν στον Γιορδάνη.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-09-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-05",
+        "6-04"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Μιχαήλ Θερβάντες",
+      "work": "Κατζούρμπος / Ο Δον Κιχώτης – κεφάλαιο 21",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Εκφραστικά μέσα",
+      "room": 3,
+      "level": 3,
+      "locator": "Κατζούρμπος: Απάντηση του Κατζούρμπου για το σπαθί που τρώει · Ο Δον Κιχώτης – κεφάλαιο 21: Διάλογος για το λεγένι και την περικεφαλαία",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Κατζούρμπος: Απάντηση του Κατζούρμπου για το σπαθί που τρώει · Ο Δον Κιχώτης – κεφάλαιο 21: Διάλογος για το λεγένι και την περικεφαλαία.",
+      "source": "Γεώργιος Χορτάτσης, «Κατζούρμπος»· Μιχαήλ Θερβάντες, «Ο Δον Κιχώτης – κεφάλαιο 21», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html"
+      ],
+      "sourceLocator": "Απάντηση του Κατζούρμπου για το σπαθί που τρώει / Διάλογος για το λεγένι και την περικεφαλαία",
+      "sourceRefs": [
+        {
+          "entryId": "2-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+          "locator": "Απάντηση του Κατζούρμπου για το σπαθί που τρώει"
+        },
+        {
+          "entryId": "6-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+          "locator": "Διάλογος για το λεγένι και την περικεφαλαία"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική αναντιστοιχία μεταξύ λόγου και πραγματικότητας προκαλεί κωμικό αποτέλεσμα;",
+      "options": [
+        "Ο Κατζούρμπος παίρνει κατά γράμμα την καυχησιολογία· ο Δον Κιχώτης παρανοεί το αντικείμενο.",
+        "Ο Κατζούρμπος εξιδανικεύει ένα κοινό αντικείμενο· ο Δον Κιχώτης κυριολεκτεί για το σπαθί.",
+        "Οι δύο σκηνές βασίζονται σε σκόπιμη αλλαγή της ονομασίας ενός αντικειμένου."
+      ],
+      "correct": "Ο Κατζούρμπος παίρνει κατά γράμμα την καυχησιολογία· ο Δον Κιχώτης παρανοεί το αντικείμενο.",
+      "why": "Ο Κατζούρμπος συνδέει το σπαθί που τρώει με το φθαρμένο θηκάρι· ο Δον Κιχώτης αναγνωρίζει στο λεγένι ένα ιπποτικό κράνος.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-09-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "2-05",
+        "6-04"
+      ],
+      "author": "Γεώργιος Χορτάτσης / Μιχαήλ Θερβάντες",
+      "work": "Κατζούρμπος / Ο Δον Κιχώτης – κεφάλαιο 21",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 2,
+      "locator": "Κατζούρμπος: Αποφυγή του μαθήματος από τον Κατζούρμπο · Ο Δον Κιχώτης – κεφάλαιο 21: Αντιδράσεις και σχόλια του Σάντσο",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Κατζούρμπος: Αποφυγή του μαθήματος από τον Κατζούρμπο · Ο Δον Κιχώτης – κεφάλαιο 21: Αντιδράσεις και σχόλια του Σάντσο.",
+      "source": "Γεώργιος Χορτάτσης, «Κατζούρμπος»· Μιχαήλ Θερβάντες, «Ο Δον Κιχώτης – κεφάλαιο 21», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html"
+      ],
+      "sourceLocator": "Αποφυγή του μαθήματος από τον Κατζούρμπο / Αντιδράσεις και σχόλια του Σάντσο",
+      "sourceRefs": [
+        {
+          "entryId": "2-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexB5_1.html",
+          "locator": "Αποφυγή του μαθήματος από τον Κατζούρμπο"
+        },
+        {
+          "entryId": "6-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+          "locator": "Αντιδράσεις και σχόλια του Σάντσο"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια συγκριτική λειτουργία έχουν οι δύο υπηρέτες ως αντίβαρα των κυρίων τους;",
+      "options": [
+        "Οι αντιδράσεις τους εκθέτουν τις υπερβολές των κυρίων τους.",
+        "Οι αντιδράσεις τους ενισχύουν την πολεμική αυτοπεποίθηση των κυρίων τους.",
+        "Οι αντιδράσεις τους προκύπτουν από την κοινή επιθυμία κοινωνικής ανόδου."
+      ],
+      "correct": "Οι αντιδράσεις τους εκθέτουν τις υπερβολές των κυρίων τους.",
+      "why": "Ο Κατζούρμπος αποφεύγει τη μάχη και ο Σάντσος αντιπαραθέτει την καθημερινή εμπειρία στις ιπποτικές ερμηνείες.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-10-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "6-04",
+        "6-06"
+      ],
+      "author": "Μιχαήλ Θερβάντες / Μολιέρος",
+      "work": "Ο Δον Κιχώτης – κεφάλαιο 21 / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 1,
+      "locator": "Ο Δον Κιχώτης – κεφάλαιο 21: Αναγνώριση του λεγενιού ως κράνους · Ο Αρχοντοχωριάτης: Δήλωση του Γιορδάνη ότι επιδιώκει τιμές",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο Δον Κιχώτης – κεφάλαιο 21: Αναγνώριση του λεγενιού ως κράνους · Ο Αρχοντοχωριάτης: Δήλωση του Γιορδάνη ότι επιδιώκει τιμές.",
+      "source": "Μιχαήλ Θερβάντες, «Ο Δον Κιχώτης – κεφάλαιο 21»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Αναγνώριση του λεγενιού ως κράνους / Δήλωση του Γιορδάνη ότι επιδιώκει τιμές",
+      "sourceRefs": [
+        {
+          "entryId": "6-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+          "locator": "Αναγνώριση του λεγενιού ως κράνους"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Δήλωση του Γιορδάνη ότι επιδιώκει τιμές"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική μορφή προσκόλλησης σε πρότυπα παρουσιάζουν οι δύο κεντρικοί χαρακτήρες;",
+      "options": [
+        "Ο Δον Κιχώτης μιμείται ιπποτικά πρότυπα· ο Γιορδάνης αριστοκρατικούς τρόπους.",
+        "Ο Δον Κιχώτης μιμείται αριστοκρατικούς τρόπους· ο Γιορδάνης ιπποτικά πρότυπα.",
+        "Οι δύο χαρακτήρες επιδιώκουν αναγνώριση μέσω της απόκτησης επιστημονικών γνώσεων."
+      ],
+      "correct": "Ο Δον Κιχώτης μιμείται ιπποτικά πρότυπα· ο Γιορδάνης αριστοκρατικούς τρόπους.",
+      "why": "Ο αφηγητής εξηγεί την ιπποτική παραμόρφωση της πραγματικότητας· ο Γιορδάνης δηλώνει ότι επιδιώκει τιμές για την κόρη του.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-10-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "6-04",
+        "6-06"
+      ],
+      "author": "Μιχαήλ Θερβάντες / Μολιέρος",
+      "work": "Ο Δον Κιχώτης – κεφάλαιο 21 / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματικές και δραματικές τεχνικές",
+      "room": 2,
+      "level": 2,
+      "locator": "Ο Δον Κιχώτης – κεφάλαιο 21: Αφηγηματική εξήγηση της παρερμηνείας του αντικειμένου · Ο Αρχοντοχωριάτης: Διάλογος για την κοινωνική καταγωγή του Κλεόντη",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο Δον Κιχώτης – κεφάλαιο 21: Αφηγηματική εξήγηση της παρερμηνείας του αντικειμένου · Ο Αρχοντοχωριάτης: Διάλογος για την κοινωνική καταγωγή του Κλεόντη.",
+      "source": "Μιχαήλ Θερβάντες, «Ο Δον Κιχώτης – κεφάλαιο 21»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Αφηγηματική εξήγηση της παρερμηνείας του αντικειμένου / Διάλογος για την κοινωνική καταγωγή του Κλεόντη",
+      "sourceRefs": [
+        {
+          "entryId": "6-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+          "locator": "Αφηγηματική εξήγηση της παρερμηνείας του αντικειμένου"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Διάλογος για την κοινωνική καταγωγή του Κλεόντη"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρει η αποκάλυψη της κωμικής αναντιστοιχίας ως προς το λογοτεχνικό είδος;",
+      "options": [
+        "Ο Θερβάντες χρησιμοποιεί αφήγηση και διάλογο· ο Μολιέρος σκηνικό διάλογο.",
+        "Ο Θερβάντες χρησιμοποιεί σκηνικό διάλογο· ο Μολιέρος αφηγηματικό σχολιασμό.",
+        "Οι δύο συγγραφείς αποκαλύπτουν την αντίθεση μέσω εσωτερικού μονολόγου."
+      ],
+      "correct": "Ο Θερβάντες χρησιμοποιεί αφήγηση και διάλογο· ο Μολιέρος σκηνικό διάλογο.",
+      "why": "Στο μυθιστόρημα ο αφηγητής εξηγεί τη φύση του αντικειμένου· στην κωμωδία οι αντιρρήσεις εκφέρονται από τα πρόσωπα.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-11-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "6-06",
+        "6-07"
+      ],
+      "author": "Μολιέρος / Ουίλλιαμ Σαίξπηρ",
+      "work": "Ο Αρχοντοχωριάτης / Βασιλιάς Ληρ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 2,
+      "locator": "Ο Αρχοντοχωριάτης: Ειλικρινής δήλωση του Κλεόντη ότι δεν είναι αριστοκράτης · Βασιλιάς Ληρ: Απαντήσεις της Κορδέλιας για την αγάπη της",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο Αρχοντοχωριάτης: Ειλικρινής δήλωση του Κλεόντη ότι δεν είναι αριστοκράτης · Βασιλιάς Ληρ: Απαντήσεις της Κορδέλιας για την αγάπη της.",
+      "source": "Μολιέρος, «Ο Αρχοντοχωριάτης»· Ουίλλιαμ Σαίξπηρ, «Βασιλιάς Ληρ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html"
+      ],
+      "sourceLocator": "Ειλικρινής δήλωση του Κλεόντη ότι δεν είναι αριστοκράτης / Απαντήσεις της Κορδέλιας για την αγάπη της",
+      "sourceRefs": [
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Ειλικρινής δήλωση του Κλεόντη ότι δεν είναι αριστοκράτης"
+        },
+        {
+          "entryId": "6-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
+          "locator": "Απαντήσεις της Κορδέλιας για την αγάπη της"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποιο κοινό γνώρισμα παρουσιάζουν ο Κλεόντης και η Κορδέλια όταν καλούνται να δώσουν μια συμφέρουσα απάντηση στον Γιορδάνη και στον Ληρ αντίστοιχα;",
+      "options": [
+        "Αρνούνται να κερδίσουν την εύνοια με ψευδή δήλωση.",
+        "Επιδιώκουν να κερδίσουν την εύνοια με υπερβολική έκφραση στοργής.",
+        "Αμφισβητούν την εξουσία του συνομιλητή τους με ψευδή δήλωση καταγωγής."
+      ],
+      "correct": "Αρνούνται να κερδίσουν την εύνοια με ψευδή δήλωση.",
+      "why": "Ο Κλεόντης δηλώνει ότι δεν είναι αριστοκράτης· η Κορδέλια αρνείται να υπερβάλει για την αγάπη της προς τον πατέρα της.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-11-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "6-06",
+        "6-07"
+      ],
+      "author": "Μολιέρος / Ουίλλιαμ Σαίξπηρ",
+      "work": "Ο Αρχοντοχωριάτης / Βασιλιάς Ληρ",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Κοινωνικές αντιλήψεις",
+      "room": 8,
+      "level": 2,
+      "locator": "Ο Αρχοντοχωριάτης: Απαίτηση αριστοκρατικού τίτλου από τον Γιορδάνη · Βασιλιάς Ληρ: Απαίτηση δήλωσης αγάπης πριν από τη διανομή του βασιλείου",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο Αρχοντοχωριάτης: Απαίτηση αριστοκρατικού τίτλου από τον Γιορδάνη · Βασιλιάς Ληρ: Απαίτηση δήλωσης αγάπης πριν από τη διανομή του βασιλείου.",
+      "source": "Μολιέρος, «Ο Αρχοντοχωριάτης»· Ουίλλιαμ Σαίξπηρ, «Βασιλιάς Ληρ», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html"
+      ],
+      "sourceLocator": "Απαίτηση αριστοκρατικού τίτλου από τον Γιορδάνη / Απαίτηση δήλωσης αγάπης πριν από τη διανομή του βασιλείου",
+      "sourceRefs": [
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Απαίτηση αριστοκρατικού τίτλου από τον Γιορδάνη"
+        },
+        {
+          "entryId": "6-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF6.html",
+          "locator": "Απαίτηση δήλωσης αγάπης πριν από τη διανομή του βασιλείου"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική συναλλακτική αντίληψη υπονοείται στις δύο σκηνές;",
+      "options": [
+        "Ο Γιορδάνης συνδέει τον γάμο με τίτλο· ο Ληρ την κληρονομιά με δηλώσεις αγάπης.",
+        "Ο Γιορδάνης συνδέει τον γάμο με δηλώσεις αγάπης· ο Ληρ την κληρονομιά με τίτλο.",
+        "Οι δύο πατέρες θέτουν ως βασικό όρο την οικονομική ανεξαρτησία των παιδιών."
+      ],
+      "correct": "Ο Γιορδάνης συνδέει τον γάμο με τίτλο· ο Ληρ την κληρονομιά με δηλώσεις αγάπης.",
+      "why": "Ο Γιορδάνης απαιτεί αριστοκρατική ιδιότητα του γαμπρού· ο Ληρ ζητεί δημόσια διαβεβαίωση στοργής πριν παραχωρήσει μερίδιο.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-12-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "6-04",
+        "5-11"
+      ],
+      "author": "Μιχαήλ Θερβάντες / Εμμανουήλ Ροΐδης",
+      "work": "Ο Δον Κιχώτης – κεφάλαιο 21 / Μονόλογος ευαισθήτου",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματική φωνή",
+      "room": 0,
+      "level": 3,
+      "locator": "Ο Δον Κιχώτης – κεφάλαιο 21: Αφηγηματική εξήγηση της ιπποτικής παρερμηνείας · Μονόλογος ευαισθήτου: Αρχική δήλωση του ευαίσθητου μονολογούντος",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο Δον Κιχώτης – κεφάλαιο 21: Αφηγηματική εξήγηση της ιπποτικής παρερμηνείας · Μονόλογος ευαισθήτου: Αρχική δήλωση του ευαίσθητου μονολογούντος.",
+      "source": "Μιχαήλ Θερβάντες, «Ο Δον Κιχώτης – κεφάλαιο 21»· Εμμανουήλ Ροΐδης, «Μονόλογος ευαισθήτου», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html"
+      ],
+      "sourceLocator": "Αφηγηματική εξήγηση της ιπποτικής παρερμηνείας / Αρχική δήλωση του ευαίσθητου μονολογούντος",
+      "sourceRefs": [
+        {
+          "entryId": "6-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+          "locator": "Αφηγηματική εξήγηση της ιπποτικής παρερμηνείας"
+        },
+        {
+          "entryId": "5-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+          "locator": "Αρχική δήλωση του ευαίσθητου μονολογούντος"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η ειρωνική απόσταση της αφήγησης στα δύο έργα;",
+      "options": [
+        "Στον Θερβάντες η πλάνη εκτίθεται αφηγηματικά· στον Ροΐδη μέσω της αυτοπαρουσίασης.",
+        "Στον Θερβάντες η πλάνη εκτίθεται σε αυτοβιογραφικό μονόλογο· στον Ροΐδη μέσω εξωτερικού αφηγητή.",
+        "Στα δύο έργα οι ήρωες εξηγούν ρητά γιατί οι απόψεις τους είναι εσφαλμένες."
+      ],
+      "correct": "Στον Θερβάντες η πλάνη εκτίθεται αφηγηματικά· στον Ροΐδη μέσω της αυτοπαρουσίασης.",
+      "why": "Ο αφηγητής του Θερβάντες εξηγεί την πλάνη με το λεγένι· ο μονολογών στον Ροΐδη προβάλλει ως ευαισθησία τις ιδιοτελείς επιλογές του.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-12-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "6-04",
+        "5-11"
+      ],
+      "author": "Μιχαήλ Θερβάντες / Εμμανουήλ Ροΐδης",
+      "work": "Ο Δον Κιχώτης – κεφάλαιο 21 / Μονόλογος ευαισθήτου",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Εστίαση και γνώση",
+      "room": 1,
+      "level": 3,
+      "locator": "Ο Δον Κιχώτης – κεφάλαιο 21: Αναγνώριση του αντικειμένου από τον ήρωα και τον Σάντσο · Μονόλογος ευαισθήτου: Εξήγηση της αποφυγής των κηδειών",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο Δον Κιχώτης – κεφάλαιο 21: Αναγνώριση του αντικειμένου από τον ήρωα και τον Σάντσο · Μονόλογος ευαισθήτου: Εξήγηση της αποφυγής των κηδειών.",
+      "source": "Μιχαήλ Θερβάντες, «Ο Δον Κιχώτης – κεφάλαιο 21»· Εμμανουήλ Ροΐδης, «Μονόλογος ευαισθήτου», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html"
+      ],
+      "sourceLocator": "Αναγνώριση του αντικειμένου από τον ήρωα και τον Σάντσο / Εξήγηση της αποφυγής των κηδειών",
+      "sourceRefs": [
+        {
+          "entryId": "6-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF3.html",
+          "locator": "Αναγνώριση του αντικειμένου από τον ήρωα και τον Σάντσο"
+        },
+        {
+          "entryId": "5-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+          "locator": "Εξήγηση της αποφυγής των κηδειών"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διάκριση πρέπει να κάνει ο αναγνώστης μεταξύ της οπτικής των προσώπων και της ερμηνείας του κειμένου;",
+      "options": [
+        "Να ελέγξει τις δηλώσεις με βάση τα γεγονότα και τις πράξεις.",
+        "Να ερμηνεύσει τις πράξεις ως επιβεβαίωση των δηλωμένων προθέσεων.",
+        "Να αποδώσει την κρίση των ηρώων στην προσωπική άποψη των συγγραφέων."
+      ],
+      "correct": "Να ελέγξει τις δηλώσεις με βάση τα γεγονότα και τις πράξεις.",
+      "why": "Η πραγματική ταυτότητα του λεγενιού και η αποφυγή της κηδείας για λόγους προσωπικής άνεσης επιτρέπουν στον αναγνώστη να ελέγξει τις αυτοερμηνείες.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-13-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-11",
+        "5-08"
+      ],
+      "author": "Εμμανουήλ Ροΐδης / Δημήτριος Βικέλας",
+      "work": "Μονόλογος ευαισθήτου / Λουκής Λάρας",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 2,
+      "locator": "Μονόλογος ευαισθήτου: Περιγραφή της συμπεριφοράς του μονολογούντος κατά την ασθένεια της συζύγου · Λουκής Λάρας: Αρχική παρουσίαση της Ανδριάνας",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Μονόλογος ευαισθήτου: Περιγραφή της συμπεριφοράς του μονολογούντος κατά την ασθένεια της συζύγου · Λουκής Λάρας: Αρχική παρουσίαση της Ανδριάνας.",
+      "source": "Εμμανουήλ Ροΐδης, «Μονόλογος ευαισθήτου»· Δημήτριος Βικέλας, «Λουκής Λάρας», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html"
+      ],
+      "sourceLocator": "Περιγραφή της συμπεριφοράς του μονολογούντος κατά την ασθένεια της συζύγου / Αρχική παρουσίαση της Ανδριάνας",
+      "sourceRefs": [
+        {
+          "entryId": "5-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+          "locator": "Περιγραφή της συμπεριφοράς του μονολογούντος κατά την ασθένεια της συζύγου"
+        },
+        {
+          "entryId": "5-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+          "locator": "Αρχική παρουσίαση της Ανδριάνας"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια αντίθεση στην έμπρακτη φροντίδα αναδεικνύουν ο Μονόλογος ευαισθήτου και ο Λουκής Λάρας;",
+      "options": [
+        "Η Ανδριάνα προσφέρει έμπρακτη βοήθεια· ο μονολογών αποφεύγει την ασθενή σύζυγό του.",
+        "Η Ανδριάνα απομακρύνεται από τους φυγάδες· ο μονολογών μένει δίπλα στην ασθενή.",
+        "Η Ανδριάνα και ο μονολογών εξηγούν γιατί η φροντίδα πρέπει να ανατεθεί σε άλλους."
+      ],
+      "correct": "Η Ανδριάνα προσφέρει έμπρακτη βοήθεια· ο μονολογών αποφεύγει την ασθενή σύζυγό του.",
+      "why": "Η Ανδριάνα μεριμνά για τους φυγάδες στην αρχή του αποσπάσματος· ο μονολογών επικαλείται τη συγκίνησή του για να δικαιολογήσει την απουσία του από το σπίτι.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-13-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-11",
+        "5-08"
+      ],
+      "author": "Εμμανουήλ Ροΐδης / Δημήτριος Βικέλας",
+      "work": "Μονόλογος ευαισθήτου / Λουκής Λάρας",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Αφηγηματική φωνή",
+      "room": 0,
+      "level": 3,
+      "locator": "Μονόλογος ευαισθήτου: Πρωτοπρόσωπες διαβεβαιώσεις περί ευαισθησίας · Λουκής Λάρας: Αναδρομική ευγνωμοσύνη προς την ανώνυμη ηλικιωμένη",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Μονόλογος ευαισθήτου: Πρωτοπρόσωπες διαβεβαιώσεις περί ευαισθησίας · Λουκής Λάρας: Αναδρομική ευγνωμοσύνη προς την ανώνυμη ηλικιωμένη.",
+      "source": "Εμμανουήλ Ροΐδης, «Μονόλογος ευαισθήτου»· Δημήτριος Βικέλας, «Λουκής Λάρας», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html"
+      ],
+      "sourceLocator": "Πρωτοπρόσωπες διαβεβαιώσεις περί ευαισθησίας / Αναδρομική ευγνωμοσύνη προς την ανώνυμη ηλικιωμένη",
+      "sourceRefs": [
+        {
+          "entryId": "5-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+          "locator": "Πρωτοπρόσωπες διαβεβαιώσεις περί ευαισθησίας"
+        },
+        {
+          "entryId": "5-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+          "locator": "Αναδρομική ευγνωμοσύνη προς την ανώνυμη ηλικιωμένη"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η αξιολογική λειτουργία του πρώτου προσώπου;",
+      "options": [
+        "Ο μονολογών εκθέτει ακούσια την ιδιοτέλειά του· ο Λάρας εκφράζει ευγνωμοσύνη.",
+        "Ο μονολογών αναγνωρίζει την προσφορά άλλων· ο Λάρας εξυμνεί τη δική του ευαισθησία.",
+        "Οι δύο πρωτοπρόσωπες φωνές δικαιολογούν την αποφυγή προσωπικής ευθύνης."
+      ],
+      "correct": "Ο μονολογών εκθέτει ακούσια την ιδιοτέλειά του· ο Λάρας εκφράζει ευγνωμοσύνη.",
+      "why": "Ο μονολογών αποκαλύπτει την αντίφαση μεταξύ ευαισθησίας και πράξης· ο αφηγητής του Λάρα θυμάται με ευγνωμοσύνη την ηλικιωμένη που τους προστάτευσε.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-14-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-08",
+        "3-16"
+      ],
+      "author": "Δημήτριος Βικέλας / Παναγής Σκουζές",
+      "work": "Λουκής Λάρας / Στη Χαλκίδα πρόσφυγες",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Τόπος και χρόνος",
+      "room": 5,
+      "level": 2,
+      "locator": "Λουκής Λάρας: Περιγραφή του προσωρινού κρησφύγετου · Στη Χαλκίδα πρόσφυγες: Περιγραφή της φυγής από την Αθήνα και της άφιξης στη Χαλκίδα",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Λουκής Λάρας: Περιγραφή του προσωρινού κρησφύγετου · Στη Χαλκίδα πρόσφυγες: Περιγραφή της φυγής από την Αθήνα και της άφιξης στη Χαλκίδα.",
+      "source": "Δημήτριος Βικέλας, «Λουκής Λάρας»· Παναγής Σκουζές, «Στη Χαλκίδα πρόσφυγες», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_1.html"
+      ],
+      "sourceLocator": "Περιγραφή του προσωρινού κρησφύγετου / Περιγραφή της φυγής από την Αθήνα και της άφιξης στη Χαλκίδα",
+      "sourceRefs": [
+        {
+          "entryId": "5-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+          "locator": "Περιγραφή του προσωρινού κρησφύγετου"
+        },
+        {
+          "entryId": "3-16",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_1.html",
+          "locator": "Περιγραφή της φυγής από την Αθήνα και της άφιξης στη Χαλκίδα"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφοροποιείται η λειτουργία του χώρου στις δύο αφηγήσεις του εκτοπισμού;",
+      "options": [
+        "Στον Λάρα ο στάβλος προσφέρει προσωρινή προστασία· στον Σκουζέ η Χαλκίδα νέα επισφαλή εγκατάσταση.",
+        "Στον Λάρα η νέα εγκατάσταση γίνεται μόνιμη· στον Σκουζέ η Χαλκίδα λειτουργεί ως κρυψώνα.",
+        "Στα δύο κείμενα ο νέος τόπος σηματοδοτεί την οριστική αποκατάσταση της οικογένειας."
+      ],
+      "correct": "Στον Λάρα ο στάβλος προσφέρει προσωρινή προστασία· στον Σκουζέ η Χαλκίδα νέα επισφαλή εγκατάσταση.",
+      "why": "Ο σκοτεινός στάβλος προστατεύει προσωρινά τους φυγάδες· στη Χαλκίδα η υποστήριξη των συμπατριωτών συνυπάρχει με νέους κινδύνους και φτώχεια.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-14-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-08",
+        "3-16"
+      ],
+      "author": "Δημήτριος Βικέλας / Παναγής Σκουζές",
+      "work": "Λουκής Λάρας / Στη Χαλκίδα πρόσφυγες",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Τεκμηριωμένη ερμηνεία",
+      "room": 9,
+      "level": 2,
+      "locator": "Λουκής Λάρας: Σύκα, νερό και άχυρο στο κρησφύγετο · Στη Χαλκίδα πρόσφυγες: Λιγοστά υπάρχοντα και συνδρομή των Αθηναίων στη Χαλκίδα",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Λουκής Λάρας: Σύκα, νερό και άχυρο στο κρησφύγετο · Στη Χαλκίδα πρόσφυγες: Λιγοστά υπάρχοντα και συνδρομή των Αθηναίων στη Χαλκίδα.",
+      "source": "Δημήτριος Βικέλας, «Λουκής Λάρας»· Παναγής Σκουζές, «Στη Χαλκίδα πρόσφυγες», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_1.html"
+      ],
+      "sourceLocator": "Σύκα, νερό και άχυρο στο κρησφύγετο / Λιγοστά υπάρχοντα και συνδρομή των Αθηναίων στη Χαλκίδα",
+      "sourceRefs": [
+        {
+          "entryId": "5-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+          "locator": "Σύκα, νερό και άχυρο στο κρησφύγετο"
+        },
+        {
+          "entryId": "3-16",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC6_1.html",
+          "locator": "Λιγοστά υπάρχοντα και συνδρομή των Αθηναίων στη Χαλκίδα"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια κοινή ερμηνεία στηρίζεται στις υλικές λεπτομέρειες των δύο αφηγήσεων;",
+      "options": [
+        "Η στέρηση και η ανάγκη συνδρομής κάνουν αισθητή τη δυσχέρεια της φυγής.",
+        "Οι υλικές λεπτομέρειες προβάλλουν την ανεξαρτησία των εκτοπισμένων οικογενειών.",
+        "Η στέρηση παρουσιάζεται ως συνέπεια της εκούσιας απόρριψης της περιουσίας."
+      ],
+      "correct": "Η στέρηση και η ανάγκη συνδρομής κάνουν αισθητή τη δυσχέρεια της φυγής.",
+      "why": "Η τροφή, το νερό και το άχυρο στο πρώτο κείμενο και τα λιγοστά υπάρχοντα και η συνδρομή των Αθηναίων στο δεύτερο συγκεκριμενοποιούν τη δοκιμασία.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-15-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-07",
+        "5-11"
+      ],
+      "author": "Ιάκωβος Πιτσιπίος / Εμμανουήλ Ροΐδης",
+      "work": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος / Μονόλογος ευαισθήτου",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Κοινωνικές αντιλήψεις",
+      "room": 8,
+      "level": 2,
+      "locator": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Περιγραφή της κοινωνικής ανόδου του Καλλίστρατου · Μονόλογος ευαισθήτου: Απολογία για την άρνηση συνεισφοράς σε λαϊκό μαγειρείο",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Περιγραφή της κοινωνικής ανόδου του Καλλίστρατου · Μονόλογος ευαισθήτου: Απολογία για την άρνηση συνεισφοράς σε λαϊκό μαγειρείο.",
+      "source": "Ιάκωβος Πιτσιπίος, «Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος»· Εμμανουήλ Ροΐδης, «Μονόλογος ευαισθήτου», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html"
+      ],
+      "sourceLocator": "Περιγραφή της κοινωνικής ανόδου του Καλλίστρατου / Απολογία για την άρνηση συνεισφοράς σε λαϊκό μαγειρείο",
+      "sourceRefs": [
+        {
+          "entryId": "5-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+          "locator": "Περιγραφή της κοινωνικής ανόδου του Καλλίστρατου"
+        },
+        {
+          "entryId": "5-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+          "locator": "Απολογία για την άρνηση συνεισφοράς σε λαϊκό μαγειρείο"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική κοινωνική συμπεριφορά σατιρίζεται στα δύο πεζά;",
+      "options": [
+        "Ο Πιτσιπίος σατιρίζει την επίδειξη κύρους· ο Ροΐδης την ιδιοτέλεια που παρουσιάζεται ως ευαισθησία.",
+        "Ο Πιτσιπίος σατιρίζει την αποφυγή ελεημοσύνης· ο Ροΐδης τη μίμηση της ευρωπαϊκής μόδας.",
+        "Οι δύο συγγραφείς σατιρίζουν κυρίως την αδυναμία των προσώπων να αποκτήσουν χρήματα."
+      ],
+      "correct": "Ο Πιτσιπίος σατιρίζει την επίδειξη κύρους· ο Ροΐδης την ιδιοτέλεια που παρουσιάζεται ως ευαισθησία.",
+      "why": "Ο Καλλίστρατος αγοράζει επαίνους και μιμείται τον συρμό· ο μονολογών αρνείται οικονομική συνδρομή στο λαϊκό μαγειρείο επικαλούμενος ευαισθησία.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-15-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-07",
+        "5-11"
+      ],
+      "author": "Ιάκωβος Πιτσιπίος / Εμμανουήλ Ροΐδης",
+      "work": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος / Μονόλογος ευαισθήτου",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Εκφραστικά μέσα",
+      "room": 3,
+      "level": 3,
+      "locator": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Κατάλογος αξιωμάτων και επίπλων του Καλλίστρατου · Μονόλογος ευαισθήτου: Αντιπαραβολή της διατροφής των φτωχών και του μονολογούντος",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Κατάλογος αξιωμάτων και επίπλων του Καλλίστρατου · Μονόλογος ευαισθήτου: Αντιπαραβολή της διατροφής των φτωχών και του μονολογούντος.",
+      "source": "Ιάκωβος Πιτσιπίος, «Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος»· Εμμανουήλ Ροΐδης, «Μονόλογος ευαισθήτου», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html"
+      ],
+      "sourceLocator": "Κατάλογος αξιωμάτων και επίπλων του Καλλίστρατου / Αντιπαραβολή της διατροφής των φτωχών και του μονολογούντος",
+      "sourceRefs": [
+        {
+          "entryId": "5-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+          "locator": "Κατάλογος αξιωμάτων και επίπλων του Καλλίστρατου"
+        },
+        {
+          "entryId": "5-11",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexE10_2.html",
+          "locator": "Αντιπαραβολή της διατροφής των φτωχών και του μονολογούντος"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς υπηρετούν την ειρωνεία οι υλικές λεπτομέρειες στα δύο χωρία;",
+      "options": [
+        "Τα έπιπλα φανερώνουν επίδειξη· τα άνισα γεύματα αποκαλύπτουν ιδιοτέλεια.",
+        "Τα έπιπλα υποδηλώνουν πνευματική καλλιέργεια· τα γεύματα αλληλεγγύη.",
+        "Τα έπιπλα και τα γεύματα τεκμηριώνουν την οικονομική στέρηση των ηρώων."
+      ],
+      "correct": "Τα έπιπλα φανερώνουν επίδειξη· τα άνισα γεύματα αποκαλύπτουν ιδιοτέλεια.",
+      "why": "Η απαρίθμηση πολυτελών αντικειμένων εκθέτει τη μίμηση· η αντίθεση της τροφής των φτωχών με τα πλούσια γεύματα εκθέτει την ιδιοτέλεια.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-16-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-07",
+        "6-06"
+      ],
+      "author": "Ιάκωβος Πιτσιπίος / Μολιέρος",
+      "work": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Χαρακτηρισμός προσώπων",
+      "room": 4,
+      "level": 2,
+      "locator": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Ευρωπαϊκή αυτοπαρουσίαση και αμειβόμενος έπαινος του Καλλίστρατου · Ο Αρχοντοχωριάτης: Διαφωνία του Γιορδάνη με τη σύζυγο για την καταγωγή τους",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Ευρωπαϊκή αυτοπαρουσίαση και αμειβόμενος έπαινος του Καλλίστρατου · Ο Αρχοντοχωριάτης: Διαφωνία του Γιορδάνη με τη σύζυγο για την καταγωγή τους.",
+      "source": "Ιάκωβος Πιτσιπίος, «Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Ευρωπαϊκή αυτοπαρουσίαση και αμειβόμενος έπαινος του Καλλίστρατου / Διαφωνία του Γιορδάνη με τη σύζυγο για την καταγωγή τους",
+      "sourceRefs": [
+        {
+          "entryId": "5-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+          "locator": "Ευρωπαϊκή αυτοπαρουσίαση και αμειβόμενος έπαινος του Καλλίστρατου"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Διαφωνία του Γιορδάνη με τη σύζυγο για την καταγωγή τους"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια αναλογία εμφανίζουν οι δύο χαρακτήρες στην επιδίωξη δημόσιου κύρους;",
+      "options": [
+        "Ο Καλλίστρατος κατασκευάζει δημόσια εικόνα· ο Γιορδάνης αποποιείται την εμπορική καταγωγή.",
+        "Ο Καλλίστρατος υπερασπίζεται την καταγωγή του· ο Γιορδάνης εξαγοράζει δημοσιογραφικούς επαίνους.",
+        "Οι δύο χαρακτήρες διεκδικούν κύρος μέσω της αναγνώρισης του επαγγέλματος του πατέρα τους."
+      ],
+      "correct": "Ο Καλλίστρατος κατασκευάζει δημόσια εικόνα· ο Γιορδάνης αποποιείται την εμπορική καταγωγή.",
+      "why": "Η αλλαγή ονόματος και ο αμειβόμενος έπαινος συγκροτούν την εικόνα του Καλλίστρατου· ο Γιορδάνης αρνείται την εμπορική καταγωγή του πατέρα του.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-16-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-07",
+        "6-06"
+      ],
+      "author": "Ιάκωβος Πιτσιπίος / Μολιέρος",
+      "work": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος / Ο Αρχοντοχωριάτης",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Τεκμηριωμένη ερμηνεία",
+      "room": 9,
+      "level": 3,
+      "locator": "Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Επιγραφές των οικογενειακών προσωπογραφιών · Ο Αρχοντοχωριάτης: Επιχειρήματα της κυρίας Γιορδάνη περί οικογενειακής καταγωγής",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος: Επιγραφές των οικογενειακών προσωπογραφιών · Ο Αρχοντοχωριάτης: Επιχειρήματα της κυρίας Γιορδάνη περί οικογενειακής καταγωγής.",
+      "source": "Ιάκωβος Πιτσιπίος, «Ο πίθηκος Ξουθ ή Τα ήθη του αιώνος»· Μολιέρος, «Ο Αρχοντοχωριάτης», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html"
+      ],
+      "sourceLocator": "Επιγραφές των οικογενειακών προσωπογραφιών / Επιχειρήματα της κυρίας Γιορδάνη περί οικογενειακής καταγωγής",
+      "sourceRefs": [
+        {
+          "entryId": "5-07",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE8.html",
+          "locator": "Επιγραφές των οικογενειακών προσωπογραφιών"
+        },
+        {
+          "entryId": "6-06",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexF5.html",
+          "locator": "Επιχειρήματα της κυρίας Γιορδάνη περί οικογενειακής καταγωγής"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς λειτουργεί η αναφορά στην καταγωγή ως μέσο κωμικής αποκάλυψης;",
+      "options": [
+        "Οι επιγραφές κατασκευάζουν γενεαλογία· η σύζυγος αποκαλύπτει την πραγματική καταγωγή.",
+        "Οι επιγραφές αποκαλύπτουν την πραγματική καταγωγή· η σύζυγος κατασκευάζει γενεαλογία.",
+        "Οι δύο σκηνές παρουσιάζουν ανεξάρτητες μαρτυρίες που επικυρώνουν την ευγενική καταγωγή."
+      ],
+      "correct": "Οι επιγραφές κατασκευάζουν γενεαλογία· η σύζυγος αποκαλύπτει την πραγματική καταγωγή.",
+      "why": "Οι επιγραφές των προσωπογραφιών προβάλλουν επινοημένη ευγένεια· η κυρία Γιορδάνη υπενθυμίζει την εμπορική καταγωγή των δύο οικογενειών.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-17-1",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-08",
+        "1-01"
+      ],
+      "author": "Δημήτριος Βικέλας / Δημοτικό τραγούδι",
+      "work": "Λουκής Λάρας / Του νεκρού αδελφού",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Συναισθήματα και κίνητρα",
+      "room": 6,
+      "level": 2,
+      "locator": "Λουκής Λάρας: Αναδρομικός σχολιασμός της βοήθειας της ηλικιωμένης · Του νεκρού αδελφού: Καταληκτική συνάντηση μητέρας και Αρετής",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Λουκής Λάρας: Αναδρομικός σχολιασμός της βοήθειας της ηλικιωμένης · Του νεκρού αδελφού: Καταληκτική συνάντηση μητέρας και Αρετής.",
+      "source": "Δημήτριος Βικέλας, «Λουκής Λάρας»· Δημοτικό τραγούδι, «Του νεκρού αδελφού», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html"
+      ],
+      "sourceLocator": "Αναδρομικός σχολιασμός της βοήθειας της ηλικιωμένης / Καταληκτική συνάντηση μητέρας και Αρετής",
+      "sourceRefs": [
+        {
+          "entryId": "5-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+          "locator": "Αναδρομικός σχολιασμός της βοήθειας της ηλικιωμένης"
+        },
+        {
+          "entryId": "1-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+          "locator": "Καταληκτική συνάντηση μητέρας και Αρετής"
+        }
+      ],
+      "page": null,
+      "prompt": "Ποια διαφορετική συναισθηματική έκβαση συνδέεται με την ανθρώπινη επαφή;",
+      "options": [
+        "Η βοήθεια γεννά ευγνωμοσύνη· η επανένωση μητέρας και κόρης καταλήγει τραγικά.",
+        "Η βοήθεια καταλήγει σε οικογενειακή απώλεια· η επανένωση γεννά μακρόχρονη ευγνωμοσύνη.",
+        "Οι δύο συναντήσεις οδηγούν σε οριστική αποκατάσταση της οικογενειακής ζωής."
+      ],
+      "correct": "Η βοήθεια γεννά ευγνωμοσύνη· η επανένωση μητέρας και κόρης καταλήγει τραγικά.",
+      "why": "Η ηλικιωμένη προστατεύει τους φυγάδες· στην παραλογή η μητέρα και η Αρετή πεθαίνουν όταν αγκαλιάζονται.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    },
+    {
+      "id": "v3-compare-05-17-2",
+      "category": "comparative",
+      "comparisonEntryIds": [
+        "5-08",
+        "1-01"
+      ],
+      "author": "Δημήτριος Βικέλας / Δημοτικό τραγούδι",
+      "work": "Λουκής Λάρας / Του νεκρού αδελφού",
+      "genre": "συγκριτική ανάγνωση",
+      "theme": "Εστίαση και γνώση",
+      "room": 1,
+      "level": 3,
+      "locator": "Λουκής Λάρας: Ακουστικές ενδείξεις από το εσωτερικό του καταφυγίου · Του νεκρού αδελφού: Ενδείξεις των πουλιών και της εμφάνισης του Κωνσταντίνου",
+      "text": "Μελέτησε τα δύο χωρία του ανθολογίου: Λουκής Λάρας: Ακουστικές ενδείξεις από το εσωτερικό του καταφυγίου · Του νεκρού αδελφού: Ενδείξεις των πουλιών και της εμφάνισης του Κωνσταντίνου.",
+      "source": "Δημήτριος Βικέλας, «Λουκής Λάρας»· Δημοτικό τραγούδι, «Του νεκρού αδελφού», Κείμενα Νεοελληνικής Λογοτεχνίας Α΄ Λυκείου.",
+      "sourceUrl": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+      "sourceUrls": [
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+        "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html"
+      ],
+      "sourceLocator": "Ακουστικές ενδείξεις από το εσωτερικό του καταφυγίου / Ενδείξεις των πουλιών και της εμφάνισης του Κωνσταντίνου",
+      "sourceRefs": [
+        {
+          "entryId": "5-08",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexE9_1.html",
+          "locator": "Ακουστικές ενδείξεις από το εσωτερικό του καταφυγίου"
+        },
+        {
+          "entryId": "1-01",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexA1_1.html",
+          "locator": "Ενδείξεις των πουλιών και της εμφάνισης του Κωνσταντίνου"
+        }
+      ],
+      "page": null,
+      "prompt": "Πώς διαφέρουν οι πληροφορίες που αποκτούν τα πρόσωπα μέσω της αντίληψής τους;",
+      "options": [
+        "Ο Λάρας ακούει ενδείξεις κινδύνου· η Αρετή αντιλαμβάνεται σημάδια του θανάτου του αδελφού της.",
+        "Ο Λάρας αντιλαμβάνεται σημάδια θανάτου του αδελφού του· η Αρετή ακούει συνομιλίες διωκτών.",
+        "Οι δύο ήρωες αποκτούν πλήρη γνώση της κατάστασης από την πρώτη ακουστική ένδειξη."
+      ],
+      "correct": "Ο Λάρας ακούει ενδείξεις κινδύνου· η Αρετή αντιλαμβάνεται σημάδια του θανάτου του αδελφού της.",
+      "why": "Οι κραυγές έξω από τον στάβλο επιτείνουν τον φόβο· τα λόγια των πουλιών και η οσμή του Κωνσταντίνου υπονοούν την κατάστασή του.",
+      "note": "Πρώτη συγκριτική επιμέλεια βάσει σχολικών αποσπασμάτων· εκκρεμεί ανεξάρτητη αξιολόγηση.",
+      "type": "choice",
+      "status": "draft_text_checked",
+      "legacyAction": "comparative"
+    }
+  ]
+}
