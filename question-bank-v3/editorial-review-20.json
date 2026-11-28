@@ -2,8 +2,8 @@
   "status": "first source-based editorial review; not independent approval",
   "count": 53,
   "collection": "bank-draft-09.json",
-  "commit": "bea25eda8c6877b8954d11f07419fc039059dc1e",
-  "sourceBlob": "30421857edbcc82f9fb1fd730dfea314cdf5051f",
+  "commit": "2983f818f108ec41361d3cb3f8489b6c1137e959",
+  "sourceBlob": "e6d9453ff7cb45b29dc27f72ec737a7211612bc7",
   "previousBlob": "077bf1f3ae328999b5faaf9447849ef8b6060bbd",
   "sourceAccessDate": "2026-11-28",
   "sources": [
@@ -1394,7 +1394,7 @@
         "prompt": "Ποιο είναι το ομοιοκαταληκτικό σχήμα του χορικού;",
         "options": [
           "ΑΒΒΑ ΑΒΒΑ ΓΔΓ ΔΓΔ.",
-          "ΑΒΑΒ ΑΒΑΒ ΓΔΕ ΓΔΕ.",
+          "ΑΒΑΒ ΑΒΑΒ ΓΔΓ ΔΓΔ.",
           "ΑΑΒΒ ΓΓΔΔ ΕΖΕ ΖΕΖ."
         ],
         "correct": "ΑΒΒΑ ΑΒΒΑ ΓΔΓ ΔΓΔ.",
@@ -1684,5 +1684,13 @@
         "text": "Μελέτησε στο σχολικό ανθολόγιο: Στ. 23–28 και κατακλείδα."
       }
     }
-  ]
+  ],
+  "followup": {
+    "reason": "Whole-bank option uniqueness",
+    "id": "v3-rodolinos-08",
+    "old": "ΑΒΑΒ ΑΒΑΒ ΓΔΕ ΓΔΕ.",
+    "value": "ΑΒΑΒ ΑΒΑΒ ΓΔΓ ΔΓΔ.",
+    "commit": "2983f818f108ec41361d3cb3f8489b6c1137e959",
+    "sourceBlob": "e6d9453ff7cb45b29dc27f72ec737a7211612bc7"
+  }
 }
