@@ -58,12 +58,86 @@
     "levelChanges": 10,
     "duplicatePrompts": 0,
     "duplicateOptions": 0,
-    "invalid": 0
+    "invalid": 0,
+    "crossBankComparison": {
+      "otherQuestions": 1322,
+      "otherChoices": 3966,
+      "batches": [
+        577,
+        465,
+        280
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "method": "Exact normalized Greek text comparison of the final edited collection against all 30 other collections at commit cab05ca; not a semantic-uniqueness test."
+    },
+    "fullBankDifficulty": {
+      "levels": [
+        252,
+        541,
+        557
+      ],
+      "pools": [
+        [
+          100,
+          27,
+          14
+        ],
+        [
+          9,
+          19,
+          54
+        ],
+        [
+          7,
+          107,
+          49
+        ],
+        [
+          17,
+          110,
+          58
+        ],
+        [
+          18,
+          73,
+          20
+        ],
+        [
+          52,
+          47,
+          18
+        ],
+        [
+          30,
+          87,
+          14
+        ],
+        [
+          6,
+          25,
+          81
+        ],
+        [
+          7,
+          27,
+          101
+        ],
+        [
+          6,
+          19,
+          148
+        ]
+      ],
+      "minimum": 6,
+      "method": "Recalculated from editorial-review-28 with recorded changes in collection 18."
+    }
   },
   "limitations": [
     "First editorial review, not independent approval.",
     "Difficulty is not empirically calibrated.",
-    "Full-bank collision check and CI pending."
+    "Exact comparison is not semantic uniqueness. Full executable CI and browser results pending."
   ],
   "changes": [
     {
