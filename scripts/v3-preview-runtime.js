@@ -22,12 +22,13 @@ filterValues=function(){
  fill('work',b.filter(q=>$('author').value==='all'||q.author===$('author').value).map(q=>q.work),prevW,'Όλα τα έργα');
  updateMenu();
 };
+const v3SafeSource=url=>{try{const u=new URL(url);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port&&((u.hostname==='ebooks.edu.gr'&&u.pathname.startsWith('/ebooks/'))||(u.hostname==='dev.old.ebooks.edu.gr'&&u.pathname.startsWith('/modules/ebook/show.php/DSGL-A111/')));}catch{return false}};
 const legacyV3Passage=passage;
 passage=function(q){
  if(!q.periods)return legacyV3Passage(q);
  const refs=q.sourceRefs?.length?q.sourceRefs:[{url:q.sourceUrl,locator:q.sourceLocator}];
  const links=refs.map(r=>{
-  const safe=typeof r.url==='string'&&r.url.startsWith('https://ebooks.edu.gr/ebooks/');
+  const safe=v3SafeSource(r.url);
   const title=esc(r.locator||'Σχολικό κείμενο');
   return '<li>'+(safe?'<a target="_blank" rel="noopener noreferrer" href="'+esc(r.url)+'">'+title+'</a>':title)+'</li>';
  }).join('');
