@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-28",
+  "collection": "question-bank-v3/comparative-draft-03.json",
+  "count": 16,
+  "sourceBlob": "191a83847bf7e9474ce032c14dc2d078034f2e1a",
+  "sourceVerification": [
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC3_2.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_1.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+    "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html"
+  ],
+  "method": "Direct reading of seven official school HTML texts, including original excerpt versus editors' summary in Glinos; manual revision of all 16 choices and justifications; difficulty editorial, not empirical.",
+  "items": [
+    {
+      "id": "v3-compare-03-01-1",
+      "sourceRefs": [
+        {
+          "entryId": "3-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC3_2.html",
+          "locator": "Πρώτη διδαχή, προτροπή για ίδρυση σχολείου"
+        },
+        {
+          "entryId": "3-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_1.html",
+          "locator": "Παράγραφος για την καλλιέργεια της ομιλούμενης γλώσσας"
+        }
+      ],
+      "why": "Ο Κοσμάς ζητεί σχολείο για την πίστη και την ελευθερία· ο Καταρτζής θέτει ως κριτήριο τις ανάγκες του έθνους.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-01-2",
+      "sourceRefs": [
+        {
+          "entryId": "3-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC3_2.html",
+          "locator": "Πρώτη διδαχή, παράδειγμα των μορφωμένων αγίων"
+        },
+        {
+          "entryId": "3-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_1.html",
+          "locator": "Παράγραφοι για τα αρχαία συγγράμματα και τη σύγχρονη ευρωπαϊκή γλώσσα"
+        }
+      ],
+      "why": "Στην πρώτη διδαχή οι άγιοι εξηγούν τις Γραφές· στο δοκίμιο η αρχαία και η ευρωπαϊκή γραμματεία υπηρετούν διαφορετικές γνωστικές ανάγκες.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-03-02-1",
+      "sourceRefs": [
+        {
+          "entryId": "3-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_1.html",
+          "locator": "Παράγραφος για την ιεράρχηση της γλωσσικής μάθησης"
+        },
+        {
+          "entryId": "3-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html",
+          "locator": "Δεύτερη παράγραφος, κριτήρια της γλωσσικής ευγένειας"
+        }
+      ],
+      "why": "Ο Καταρτζής προτάσσει την ομιλουμένη· ο Βηλαράς αντιπαραθέτει στη μορφολογία τη σαφήνεια, τη συντομία και την αρμονία.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-02-2",
+      "sourceRefs": [
+        {
+          "entryId": "3-05",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexC4_1.html",
+          "locator": "Παράγραφος για την ευρωπαϊκή γλώσσα και τις διαθέσιμες γνώσεις"
+        },
+        {
+          "entryId": "3-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html",
+          "locator": "Παράγραφοι για τα ενδύματα της μητέρας και της θυγατέρας"
+        }
+      ],
+      "why": "Η ευρωπαϊκή γλώσσα παρέχει πρόσβαση σε γνώσεις· το δανεικό ένδυμα δηλώνει την ανάγκη προσαρμογής του γλωσσικού δανείου.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-03-03-1",
+      "sourceRefs": [
+        {
+          "entryId": "3-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html",
+          "locator": "Προσφώνηση προς τον Ψαλίδα και αρχική δήλωση στάσης"
+        },
+        {
+          "entryId": "7-30",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+          "locator": "Πρόλογος, διάκριση των αναγνωστών του βιβλίου"
+        }
+      ],
+      "why": "Η αρχική προσφώνηση της επιστολής κατονομάζει τον αποδέκτη μέσω του τίτλου· ο πρόλογος διακρίνει όσους διαβάζουν για ευχαρίστηση και όσους ασκούν κριτική.",
+      "level": 1
+    },
+    {
+      "id": "v3-compare-03-03-2",
+      "sourceRefs": [
+        {
+          "entryId": "3-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html",
+          "locator": "Παράγραφος για την προσαρμογή των αρχαίων λέξεων"
+        },
+        {
+          "entryId": "7-30",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+          "locator": "Παράγραφος για τη συμπλήρωση του λεξιλογίου της δημοτικής"
+        }
+      ],
+      "why": "Η αναλογία του ενδύματος στον Βηλαρά και η ρητή αναφορά στη γραμματική του λαού στον Ψυχάρη υποστηρίζουν την προσαρμογή.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-04-1",
+      "sourceRefs": [
+        {
+          "entryId": "3-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC3_2.html",
+          "locator": "Δεύτερη διδαχή, διατήρηση πίστης και γλώσσας"
+        },
+        {
+          "entryId": "7-31",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+          "locator": "Καταληκτική παράγραφος, μητρική γλώσσα και εθνική μόρφωση"
+        }
+      ],
+      "why": "Η δεύτερη διδαχή συνδέει την πατρική γλώσσα με τη θρησκεία· η κατακλείδα του Φωτιάδη τη συνδέει με τη διαμόρφωση της ψυχής και της καρδιάς.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-04-2",
+      "sourceRefs": [
+        {
+          "entryId": "3-04",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC3_2.html",
+          "locator": "Πρώτη διδαχή, αναφορά στην άγνοια και στην ίδρυση σχολείου"
+        },
+        {
+          "entryId": "7-31",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+          "locator": "Ενότητα για τις συντηρητικές και προοδευτικές λειτουργίες της εκπαίδευσης"
+        }
+      ],
+      "why": "Η διδαχή καταλήγει σε συγκεκριμένο αίτημα προς τους Παργίους· το δοκίμιο διακρίνει τη μεταβίβαση της παράδοσης από την προοδευτική λειτουργία της παιδείας.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-03-05-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-30",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+          "locator": "Αρχή του προλόγου, αναλογία γλωσσικού και εθνικού αγώνα"
+        },
+        {
+          "entryId": "7-31",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+          "locator": "Αρχή του δοκιμίου, πολιτισμική ανταλλαγή"
+        }
+      ],
+      "why": "Ο πρόλογος εξομοιώνει την υπεράσπιση της γλώσσας με αγώνα· το δοκίμιο παρουσιάζει τον κοσμοπολιτισμό ως αμοιβαία προσφορά.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-05-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-30",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG11.html",
+          "locator": "Αρχική αναφορά στη Γαλλία και στην Ελλάδα"
+        },
+        {
+          "entryId": "7-31",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+          "locator": "Πρώτες παράγραφοι για τον κοσμοπολιτισμό"
+        }
+      ],
+      "why": "Ο Ψυχάρης δηλώνει αγάπη για τη Γαλλία και υποχρέωση προς την Ελλάδα· ο Φωτιάδης υποστηρίζει την αμοιβαία πολιτισμική προσφορά.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-06-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-31",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+          "locator": "Αρχικές παράγραφοι για τη διεθνή ανταλλαγή"
+        },
+        {
+          "entryId": "7-32",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+          "locator": "Τελευταίες παράγραφοι για την ισότητα των λαών"
+        }
+      ],
+      "why": "Ο Φωτιάδης τονίζει την αξιοπρεπή συμμετοχή στην ανταλλαγή· ο Δελμούζος απορρίπτει την υποδούλωση των λαών.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-06-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-31",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG12.html",
+          "locator": "Παράγραφοι για τη λειτουργία του εκπαιδευτικού συστήματος στον κοινωνικό οργανισμό"
+        },
+        {
+          "entryId": "7-32",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+          "locator": "Αρχικές παράγραφοι, αναλογία ατόμου και λαού"
+        }
+      ],
+      "why": "Ο κοινωνικός οργανισμός στον Φωτιάδη μπορεί να μεταβληθεί με τη μόρφωση· στον Δελμούζο η αναλογία με το άτομο φωτίζει την ανάγκη συλλογικού ιδανικού.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-03-07-1",
+      "sourceRefs": [
+        {
+          "entryId": "7-32",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+          "locator": "Δεύτερη παράγραφος, προέλευση του συλλογικού ιδανικού"
+        },
+        {
+          "entryId": "7-33",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html",
+          "locator": "Ενότητα Β΄, επιλογή και αφομοίωση παλαιότερων αξιών"
+        }
+      ],
+      "why": "Ο Δελμούζος θεμελιώνει το ιδανικό στη ζωντανή παράδοση και στις ανάγκες του λαού· ο Γληνός ζητεί δημιουργική αφομοίωση των παλαιών αξιών.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-07-2",
+      "sourceRefs": [
+        {
+          "entryId": "7-32",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-NeoellinikisLogotechnias_A-Lykeiou_htmlempl/indexG13.html",
+          "locator": "Παράγραφος για την επιλογή προσώπων στις κοινωνικές θέσεις"
+        },
+        {
+          "entryId": "7-33",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html",
+          "locator": "Πρώτες παράγραφοι του αποσπάσματος, κυρίαρχες κοινωνικές τάξεις"
+        }
+      ],
+      "why": "Ο Δελμούζος αντιδιαστέλλει ικανότητες και οικογενειακή προέλευση· ο Γληνός συνδέει τις πολιτισμικές αξίες με συμφέροντα κοινωνικών τάξεων.",
+      "level": 3
+    },
+    {
+      "id": "v3-compare-03-08-1",
+      "sourceRefs": [
+        {
+          "entryId": "3-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html",
+          "locator": "Εκτεταμένη αναλογία με την προσαρμογή του ενδύματος"
+        },
+        {
+          "entryId": "7-33",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html",
+          "locator": "Καταληκτική ανάπτυξη για τα πρότυπα και τα καλούπια"
+        }
+      ],
+      "why": "Ο Βηλαράς ζητεί να ταιριάζει το δανεικό ένδυμα στη θυγατέρα· ο Γληνός αντιδιαστέλλει το παράδειγμα προς το άκαμπτο καλούπι.",
+      "level": 2
+    },
+    {
+      "id": "v3-compare-03-08-2",
+      "sourceRefs": [
+        {
+          "entryId": "3-10",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexC4_6.html",
+          "locator": "Παράγραφοι για τη δημιουργία και τον δανεισμό λέξεων"
+        },
+        {
+          "entryId": "7-33",
+          "url": "https://ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_htmlempl/indexG14.html",
+          "locator": "Ενότητα Β΄, δημιουργική επιλογή στοιχείων του παρελθόντος"
+        }
+      ],
+      "why": "Η επιστολή πραγματεύεται την προσαρμογή της γλώσσας· το δοκίμιο εξετάζει την ευρύτερη δημιουργική πρόσληψη αξιών, χωρίς η ομοιότητα να αποδεικνύει ιστορική επίδραση.",
+      "level": 3
+    }
+  ],
+  "checks": {
+    "uniqueWithinCollectionIds": 16,
+    "uniqueWithinCollectionChoices": 48,
+    "correctLongest": 2
+  },
+  "limitations": "No independent peer review, no fresh all-bank duplicate or browser test confirmed; 56 comparative questions await editorial review."
+}
