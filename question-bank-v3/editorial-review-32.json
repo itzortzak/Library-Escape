@@ -56,12 +56,88 @@
     "levelChanges": 8,
     "duplicatePrompts": 0,
     "duplicateOptions": 0,
-    "invalid": 0
+    "invalid": 0,
+    "crossBankComparison": {
+      "otherQuestions": 1326,
+      "otherChoices": 3978,
+      "batches": [
+        577,
+        469,
+        280
+      ],
+      "duplicateIds": 0,
+      "duplicatePrompts": 0,
+      "duplicateOptions": 0,
+      "method": "Exact normalized Greek text comparison of collection 21 against all 30 other collections at commit 292ed0d."
+    },
+    "fullBankDifficulty": {
+      "levels": [
+        254,
+        565,
+        531
+      ],
+      "pools": [
+        [
+          100,
+          29,
+          12
+        ],
+        [
+          9,
+          19,
+          54
+        ],
+        [
+          8,
+          110,
+          45
+        ],
+        [
+          18,
+          122,
+          45
+        ],
+        [
+          18,
+          75,
+          18
+        ],
+        [
+          52,
+          47,
+          18
+        ],
+        [
+          30,
+          87,
+          14
+        ],
+        [
+          6,
+          25,
+          81
+        ],
+        [
+          7,
+          29,
+          99
+        ],
+        [
+          6,
+          22,
+          145
+        ]
+      ],
+      "minimum": 6,
+      "method": "Recalculated from editorial-review-31 with recorded changes in collection 21."
+    }
   },
   "limitations": [
-    "Difficulty is a qualitative estimate; no classroom calibration.",
-    "Full-bank exact check and executable CI pending.",
-    "Targeted semantic comparison is not a full semantic audit."
+    "Difficulty is qualitative; no classroom calibration.",
+    "Full executable CI and browser results pending.",
+    "Targeted semantic comparison is not a full semantic audit.",
+    "One item has the correct answer more than 20% shorter by the recorded heuristic.",
+    "Prior reports 27–31 require separately documented direct source rechecking; editorial counts must not be interpreted as independently verified source counts."
   ],
   "changes": [
     {
