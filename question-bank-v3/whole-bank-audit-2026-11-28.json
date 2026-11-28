@@ -1,5 +1,5 @@
 {
-  "status": "structural and heuristic whole-bank audit, not full source verification",
+  "status": "all 31 collections screened; structural checks passed; primary-text verification remains incomplete",
   "collections": [
     {
       "file": "bank-draft-01.json",
@@ -615,7 +615,10 @@
     "Catalogue link matches do not certify external pages or philological interpretations.",
     "Initial aggregation mistakenly excluded anthology_deepening from anthology totals; corrected classification includes all 160 deepening items.",
     "Translator suffix is legitimate metadata, not author error.",
-    "Lowered lexical similarity threshold, removed common words and used crude suffix trimming to increase recall; candidates require reading."
+    "Lowered lexical similarity threshold, removed common words and used crude suffix trimming to increase recall; candidates require reading.",
+    "No individual primary-text verification was completed for all 873 outstanding items in this pass; do not describe them as philologically approved.",
+    "Correct answer is first in all stored drafts; selector shuffles answers in the experiment only. Production integration must preserve shuffle and avoid length cues.",
+    "Length and absolute-word flags are indicators for editing, not proof of wrong answers."
   ],
   "subcategories": {
     "anthology": 990,
@@ -4428,5 +4431,31 @@
         "file": "theory-draft-02.json"
       }
     ]
-  }
+  },
+  "nearOverlapReview": [
+    {
+      "a": "v3-palamas-sparta-01",
+      "b": "v3-palamas-sparta-02",
+      "disposition": "Distinct objectives: poetic voice (room 0) versus progression of poetic episode (room 2). Shared title accounts for lexical similarity. Keep both."
+    },
+    {
+      "a": "v3-theory-r1-01",
+      "b": "v3-theory-r1-04",
+      "disposition": "Distinct objectives: identifying internal focalization (level 1) versus distinguishing variable internal focalization (level 3). Shared terminology is necessary. Keep both."
+    }
+  ],
+  "sourceSpotChecks": [
+    {
+      "work": "Μούχρωμα",
+      "source": "https://www.ebooks.edu.gr/ebooks/v/html/8547/2700/Keimena-Neoellinikis-Logotechnias_A-Lykeiou_html-empl/indexD6_2.html",
+      "result": "Read full school HTML text; rhyme scheme ABBA ABBA CDC DEE verified."
+    },
+    {
+      "work": "Ο παπα-Νάρκισσος",
+      "source": "https://ebooks.edu.gr/ebooks/v/html/8547/2330/Istoria-Neoellinikis-Logotechnias_A-B-G-Gymnasiou_html-apli/index_05_03b.html",
+      "result": "Official literary history confirms Δημήτριος Βικέλας. Catalogue and actual question author already correct; prior conversational attribution to Ροΐδης was incorrect."
+    }
+  ],
+  "reviewedEarlier": 477,
+  "remainingIndividualPrimaryTextReview": 873
 }
